@@ -80,14 +80,15 @@ body {
 }
 
 #pagebody {
-   width:100%;
+   width:925;
    border:0px solid green;
+   padding:10px;
 }
 
 #sidebar {
    float:left;
    width:250px;
-   padding:5px;
+   padding:5px 5px 5px 0px;
    border-right:2px solid lightgrey;
 }
 
@@ -108,7 +109,7 @@ body {
 #content {
    float:left;
    width:650px;
-   margin:10px 15px;
+   margin:10px 0px 10px 15px;
    border:0px solid red;
 }
 
