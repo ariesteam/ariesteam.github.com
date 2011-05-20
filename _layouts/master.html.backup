@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>ARIES - {{ page.title }}</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="aries, artificial intelligence, ecosystem services, decision support, modelling, modeling" />
+    <meta name="description" content="ARIES - ARtificial Intelligence for Ecosystem Services" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/yui/base/base.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/yui/grids/grids.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/roundedcorners.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/mouseovertabs.css" />
+    <script type="text/javascript" src="javascript/js/swfobject_modified.js"></script>
+    <script type="text/javascript" src="javascript/js/jquery-1.2.1.min.js"></script>
+    <script type="text/javascript" src="javascript/js/rsswidget.js"></script>
+    <script type="text/javascript" src="javascript/js/mootools.js"></script>
+    <script type="text/javascript" src="javascript/js/roundedcorners.js"></script>
+    <script type="text/javascript" src="javascript/mouseovertabs.js"></script>
+    <script type="text/javascript" src="javascript/index.js"></script>
+  </head>
+  <body>
+    <div id="doc2" class="yui-t2">
+      <div id="hd" role="banner">
+        <div id="mytabsmenu" class="tabsmenuclass">
+          <ul class="tabsmenuclass">
+            <li><a href="main.html" rel="gotsubmenu">About</a></li>
+            <li><a href="modules.html" rel="gotsubmenu">Modules</a></li>
+            <li><a href="science.html" rel="gotsubmenu">Case studies</a></li>
+            <li><a href="science.html" rel="gotsubmenu">Resources</a></li>
+          </ul>
+        </div>
+        <div id="mysubmenuarea" class="tabsmenucontentclass">
+          <a href="submenucontents.html" style="visibility:hidden">Sub Menu contents</a>
+        </div>
+        <img src="images/banner.gif" />
+      </div>
+      <div id="bd" role="main">
+        <div id="yui-main">
+          {{ content }}
+        </div>
+        <div id="ft" role="contentinfo">
+          <p align="center">Copyright &copy; 2011 The ARIES Consortium. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
