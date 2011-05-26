@@ -1,0 +1,23 @@
+---
+layout: master
+---
+<h1>{{ page.title }}</h1>
+<div id="case-study-body">
+  <div id="case-study-sidebar">
+    <h2>At a glance</h2>
+    <hr />
+    <p><strong>Primary Partner:</strong> {{ page.primary_partner }}</p>
+    <p><strong>Completed:</strong> {{ page.completed }}</p>
+    <p><strong>Models:</strong> {{ page.models }}</p>
+    <p><strong>Maps:</strong> {{ page.maps }}</p>
+    <p><strong>Highlights:</strong> {{ page.highlights }}</p>
+    {{ page.partner_logo }}
+  </div>
+  <div id="case-study-intro">
+    {{ page.case_study_image }}
+    <p>{{ page.case_study_intro }}</p>
+  </div>
+  <div id="case-study-details">
+    {{ content }}
+  </div>
+</div>
