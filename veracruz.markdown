@@ -3,7 +3,7 @@ layout: case_study
 
 title: La Antigua, Veracruz Case Study
 
-primary_partner: <a href="http://www.ecologia.edu.mx/">Instituto de Ecologia, INECOL</a>
+primary-partner: <a href="http://www.ecologia.edu.mx/">Instituto de Ecologia, INECOL</a>
 
 completed: March 2011
 
@@ -19,11 +19,11 @@ highlights: >
             in a small watershed where payments for ecosystem services
             are in place.
 
-partner_logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="images/INECOL.jpg" width="180" /></a>
+partner-logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="images/INECOL.jpg" width="180" /></a>
 
-case_study_image: <img src="images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
+case-study-image: <img src="images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
 
-case_study_intro: >
+case-study-intro: >
                   More than 72% of Veracruz's original forest has been
                   converted to pastureland and agriculture.  Still,
                   the remaining natural vegetation harbors high levels
