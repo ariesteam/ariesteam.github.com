@@ -128,3 +128,57 @@ a.rollover {
 a.rollover:hover {
    background-position:-140px 0px;
 }
+
+#case-study-body {
+   border:0px solid black;
+   height:740px;
+}
+
+#case-study-sidebar {
+   border:0px solid red;
+   float:left;
+   width:275px;
+   height:730px;
+   margin-right:20px;
+   padding-top:10px;
+}
+
+#case-study-sidebar hr {
+   margin-bottom:10px;
+}
+
+#case-study-sidebar p {
+   margin-bottom:10px;
+}
+
+#case-study-intro {
+   border:0px solid green;
+}
+
+#case-study-intro img {
+   float:left;
+   width:180px;
+   margin:10px 10px 20px 0px;
+}
+
+#case-study-intro p {
+   text-align:justify;
+   font-size:large;
+}
+
+#case-study-details {
+   border:0px solid brown;
+}
+
+#case-study-details h1 {
+   font-size:medium;
+   color:#6699FF;
+}
+
+#case-study-details p {
+   margin-bottom:24px;
+}
+
+#case-study-details a {
+   font-weight:bold;
+}
