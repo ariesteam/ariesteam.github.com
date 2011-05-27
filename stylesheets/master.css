@@ -124,7 +124,7 @@ body {
 #case-study-sidebar #logos img {
    border-width:0px;
    width:180px;
-   margin-bottom:0px;
+   margin:10px 0px 0px 50px;
 }
 
 #case-study-details {
@@ -150,7 +150,7 @@ body {
 /* Module Template Styles  */
 
 #module-titlebar {
-   border:1px solid black;
+   border:0px solid black;
 }
 
 #module-titlebar button {
@@ -159,17 +159,17 @@ body {
 }
 
 #module-intro {
-   border:1px solid green;
+   border:0px solid green;
    margin:10px 0px;
    text-align:justify;
    font-size:medium;
 }
 
 #module-at-a-glance {
-   border:1px solid grey;
+   border:0px solid grey;
    float:left;
-   width:450px;
-   margin-right:20px;
+   width:380px;
+   padding-right:20px;
 }
 
 #module-at-a-glance h3 {
@@ -185,9 +185,9 @@ body {
 }
 
 #module-in-the-field {
-   border:1px solid blue;
+   border:0px solid blue;
    float:right;
-   width:450px;
+   width:520px;
 }
 
 #module-in-the-field h3 {
@@ -195,7 +195,27 @@ body {
 }
 
 #module-in-the-field hr {
-   margin-bottom:5px;
+   margin-bottom:0px;
+}
+
+#module-in-the-field h4 {
+   border:0px solid purple;
+   color:#69F;
+   clear:both;
+   padding:5px 0px 5px 0px;
+}
+
+#module-in-the-field img {
+   border:0px solid green;
+   float:left;
+   width:160px;
+   margin-right:10px;
+}
+
+#module-in-the-field p {
+   border:0px solid brown;
+   float:right;
+   width:345px;
 }
 
 /* Homepage Styles  */
@@ -232,11 +252,21 @@ a.rollover {
    display:block;
    width:140px;
    height:28px;
-   margin:0px 0px 10px 0px;
+   margin-bottom:10px;
    text-decoration:none;
    background:url("/images/launch_button.jpg");
 }
 
 a.rollover:hover {
    background-position:-140px 0px;
+}
+
+a.learn-more {
+   border:0px solid black;
+   display:block;
+   width:91px;
+   height:17px;
+   text-decoration:none;
+   background:url("/images/learn.gif");
+   margin:10px 0px 10px 10px;
 }
