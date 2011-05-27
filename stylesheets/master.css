@@ -108,7 +108,7 @@ body {
 }
 
 #case-study-sidebar img {
-   border:1px solid grey;
+   border:2px inset grey;
    width:280px;
    margin-bottom:15px;
 }
