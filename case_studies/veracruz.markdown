@@ -19,9 +19,9 @@ highlights: >
             in a small watershed where payments for ecosystem services
             are in place.
 
-partner-logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="images/INECOL.jpg" width="180" /></a>
+partner-logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="/images/INECOL.jpg" /></a>
 
-case-study-image: <img src="images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
+case-study-image: <img src="/images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
 
 case-study-intro: >
                   More than 72% of Veracruz's original forest has been
@@ -72,6 +72,8 @@ region conducted by Conservation International and its partners, with
 the goal of identifying where natural resources management policies
 could most strategically reduce deforestation and biodiversity loss.
 
-<a href="http://www.eartheconomics.org/FileLibrary/file/Reports/Vera%20Cruz%20Attachments/Veracruz%20Agenda%20Espanol.pdf">
-   February 17-18, 2011 (Xalapa,Veracruz): Assessment of Hydrological Service Flows in La Antigua Watershed
-</a>
+<p>
+  <a href="http://www.eartheconomics.org/FileLibrary/file/Reports/Vera%20Cruz%20Attachments/Veracruz%20Agenda%20Espanol.pdf">
+    February 17-18, 2011 (Xalapa,Veracruz): Assessment of Hydrological Service Flows in La Antigua Watershed
+  </a>
+</p>

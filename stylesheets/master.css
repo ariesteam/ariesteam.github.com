@@ -1,47 +1,60 @@
+/* Master Template Styles  */
+
 * {
    margin:0px;
    padding:0px;
 }
 
+ol,ul {
+   padding-left:2em;
+}
+
 body {
    background-color:lightgrey;
-   font-family:"Calibri", "Arial", "Corbel", "Sans Serif";
-   font-style:normal;
+   font-family:Arial, Helvetica, sans-serif;
    font-size:0.8em;
+   font-style:normal;
    font-weight:normal;
 }
 
 #pagecontainer {
-   width:950px;
+   border:1px solid green;
+   width:930px;
    margin:0px auto;
+   padding:0px 10px;
    background-color:white;
-   position:relative;
 }
 
-#header {
+#pageheader {
+   border:1px solid purple;
    height:130px;
    position:relative;
 }
 
-#header img {
+#pageheader img {
    position:absolute;
    top:30px;
-   left:12px;
+   left:2px;
    z-index:0;
+   border-width:0px;
 }
 
 #navbar {
    position:absolute;
    top:5px;
-   left:20px;
+   left:5px;
    z-index:1;
-   width:800px;
+   width:920px;
+   padding-left:0em;
+}
+
+#navbar ul {
+   padding-left:0em;
 }
 
 #navbar > li { 
    float:left;
    list-style-type:none;
-   cursor:pointer;
    width:25%;
 }
 
@@ -53,7 +66,7 @@ body {
 
 #navbar li ul {
    display:none;
-   border-top:1px solid blue;
+   border-top:2px solid #69F;
 }
 
 #navbar > li:hover ul {
@@ -69,21 +82,119 @@ body {
    color:#69F;
    font-weight:bold;
    text-decoration:none;
-   padding:5px 25px;
+   padding:5px 15px;
 }
 
 #navbar a:hover {
-   color:#1111FF;
+   color:#11F;
    background-color:grey;
    -moz-border-radius:10px;
    -webkit-border-radius:10px;
 }
 
-#pagebody {
-   width:925;
-   border:0px solid green;
-   padding:10px;
+#pagefooter {
+   border:1px solid purple;
+   padding:10px 0px;
+   clear:both;
 }
+
+/* Case Study Template Styles  */
+
+#case-study-sidebar {
+   border:0px solid red;
+   float:left;
+   width:290px;
+   padding:10px 10px 10px 0px;
+}
+
+#case-study-sidebar hr {
+   margin-bottom:10px;
+}
+
+#case-study-sidebar p {
+   margin-bottom:10px;
+}
+
+#case-study-sidebar img {
+   border-width:0px;
+   width:180px;
+}
+
+#case-study-intro {
+   border:0px solid green;
+   float:right;
+   width:625px;
+   padding:10px 0px;
+}
+
+#case-study-intro img {
+   float:left;
+   width:200px;
+   margin-right:10px;
+}
+
+#case-study-intro p {
+   float:left;
+   width:410px;
+   text-align:justify;
+   font-size:large;
+}
+
+#case-study-details {
+   border:0px solid brown;
+   float:right;
+   width:625px;
+}
+
+#case-study-details h1 {
+   font-size:medium;
+   color:#69F;
+}
+
+#case-study-details hr {
+   margin-bottom:5px;
+}
+
+#case-study-details p {
+   margin-bottom:15px;
+}
+
+/* Module Template Styles  */
+
+h1#module-titlebar {
+  border:0px solid black;
+}
+
+h1#module-titlebar button {
+  vertical-align:top;
+  margin:5px 0px 0px 15px;
+}
+
+p#module-intro {
+  border:0px solid green;
+  margin:10px 0px;
+  text-align:justify;
+  font-size:medium;
+}
+
+#module-at-a-glance {
+}
+
+#module-in-the-field {
+  width:500px;
+  margin-right:15px;
+  float:left;
+}
+
+#module-in-the-field h3 {
+  color:#69F;
+}
+
+#module-in-the-field hr {
+  margin-bottom:5px;
+}
+
+/* Homepage Styles  */
 
 #sidebar {
    float:left;
@@ -113,9 +224,6 @@ body {
    border:0px solid red;
 }
 
-#footer {
-}
-
 a.rollover {
    display:block;
    width:140px;
@@ -127,58 +235,4 @@ a.rollover {
 
 a.rollover:hover {
    background-position:-140px 0px;
-}
-
-#case-study-body {
-   border:0px solid black;
-   height:740px;
-}
-
-#case-study-sidebar {
-   border:0px solid red;
-   float:left;
-   width:275px;
-   height:730px;
-   margin-right:20px;
-   padding-top:10px;
-}
-
-#case-study-sidebar hr {
-   margin-bottom:10px;
-}
-
-#case-study-sidebar p {
-   margin-bottom:10px;
-}
-
-#case-study-intro {
-   border:0px solid green;
-}
-
-#case-study-intro img {
-   float:left;
-   width:180px;
-   margin:10px 10px 20px 0px;
-}
-
-#case-study-intro p {
-   text-align:justify;
-   font-size:large;
-}
-
-#case-study-details {
-   border:0px solid brown;
-}
-
-#case-study-details h1 {
-   font-size:medium;
-   color:#6699FF;
-}
-
-#case-study-details p {
-   margin-bottom:24px;
-}
-
-#case-study-details a {
-   font-weight:bold;
 }
