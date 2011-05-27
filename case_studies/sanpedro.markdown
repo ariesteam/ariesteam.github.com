@@ -3,6 +3,8 @@ layout: case_study
 
 title: San Pedro River Case Study
 
+case-study-image: <img src="/images/sanpedromap.jpg" alt="San Pedro watershed map" />
+
 primary-partner: U.S. Geological Survey, Bureau of Land Management
 
 completed: Summer 2011
@@ -18,18 +20,16 @@ highlights: >
             services-based decision-making for federal land management
             agencies.
 
-partner-logo: 
-
-case-study-image: <img src="/images/sanpedromap.jpg" alt="San Pedro watershed map" />
-
-case-study-intro: >
-                  The San Pedro River, which flows north from Sonora
-                  into Arizona, is internationally recognized for its
-                  high biodiversity and ecological significance. A
-                  long history of scientific research in the watershed
-                  exists to support ecosystem services research on the
-                  watershed.
+partner-logo:
 ---
+# Overview
+-----------
+
+The San Pedro River, which flows north from Sonora into Arizona, is
+internationally recognized for its high biodiversity and ecological
+significance. A long history of scientific research in the watershed
+exists to support ecosystem services research on the watershed.
+
 # Practical application
 ------------------------
 

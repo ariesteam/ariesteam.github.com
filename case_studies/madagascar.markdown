@@ -3,6 +3,8 @@ layout: case_study
 
 title: Madagascar Case Study
 
+case-study-image: <img src="/images/mg_rice_paddy.jpg" alt="Madagasacar rice paddy" />
+
 primary-partner: <a href="http://www.conservation.org/">Conservation International</a>,
                  <a href="http://www.unep-wcmc.org">UNEP World Conservation Monitoring Centre</a>
 
@@ -24,32 +26,26 @@ highlights: >
 
 partner-logo: <a href="http://www.conservation.org/"><img alt="Conservation International" src="/images/logos/cilogo2.jpg" /></a>
               <a href="http://www.unep-wcmc.org"><img alt="UNEP World Conservation Monitoring Centre" src="/images/UNEP.jpg" /></a>
-
-case-study-image: <img src="/images/mg_rice_paddy.jpg" alt="Madagasacar rice paddy" />
-
-case-study-intro: >
-                  A global biodiversity hotspot, Madagascar suffers
-                  from high rates of deforestation and poverty.  There
-                  has been great interest in targeting incentives for
-                  conservation (e.g., carbon credit payments) in areas
-                  that will preserve biodiversity and ecosystem
-                  services.  We initially modeled carbon sequestration
-                  and storage and sediment regulation services from
-                  forests in Madagascar, and especially their benefits
-                  for downstream rice farmers in providing
-                  sediment-free water.  ARIES' initial marine
-                  ecosystem services models also developed for
-                  Madagascar, focusing on coastal storm regulation and
-                  subsistence fisheries.  Both of these services are
-                  critical for Madagascar, due to its reliance on
-                  fisheries for protein and its susceptibility to
-                  tropical storms forming in the southwest Indian
-                  Ocean.  When ARIES' terrestrial and marine ecosystem
-                  service flow models are linked, they will provide an
-                  unprecedented view of the connections between human
-                  well-being and linked marine and terrestrial
-                  ecosystems.
 ---
+# Overview
+-----------
+
+A global biodiversity hotspot, Madagascar suffers from high rates of
+deforestation and poverty.  There has been great interest in targeting
+incentives for conservation (e.g., carbon credit payments) in areas
+that will preserve biodiversity and ecosystem services.  We initially
+modeled carbon sequestration and storage and sediment regulation
+services from forests in Madagascar, and especially their benefits for
+downstream rice farmers in providing sediment-free water.  ARIES'
+initial marine ecosystem services models also developed for
+Madagascar, focusing on coastal storm regulation and subsistence
+fisheries.  Both of these services are critical for Madagascar, due to
+its reliance on fisheries for protein and its susceptibility to
+tropical storms forming in the southwest Indian Ocean.  When ARIES'
+terrestrial and marine ecosystem service flow models are linked, they
+will provide an unprecedented view of the connections between human
+well-being and linked marine and terrestrial ecosystems.
+
 # Steps
 --------
 

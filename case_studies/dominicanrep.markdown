@@ -3,6 +3,8 @@ layout: case_study
 
 title: Dominican Republic Case Study
 
+case-study-image: <img src="/images/DR-Yaque.png" alt="Rio Yaque del Norte watershed" />
+
 primary-partner: <a href="http://www.uvm.edu/">University of Vermont</a>
 
 primary-researchers: Lee Gross, Nathaly Agosto Filion
@@ -14,25 +16,22 @@ models: Sediment regulation
 maps: Source, sink, use, and flow maps for above ecosystem services
 
 partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/logos/uvmlogo-words.gif" /></a>
-
-case-study-image: <img src="/images/DR-Yaque.png" alt="Rio Yaque del Norte watershed" />
-
-case-study-intro: >
-                  The Pico Duarte Coffee Region and surrounding Madre
-                  de Las Aguas (Mother of Waters) Conservation Area
-                  are areas of critical ecological, economic and
-                  social importance to the people of the Dominican
-                  Republic. In recent years much attention has been
-                  paid to the establishment of protected areas for the
-                  conservation of biodiversity and ecosystem
-                  services. Despite these efforts, protected areas
-                  represent less than five percent of this working
-                  agricultural landscape traditionally in shade
-                  coffee. These shade coffee poly-cultures play an
-                  essential role in ensuring ecosystem function to
-                  conserve water resources, provide habitat for birds,
-                  and provide consumptive resources to households.
 ---
+# Overview
+-----------
+
+The Pico Duarte Coffee Region and surrounding Madre de Las Aguas
+(Mother of Waters) Conservation Area are areas of critical ecological,
+economic and social importance to the people of the Dominican
+Republic. In recent years much attention has been paid to the
+establishment of protected areas for the conservation of biodiversity
+and ecosystem services. Despite these efforts, protected areas
+represent less than five percent of this working agricultural
+landscape traditionally in shade coffee. These shade coffee
+poly-cultures play an essential role in ensuring ecosystem function to
+conserve water resources, provide habitat for birds, and provide
+consumptive resources to households.
+
 # Local conditions
 -------------------
 

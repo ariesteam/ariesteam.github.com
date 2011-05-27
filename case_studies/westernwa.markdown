@@ -3,6 +3,8 @@ layout: case_study
 
 title: Western Washington Case Study
 
+case-study-image: <img src="/images/chehalis.jpg" alt="Chehalis River Basin" />
+
 primary-partner: <a href="http://www.eartheconomics.org/">Earth Economics</a>
 
 completed: Summer 2011
@@ -21,28 +23,24 @@ lessons-learned: >
                  ecosystem services tradeoffs.
 
 partner-logo: <a href="http://www.eartheconomics.org/"><img alt="Earth Economics" src="/images/logos/EELogo_Tiny_jpg.jpg" /></a>
-
-case-study-image: <img src="/images/chehalis.jpg" alt="Chehalis River Basin" />
-
-case-study-intro: >
-                  ARIES is built on basic science and our
-                  understanding of how natural systems work. The
-                  better the data on hydrology, topography, soils, and
-                  other determining factors are, the better ARIES can
-                  perform. Ecosystem services (ES), such as flood
-                  regulation depend on the interaction between natural
-                  systems and people. With this in mind, ARIES relies
-                  on four types of models, based on GIS and other
-                  data: 1) Beneficiary models; 2) Provisioning models;
-                  3) Sink models and 4) Flow models. Initial ARIES
-                  mapping and results for the Chehalis River Basin
-                  excluded external hydrologic models but utilized
-                  locally-relevant GIS data and ad hoc models. Mapping
-                  and understanding the beneficiaries, provisioning
-                  and spatial flows of floodwater also sets in place
-                  the basis for a funding mechanism that can be
-                  developed for the Flood Authority.
 ---
+# Overview
+-----------
+
+ARIES is built on basic science and our understanding of how natural
+systems work. The better the data on hydrology, topography, soils, and
+other determining factors are, the better ARIES can perform. Ecosystem
+services (ES), such as flood regulation depend on the interaction
+between natural systems and people. With this in mind, ARIES relies on
+four types of models, based on GIS and other data: 1) Beneficiary
+models; 2) Provisioning models; 3) Sink models and 4) Flow
+models. Initial ARIES mapping and results for the Chehalis River Basin
+excluded external hydrologic models but utilized locally-relevant GIS
+data and ad hoc models. Mapping and understanding the beneficiaries,
+provisioning and spatial flows of floodwater also sets in place the
+basis for a funding mechanism that can be developed for the Flood
+Authority.
+
 # Practical application
 ------------------------
 

@@ -3,6 +3,9 @@ layout: master
 ---
 <h1>{{ page.title }}</h1>
 <div id="case-study-sidebar">
+  {% if page.case-study-image %}
+  {{ page.case-study-image }}
+  {% endif %}
   <h2>At a glance</h2>
   <hr />
   {% if page.primary-partner %}
@@ -27,12 +30,10 @@ layout: master
   <p><strong>Lessons Learned:</strong> {{ page.lessons-learned }}</p>
   {% endif %}
   {% if page.partner-logo %}
+  <div id="logos">
   {{ page.partner-logo }}
+  </div>
   {% endif %}
-</div>
-<div id="case-study-intro">
-  {{ page.case-study-image }}
-  <p>{{ page.case-study-intro }}</p>
 </div>
 <div id="case-study-details">
   {{ content }}

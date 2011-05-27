@@ -3,6 +3,8 @@ layout: case_study
 
 title: Vermont Case Study
 
+case-study-image: <img src="/images/vt_forest.jpg" alt="Forested landscape in northern New England" />
+
 primary-partner: <a href="http://www.uvm.edu/">University of Vermont</a>
 
 primary-researchers: Sam Gorton, Rose Graves, Jennifer Wright
@@ -12,30 +14,25 @@ completed: May 2010
 models: Carbon sequestration and storage, recreational viewsheds
 
 partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/logos/uvmlogo-words.gif" /></a>
-
-case-study-image: <img src="/images/vt_forest.jpg" alt="Forested landscape in northern New England" />
-
-case-study-intro: >
-                  In northern New England, a century of forest
-                  regrowth following intensive agricultural clearance
-                  has led to a landscape dominated small- to
-                  medium-scale agriculture and second-growth forests.
-                  These forests provide numerous recreational
-                  opportunities, provide employment in the forestry
-                  and forest products industries, sequester and store
-                  carbon, and provide various other ecosystem
-                  services.  Within the region's agricultural and
-                  forest communities, there is increasing interest in
-                  managing both forests and farmland to increase
-                  carbon sequestration and storage and absorb
-                  nutrients from waterways.  Developing payments for
-                  ecosystem services (PES) programs like the Regional
-                  Greenhouse Gas Initiative (RGGI) and other local
-                  policies could support these efforts, but would
-                  benefit from emerging ecosystem service models to
-                  map and quantify ecosystem services under different
-                  management alternatives.
 ---
+# Overview
+-----------
+
+In northern New England, a century of forest regrowth following
+intensive agricultural clearance has led to a landscape dominated
+small- to medium-scale agriculture and second-growth forests.  These
+forests provide numerous recreational opportunities, provide
+employment in the forestry and forest products industries, sequester
+and store carbon, and provide various other ecosystem services.
+Within the region's agricultural and forest communities, there is
+increasing interest in managing both forests and farmland to increase
+carbon sequestration and storage and absorb nutrients from waterways.
+Developing payments for ecosystem services (PES) programs like the
+Regional Greenhouse Gas Initiative (RGGI) and other local policies
+could support these efforts, but would benefit from emerging ecosystem
+service models to map and quantify ecosystem services under different
+management alternatives.
+
 # Practical application: Carbon sequestration and storage
 ----------------------------------------------------------
 

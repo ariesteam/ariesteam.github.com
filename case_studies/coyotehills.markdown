@@ -3,6 +3,8 @@ layout: case_study
 
 title: West Coyote Hills, Orange County Case Study
 
+case-study-image: <img src="/images/CoyoteHillsCarbonUptake.jpg" alt="West Coyote Hills carbon sequestration map" />
+
 primary-partner: Chevron Corporation
 
 completed: August 2010
@@ -22,22 +24,20 @@ highlights: >
             applications in land management, planning, and
             environmental value creation.
 
-parner-logo:
-
-case-study-image: <img src="/images/CoyoteHillsCarbonUptake.jpg" alt="West Coyote Hills carbon sequestration map" />
-
-case-study-intro: > 
-                  The forces of rapid urban expansion are causing a
-                  rise in demand for urban ecosystem services. This
-                  swell in demand is also driving an increase in their
-                  perceived value. Therefore, landowners, developers,
-                  planners, and cities are keenly interested in how to
-                  best manage such environmental assets. The West
-                  Coyote Hills property is typical of this phenomenon,
-                  and establishes a proof-of-concept for the ARIES
-                  approach using real world data at the project site
-                  scale (ca. 550 acres).
+partner-logo:
 ---
+# Overview
+-----------
+
+The forces of rapid urban expansion are causing a rise in demand for
+urban ecosystem services. This swell in demand is also driving an
+increase in their perceived value. Therefore, landowners, developers,
+planners, and cities are keenly interested in how to best manage such
+environmental assets. The West Coyote Hills property is typical of
+this phenomenon, and establishes a proof-of-concept for the ARIES
+approach using real world data at the project site scale (ca. 550
+acres).
+
 # Practical application
 ------------------------
 

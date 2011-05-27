@@ -18,7 +18,7 @@ body {
 }
 
 #pagecontainer {
-   border:1px solid green;
+   border:0px solid green;
    width:930px;
    margin:0px auto;
    padding:0px 10px;
@@ -26,7 +26,7 @@ body {
 }
 
 #pageheader {
-   border:1px solid purple;
+   border:0px solid purple;
    height:130px;
    position:relative;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 #pagefooter {
-   border:1px solid purple;
+   border:0px solid purple;
    padding:10px 0px;
    clear:both;
 }
@@ -107,6 +107,12 @@ body {
    padding:10px 10px 10px 0px;
 }
 
+#case-study-sidebar img {
+   border:1px solid grey;
+   width:280px;
+   margin-bottom:15px;
+}
+
 #case-study-sidebar hr {
    margin-bottom:10px;
 }
@@ -115,35 +121,17 @@ body {
    margin-bottom:10px;
 }
 
-#case-study-sidebar img {
+#case-study-sidebar #logos img {
    border-width:0px;
    width:180px;
+   margin-bottom:0px;
 }
 
-#case-study-intro {
+#case-study-details {
    border:0px solid green;
    float:right;
    width:625px;
    padding:10px 0px;
-}
-
-#case-study-intro img {
-   float:left;
-   width:200px;
-   margin-right:10px;
-}
-
-#case-study-intro p {
-   float:left;
-   width:410px;
-   text-align:justify;
-   font-size:large;
-}
-
-#case-study-details {
-   border:0px solid brown;
-   float:right;
-   width:625px;
 }
 
 #case-study-details h1 {

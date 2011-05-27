@@ -3,6 +3,8 @@ layout: case_study
 
 title: La Antigua, Veracruz Case Study
 
+case-study-image: <img src="/images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
+
 primary-partner: <a href="http://www.ecologia.edu.mx/">Instituto de Ecologia, INECOL</a>
 
 completed: March 2011
@@ -20,23 +22,20 @@ highlights: >
             are in place.
 
 partner-logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="/images/INECOL.jpg" /></a>
-
-case-study-image: <img src="/images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
-
-case-study-intro: >
-                  More than 72% of Veracruz's original forest has been
-                  converted to pastureland and agriculture.  Still,
-                  the remaining natural vegetation harbors high levels
-                  of biodiversity. Forest fragmentation and land
-                  conversion are now occurring in unique,
-                  high-elevation montane cloud forest, one of the most
-                  important land cover types for water provision in
-                  the region. Water resources are under stress in the
-                  basin and flooding is becoming increasingly
-                  likely. This has led to unrest over water resources
-                  between neighboring states and municipalities with
-                  large population centers on their territory.
 ---
+# Overview
+-----------
+
+More than 72% of Veracruz's original forest has been converted to
+pastureland and agriculture.  Still, the remaining natural vegetation
+harbors high levels of biodiversity. Forest fragmentation and land
+conversion are now occurring in unique, high-elevation montane cloud
+forest, one of the most important land cover types for water provision
+in the region. Water resources are under stress in the basin and
+flooding is becoming increasingly likely. This has led to unrest over
+water resources between neighboring states and municipalities with
+large population centers on their territory.
+
 # Practical application
 ------------------------
 
