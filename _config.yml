@@ -2,3 +2,4 @@ auto: true
 safe: true
 pygments: true
 permalink: none
+exclude: ["README"]

@@ -22,7 +22,7 @@ highlights: >
             coastal ecosystems and the ecosystem services they
             generate.
 
-partner-logo: <a href="http://www.conservation.org/"><img alt="Conservation International" src="/images/Logos/cilogo2.jpg" /></a>
+partner-logo: <a href="http://www.conservation.org/"><img alt="Conservation International" src="/images/logos/cilogo2.jpg" /></a>
               <a href="http://www.unep-wcmc.org"><img alt="UNEP World Conservation Monitoring Centre" src="/images/UNEP.jpg" /></a>
 
 case-study-image: <img src="/images/mg_rice_paddy.jpg" alt="Madagasacar rice paddy" />

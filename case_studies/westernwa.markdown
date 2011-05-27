@@ -20,7 +20,7 @@ lessons-learned: >
                  available by Summer 2011, enabling full comparison of
                  ecosystem services tradeoffs.
 
-partner-logo: <a href="http://www.eartheconomics.org/"><img alt="Earth Economics" src="/images/Logos/EELogo_Tiny_jpg.jpg" /></a>
+partner-logo: <a href="http://www.eartheconomics.org/"><img alt="Earth Economics" src="/images/logos/EELogo_Tiny_jpg.jpg" /></a>
 
 case-study-image: <img src="/images/chehalis.jpg" alt="Chehalis River Basin" />
 
