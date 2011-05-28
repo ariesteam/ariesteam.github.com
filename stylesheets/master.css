@@ -108,125 +108,6 @@ p.learn-more a {
    margin:10px 0px 10px 10px;
 }
 
-/* Case Study Template Styles  */
-
-#case-study-sidebar {
-   border:0px solid red;
-   float:left;
-   width:290px;
-   padding:10px 10px 10px 0px;
-}
-
-#case-study-sidebar img {
-   border:2px inset grey;
-   width:280px;
-   margin-bottom:15px;
-}
-
-#case-study-sidebar hr {
-   margin-bottom:10px;
-}
-
-#case-study-sidebar p {
-   margin-bottom:10px;
-}
-
-#case-study-sidebar #logos img {
-   border-width:0px;
-   width:180px;
-   margin:10px 0px 0px 50px;
-}
-
-#case-study-details {
-   border:0px solid green;
-   float:right;
-   width:625px;
-   padding:10px 0px;
-}
-
-#case-study-details h1 {
-   font-size:medium;
-   color:#69F;
-}
-
-#case-study-details hr {
-   margin-bottom:5px;
-}
-
-#case-study-details p {
-   margin-bottom:15px;
-}
-
-/* Module Template Styles  */
-
-#module-titlebar {
-   border:0px solid black;
-}
-
-#module-titlebar button {
-   vertical-align:top;
-   margin:5px 0px 0px 15px;
-}
-
-#module-intro {
-   border:0px solid green;
-   margin:20px 0px;
-   text-align:justify;
-   font-size:medium;
-}
-
-#module-at-a-glance {
-   border:0px solid grey;
-   float:left;
-   width:380px;
-   padding-right:20px;
-}
-
-#module-at-a-glance h3 {
-   color:#69F;
-}
-
-#module-at-a-glance hr {
-   margin-bottom:5px;
-}
-
-#module-at-a-glance p {
-   margin-bottom:15px;
-}
-
-#module-in-the-field {
-   border:0px solid blue;
-   float:right;
-   width:520px;
-}
-
-#module-in-the-field h3 {
-   color:#69F;
-}
-
-#module-in-the-field h4 {
-   border:0px solid purple;
-   clear:both;
-   padding:5px 0px;
-}
-
-#module-in-the-field p.left {
-   border:0px solid green;
-   float:left;
-   width:160px;
-   margin-right:10px;
-}
-
-#module-in-the-field p.left img {
-   width:160px;
-}
-
-#module-in-the-field p {
-   border:0px solid brown;
-   float:right;
-   width:345px;
-}
-
 /* Homepage Styles  */
 
 #homepage-sidebar {
@@ -309,4 +190,123 @@ a.rollover {
 
 a.rollover:hover {
    background-position:-140px 0px;
+}
+
+/* Module Template Styles  */
+
+#module-titlebar {
+   border:0px solid black;
+}
+
+#module-titlebar button {
+   vertical-align:top;
+   margin:5px 0px 0px 15px;
+}
+
+#module-intro {
+   border:0px solid green;
+   margin:20px 0px;
+   text-align:justify;
+   font-size:medium;
+}
+
+#module-at-a-glance {
+   border:0px solid grey;
+   float:left;
+   width:380px;
+   padding-right:20px;
+}
+
+#module-at-a-glance h3 {
+   color:#69F;
+}
+
+#module-at-a-glance hr {
+   margin-bottom:5px;
+}
+
+#module-at-a-glance p {
+   margin-bottom:15px;
+}
+
+#module-in-the-field {
+   border:0px solid blue;
+   float:right;
+   width:520px;
+}
+
+#module-in-the-field h3 {
+   color:#69F;
+}
+
+#module-in-the-field h4 {
+   border:0px solid purple;
+   clear:both;
+   padding:5px 0px;
+}
+
+#module-in-the-field p.left {
+   border:0px solid green;
+   float:left;
+   width:160px;
+   margin-right:10px;
+}
+
+#module-in-the-field p.left img {
+   width:160px;
+}
+
+#module-in-the-field p {
+   border:0px solid brown;
+   float:right;
+   width:345px;
+}
+
+/* Case Study Template Styles  */
+
+#case-study-sidebar {
+   border:0px solid red;
+   float:left;
+   width:290px;
+   padding:10px 10px 10px 0px;
+}
+
+#case-study-sidebar img {
+   border:2px inset grey;
+   width:280px;
+   margin-bottom:5px;
+}
+
+#case-study-sidebar hr {
+   margin-bottom:10px;
+}
+
+#case-study-sidebar p {
+   margin-bottom:10px;
+}
+
+#case-study-sidebar #logos img {
+   border-width:0px;
+   width:180px;
+   margin:10px 0px 0px 50px;
+}
+
+#case-study-details {
+   border:0px solid green;
+   float:right;
+   width:625px;
+   padding:10px 0px;
+}
+
+#case-study-details h1 {
+   font-size:medium;
+   color:#69F;
+}
+
+#case-study-details hr {
+   margin-bottom:5px;
+}
+
+#case-study-details p {
+   margin-bottom:15px;
 }

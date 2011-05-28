@@ -164,6 +164,6 @@ Please contact Earth Economics with your questions and feedback.
 
 **Phone:** +1 (253) 539-4801
 
-Click <a href="http://www.eartheconomics.org/Page12.aspx">HERE</a> for
-a full report on the ARIES application to flood regulation in the
-Chehalis River Basin.
+Click [HERE](http://www.eartheconomics.org/Page12.aspx) for a full
+report on the ARIES application to flood regulation in the Chehalis
+River Basin.

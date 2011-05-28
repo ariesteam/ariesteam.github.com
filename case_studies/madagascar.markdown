@@ -68,12 +68,8 @@ tested in other coastal and marine environments.
 # Reference
 ------------
 
-<p>
-  <a href="http://www.sciencedirect.com/science/article/pii/S0921800909000044">
-    Wendland, K.J., M. Honzak, R. Portela, B. Vitale, S. Rubinoff, and
-    J. Randrianarisoa.  2010.  Targeting and implementing payments for
-    ecosystem services: Opportunities for bundling biodiversity
-    conservation with carbon and water services in Madagascar.
-    Ecological Economics 69: 2093-2107.
-  </a>
-</p>
+[Wendland, K.J., M. Honzak, R. Portela, B. Vitale, S. Rubinoff, and
+J. Randrianarisoa. 2010. Targeting and implementing payments for
+ecosystem services: Opportunities for bundling biodiversity
+conservation with carbon and water services in Madagascar. Ecological
+Economics 69:2093-2107.](http://www.sciencedirect.com/science/article/pii/S0921800909000044)

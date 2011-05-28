@@ -71,8 +71,4 @@ region conducted by Conservation International and its partners, with
 the goal of identifying where natural resources management policies
 could most strategically reduce deforestation and biodiversity loss.
 
-<p>
-  <a href="http://www.eartheconomics.org/FileLibrary/file/Reports/Vera%20Cruz%20Attachments/Veracruz%20Agenda%20Espanol.pdf">
-    February 17-18, 2011 (Xalapa,Veracruz): Assessment of Hydrological Service Flows in La Antigua Watershed
-  </a>
-</p>
+[February 17-18, 2011 (Xalapa,Veracruz): Assessment of Hydrological Service Flows in La Antigua Watershed](http://www.eartheconomics.org/FileLibrary/file/Reports/Vera%20Cruz%20Attachments/Veracruz%20Agenda%20Espanol.pdf)
