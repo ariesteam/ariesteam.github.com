@@ -66,7 +66,8 @@ of natural or artificial mitigation structures.
 
 #### Madagascar
 
-<img src="/images/lemur_160.gif" />
+![](/images/lemur_160.gif)
+{: .left }
 
 Eastern Madagascar is highly susceptible to tropical storms coming off
 the southern Indian Ocean. The island's coastal ecosystems include

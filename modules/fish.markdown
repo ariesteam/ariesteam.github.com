@@ -43,7 +43,8 @@ human well-being.
 
 #### Madagascar
 
-<img src="/images/lemur_160.gif" />
+![](/images/lemur_160.gif)
+{: .left }
 
 Subsistence fisheries models for Madagascar rely on global spatial
 datasets for fisheries, population density, and poverty, combined with

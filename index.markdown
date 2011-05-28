@@ -57,7 +57,8 @@ title: ARtificial Intelligence for Ecosystem Services
 
 ### A web-based technology
 
-<img src="/images/interface.gif" />
+![](/images/interface.gif)
+{: .left }
 
 ARIES is a suite of applications, all delivered to end users through
 the Web. All applications have been designed with the help of
@@ -67,11 +68,13 @@ Explorer, Valuation Database, and Biodiversity Explorer), custom ARIES
 interfaces can be built to simplify use by specific groups of end
 users.
 
-<p><a href="/intro.html" class="learn-more"> </a></p>
+[ ](/intro.html)
+{: .learn-more }
 
 ### Focus on conservation
 
-<img src="/images/lemur_160.gif" />
+![](/images/lemur_160.gif)
+{: .left }
 
 ARIES can help improve our understanding of the value to humans of
 conserving high biodiversity areas. At the same time, it can help
@@ -82,7 +85,8 @@ communities.
 
 ### Focus on business
 
-<img src="/images/oil_160.gif" />
+![](/images/oil_160.gif)
+{: .left }
 
 ARIES can help reduce impact and engender positive change by
 prioritizing the conservation of ecosystem services flows to local

@@ -62,7 +62,8 @@ steeply-sloped environments where RUSLE is known to perform poorly.
 
 #### Madagascar
 
-<img src="/images/lemur_160.gif" />
+![](/images/lemur_160.gif)
+{: .left }
 
 Sedimentation is particularly problematic in Madagascar, where high
 rates of deforestation and low natural rates of forest regrowth have
@@ -72,7 +73,8 @@ ecosystems and the services they provide.
 
 #### Dominican Republic
 
-<img src="/images/Dominican%20Rep-NASA.jpg" />
+![](/images/Dominican%20Rep-NASA.jpg)
+{: .left }
 
 In the Dominican Republic, sediment loss from intensive agricultural
 practices is impacting hydroelectric production in parts of the
@@ -83,7 +85,8 @@ intensive agriculture.
 
 #### Western Washington State
 
-<img src="/images/SnoquamieForest.jpg" />
+![](/images/SnoquamieForest.jpg)
+{: .left }
 
 In Western Washington, sedimentation is important for both providing
 beneficial coarse sediments (e.g., gravels) for salmon spawning and

@@ -72,7 +72,8 @@ relevant ecosystem types.
 
 #### La Antigua, Veracruz
 
-<img src="/images/veracruz-la%20Antigua%20075.jpg" alt="La Antigua Photo by Jen Harrison-Cox" />
+![La Antigua Photo by Jen Harrison-Cox](/images/veracruz-la%20Antigua%20075.jpg)
+{: .left }
 
 We developed ARIES water supply models for Mexico's La Antigua River
 in the state of Veracruz.  These models account for water demand from
@@ -81,11 +82,13 @@ the spatial connections between these users and the threatened cloud
 forests in the upper watershed that supply much of the region's
 water. *Photo credit: J. Harrison-Cox.*
 
-<p><a href="/case_studies/veracruz.html" class="learn-more"> </a></p>
+[ ](/case_studies/veracruz.html)
+{: .learn-more }
 
 #### San Pedro River, Arizona and Sonora
 
-<img src="/images/6cgsan-pedro-leaves26a.jpg" />
+![](/images/6cgsan-pedro-leaves26a.jpg)
+{: .left }
 
 The San Pedro River, which flows north from Sonora into Arizona, is
 internationally recognized for its high biodiversity and ecological
@@ -95,6 +98,7 @@ riparian ecosystems are at the forefront of debates about population,
 water use, and sustainability. *Photo credit: R.Weller/Cochise
 College.*
 
-<p><a href="/case_studies/sanpedro.html" class="learn-more"> </a></p>
+[ ](/case_studies/sanpedro.html)
+{: .learn-more }
 
 </div>

@@ -62,7 +62,8 @@ ecosystem services in alternative scenarios for flood management.
 
 #### Western Washington State
 
-<img src="/images/chehalis.jpg" />
+![](/images/chehalis.jpg)
+{: .left }
 
 In May 2010, [Earth Economics](http://www.eartheconomics.org/)
 completed a comprehensive Ecosystem Service and Flood Protection
@@ -72,11 +73,13 @@ systems affect people. With this in mind, ARIES produces four types of
 models, based on GIS and other data: 1) Beneficiary models; 2)
 Provisioning models; 3) Sink models and 4) Flow models.
 
-<p><a href="/case_studies/westernwa.html" class="learn-more"> </a></p>
+[ ](/case_studies/westernwa.html)
+{: .learn-more }
 
 #### West Coyote Hills, California
 
-<img src="/images/CoyoteHillsCarbonUptake.jpg" />
+![](/images/CoyoteHillsCarbonUptake.jpg)
+{: .left }
 
 ARIES was used to quantify flood protection throughout the San Gabriel
 River/Coyote Creek watershed in northwestern Orange County,

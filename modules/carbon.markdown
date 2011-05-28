@@ -5,18 +5,18 @@ title: Carbon sequestration and storage
 
 module-specs-url: /modules/carbonspecs.html
 ---
-<div id="module-intro">
+<div id="module-intro" markdown="1">
 
-Forests, grasslands, and other ecosystems store and remove
-CO<sub>2</sub> from the atmosphere and serve as natural sinks for
-emissions that would otherwise contribute to global warming. ARIES
-helps quantify and map: 1) carbon sequestration, the removal of carbon
-dioxide from the atmosphere, 2) the potential release of stored carbon
-in vegetation and soils through deforestation or fire, 3) other carbon
-dioxide emissions from human activities.  By mapping these processes,
-we can provide coarse-scale estimates of regional carbon balance while
-enabling analysis of tradeoffs between carbon sequestration and
-storage and other ecosystem services.
+Forests, grasslands, and other ecosystems store and remove carbon
+dioxide (CO<sub>2</sub>) from the atmosphere and serve as natural
+sinks for emissions that would otherwise contribute to global
+warming. ARIES helps quantify and map: 1) carbon sequestration, the
+removal of CO<sub>2</sub> from the atmosphere, 2) the potential
+release of stored carbon in vegetation and soils through deforestation
+or fire, 3) other CO<sub>2</sub> emissions from human activities.  By
+mapping these processes, we can provide coarse-scale estimates of
+regional carbon balance while enabling analysis of tradeoffs between
+carbon sequestration and storage and other ecosystem services.
 
 </div>
 
@@ -26,8 +26,8 @@ storage and other ecosystem services.
 ----------------
 
 **Carbon sequestration and storage** by terrestrial ecosystems is the
-net removal of carbon dioxide from the atmosphere, with carbon being
-stored in vegetation or soils. Carbon dioxide uptake occurs through
+net removal of CO<sub>2</sub> from the atmosphere, with carbon being
+stored in vegetation or soils. CO<sub>2</sub> uptake occurs through
 photosynthesis in all green plants. Terrestrial carbon sequestration
 levels depend on factors including climate, vegetation type, soils,
 and current and past land use practices.
@@ -40,7 +40,7 @@ stored in vegetation and soils and the type and extent of the
 disturbance.
 
 **Anthropogenic (human-caused) carbon emissions** result from the
-burning of fossil fuels and the subsequent release of carbon dioxide
+burning of fossil fuels and the subsequent release of CO<sub>2</sub>
 to the atmosphere.  Since greenhouse gas emitters benefit from the
 waste absorption capacity of the biosphere, carbon sequestration and
 storage can be divided among emitters.  Existing and proposed systems
@@ -54,7 +54,7 @@ Carbon sequestration - Carbon release = Carbon emissions offset
 **In summary**, by mapping levels of carbon sequestration, stored
 carbon release, and anthropogenic emissions in a common unit (tonnes
 C/yr), we can fully describe regional carbon balances - the level of a
-region's net release or uptake of atmospheric carbon dioxide.  This
+region's net release or uptake of atmospheric CO<sub>2</sub>.  This
 will become increasingly important as local, state, and national
 governments continue to inventory greenhouse gas emissions and
 implement strategies to address climate change.
@@ -68,7 +68,8 @@ implement strategies to address climate change.
 
 #### Madagascar
 
-<img src="/images/lemur_160.gif" />
+![](/images/lemur_160.gif)
+{: .left }
 
 ARIES is being used to help understand spatial patterns of carbon
 sequestration and storage in vegetation and soils.  Accurate
@@ -80,7 +81,8 @@ planned.
 
 #### Western Washington State
 
-<img src="/images/SnoquamieForest.jpg" />
+![](/images/SnoquamieForest.jpg)
+{: .left }
 
 ARIES is being used to help planners understand tradeoffs between
 carbon sequestration and storage and other ecosystem services, such as
@@ -90,7 +92,8 @@ important as climate change policies continue to evolve.
 
 #### San Pedro River, Arizona and Sonora
 
-<img src="/images/6cgsan-pedro-leaves26a.jpg" />
+![](/images/6cgsan-pedro-leaves26a.jpg)
+{: .left }
 
 Carbon sequestration and storage estimates are increasingly demanded
 by public and private land managers in the southwest and beyond.
@@ -100,7 +103,8 @@ region. Photo credit: R.Weller/Cochise College.
 
 #### West Coyote Hills, California
 
-<img src="/images/CoyoteHillsCarbonUptake.jpg" />
+![](/images/CoyoteHillsCarbonUptake.jpg)
+{: .left }
 
 Carbon sequestration and storage were mapped for a key parcel of
 undeveloped land in southern California.  Given the state's leadership
@@ -109,7 +113,8 @@ important in managing conservation and development tradeoffs.
 
 #### Vermont
 
-<img src="/images/vt_forest.jpg" />
+![](/images/vt_forest.jpg)
+{: .left }
 
 Vermont's low population density and high forest cover make the state
 a net sink for carbon emissions.  There is great interest among the
