@@ -196,6 +196,7 @@ a.rollover:hover {
 
 #module-titlebar {
    border:0px solid black;
+   font-weight:normal;
 }
 
 #module-titlebar button {
@@ -262,7 +263,108 @@ a.rollover:hover {
    width:345px;
 }
 
+/* Module Spec Template Styles */
+
+#module-spec-titlebar {
+   border:0px solid red;
+   float:left;
+   width:600px;
+   margin-bottom:10px;
+   font-weight:normal;
+}
+
+#module-spec-status {
+   border:0px solid green;
+   float:right;
+   width:325px;
+   padding-top:5px;
+   font-weight:normal;
+}
+
+#module-spec-status span {
+   color:green;
+}
+
+#module-spec-intro {
+   border:0px solid blue;
+   clear:both;
+   padding:5px 0px;
+   background:#eee;
+   font-size:medium;
+}
+
+#module-spec-definitions {
+   border:0px solid red;
+   float:left;
+   width:290px;
+   padding:10px 10px 10px 0px;
+}
+
+#module-spec-definitions h3 {
+   color:#69F;
+   margin-bottom:10px;
+}
+
+#module-spec-definitions hr {
+   margin-bottom:10px;
+}
+
+#module-spec-definitions p {
+   margin:0px 0px 10px 10px;
+}
+
+#module-spec-specifications {
+   border:0px solid green;
+   float:right;
+   width:625px;
+   padding:10px 0px;
+}
+
+#module-spec-specifications h3 {
+   color:#69F;
+   margin-bottom:10px;
+}
+
+#module-spec-specifications hr {
+   margin-bottom:10px;
+}
+
+#module-spec-specifications ul,ol {
+   margin-bottom:10px;
+}
+
+#module-spec-specifications p {
+   margin-bottom:10px;
+}
+
+#module-spec-specifications table {
+   margin-bottom:10px;
+}
+
+//#module-spec-specifications tbody {
+//   border:1px solid red;
+//}
+
+#module-spec-specifications th {
+   text-align:left;
+   padding:0px 5px 5px 5px;
+}
+
+#module-spec-specifications td {
+   padding:5px;
+}
+
+#module-spec-references p {
+   text-indent:-2em;
+   margin-left:2em;
+}
+
 /* Case Study Template Styles  */
+
+#case-study-titlebar {
+   border:0px solid black;
+   font-weight:normal;
+}
 
 #case-study-sidebar {
    border:0px solid red;

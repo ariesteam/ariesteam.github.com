@@ -3,7 +3,7 @@ layout: module
 
 title: Aesthetic views and open space proximity
 
-module-specs-url: /modules/aesthspec.html
+module-specs-url: /modules/aesthspecs.html
 ---
 <div id="module-intro" markdown="1">
 
