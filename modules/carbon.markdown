@@ -5,12 +5,12 @@ title: Carbon sequestration and storage
 
 module-specs-url: /modules/carbonspecs.html
 ---
-<div id="module-intro" markdown="1">
+<div id="module-intro">
 
-Forests, grasslands, and other ecosystems store and remove carbon
-dioxide from the atmosphere and serve as natural sinks for emissions
-that would otherwise contribute to global warming. ARIES helps
-quantify and map: 1) carbon sequestration, the removal of carbon
+Forests, grasslands, and other ecosystems store and remove
+CO<sub>2</sub> from the atmosphere and serve as natural sinks for
+emissions that would otherwise contribute to global warming. ARIES
+helps quantify and map: 1) carbon sequestration, the removal of carbon
 dioxide from the atmosphere, 2) the potential release of stored carbon
 in vegetation and soils through deforestation or fire, 3) other carbon
 dioxide emissions from human activities.  By mapping these processes,
