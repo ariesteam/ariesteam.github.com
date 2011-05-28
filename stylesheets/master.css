@@ -98,6 +98,16 @@ body {
    clear:both;
 }
 
+a.learn-more {
+   border:0px solid black;
+   display:block;
+   width:91px;
+   height:17px;
+   text-decoration:none;
+   background:url("/images/learn.gif");
+   margin:10px 0px 10px 10px;
+}
+
 /* Case Study Template Styles  */
 
 #case-study-sidebar {
@@ -220,32 +230,69 @@ body {
 
 /* Homepage Styles  */
 
-#sidebar {
+#homepage-sidebar {
    float:left;
    width:250px;
-   padding:5px 5px 5px 0px;
+   padding:10px 10px 10px 0px;
+   border:0px solid green;
    border-right:2px solid lightgrey;
 }
 
-#contact {
-   margin-bottom:10px;
-   border:0px solid black;
+#homepage-sidebar h3 {
+   margin-bottom:5px;
 }
 
-#newsfeed {
+#homepage-sidebar hr {
    margin:10px 0px;
-   border:0px solid blue;
 }
 
-#sponsors {
-   border:0px solid orange;
+#homepage-sidebar img {
+   margin:5px 0px 5px 50px;
+   width: 150px;
+   border-width:0px;
 }
 
-#content {
-   float:left;
-   width:650px;
-   margin:10px 0px 10px 15px;
+#homepage-content {
+   float:right;
+   width:655px;
+   padding:10px 0px 10px 10px;
    border:0px solid red;
+}
+
+#homepage-content iframe {
+   width:600px;
+   height:450px;
+   margin:0px 25px 20px 20px;
+}
+
+#homepage-content h2 {
+   font-size:large;
+   font-weight:normal;
+   text-align:justify;
+}
+
+#homepage-content hr {
+   margin:10px 0px;
+}
+
+#homepage-content h3 {
+   border:0px solid purple;
+   color:#69F;
+   clear:both;
+   padding:10px 0px;
+}
+
+#homepage-content img {
+   border:0px solid green;
+   float:left;
+   width:250px;
+   margin-right:10px;
+}
+
+#homepage-content p {
+   border:0px solid brown;
+   float:right;
+   width:390px;
 }
 
 a.rollover {
@@ -259,14 +306,4 @@ a.rollover {
 
 a.rollover:hover {
    background-position:-140px 0px;
-}
-
-a.learn-more {
-   border:0px solid black;
-   display:block;
-   width:91px;
-   height:17px;
-   text-decoration:none;
-   background:url("/images/learn.gif");
-   margin:10px 0px 10px 10px;
 }
