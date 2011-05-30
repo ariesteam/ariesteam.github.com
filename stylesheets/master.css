@@ -17,7 +17,7 @@ body {
    font-weight:normal;
 }
 
-sub {
+sup,sub {
    line-height:0.5em;
 }
 
@@ -119,10 +119,10 @@ p.learn-more a {
 /* Homepage Styles  */
 
 #homepage-sidebar {
+   border:0px solid green;
    float:left;
    width:250px;
    padding:10px 10px 10px 0px;
-   border:0px solid green;
    border-right:2px solid lightgrey;
 }
 
@@ -135,16 +135,16 @@ p.learn-more a {
 }
 
 #homepage-sidebar img {
-   margin:5px 0px 5px 50px;
+   margin:10px 0px 10px 50px;
    width: 150px;
    border-width:0px;
 }
 
 #homepage-content {
+   border:0px solid red;
    float:right;
    width:655px;
    padding:10px 0px 10px 10px;
-   border:0px solid red;
 }
 
 #homepage-content iframe {
@@ -264,6 +264,7 @@ a.rollover:hover {
    border:0px solid purple;
    clear:both;
    padding:5px 0px;
+   font-weight:bold;
 }
 
 #module-in-the-field p.left {
@@ -361,7 +362,7 @@ a.rollover:hover {
 
 #module-spec-specifications th {
    text-align:left;
-   padding:0px 5px 5px 5px;
+   padding:5px;
 }
 
 #module-spec-specifications td {
@@ -427,23 +428,29 @@ a.rollover:hover {
 
 /* About Template Styles */
 
-#about-at-a-glance {
+#about-sidebar {
    border:0px solid red;
    float:left;
    width:290px;
    padding:10px 10px 10px 0px;
 }
 
-#about-at-a-glance h3 {
+#about-sidebar h3 {
    color:#69F;
    margin-bottom:10px;
 }
 
-#about-at-a-glance hr {
+#about-sidebar hr {
    margin-bottom:10px;
 }
 
-#about-at-a-glance p {
+#about-sidebar p {
+   margin-bottom:10px;
+}
+
+#about-sidebar ul {
+   list-style-type:none;
+   padding-left:0px;
    margin-bottom:10px;
 }
 
@@ -451,12 +458,11 @@ a.rollover:hover {
    border:0px solid green;
    float:right;
    width:625px;
-   padding:10px 0px;
+   padding:15px 0px 10px 0px;
 }
 
 #about-content h3 {
    color:#69F;
-   margin-bottom:10px;
 }
 
 #about-content hr {
@@ -465,6 +471,14 @@ a.rollover:hover {
 
 #about-content p {
    margin-bottom:10px;
+}
+
+#about-content th {
+   padding:5px;
+}
+
+#about-content td {
+   padding:5px;
 }
 
 #about-consortium p {
@@ -483,4 +497,41 @@ a.rollover:hover {
 #about-contact {
    border:0px solid purple;
    clear:left;
+}
+
+#about-references p {
+   text-indent:-2em;
+   margin-left:2em;
+}
+
+#ariesteam-sidebar {
+   border:0px solid red;
+   float:left;
+   width:230px;
+   padding:10px 10px 10px 0px;
+}
+
+#ariesteam-sidebar img {
+   margin:10px 0px 10px 30px;
+   width: 150px;
+   border-width:0px;
+}
+
+#ariesteam-content {
+   border:0px solid green;
+   float:right;
+   width:685px;
+   padding:15px 0px 10px 0px;
+}
+
+#ariesteam-content h3 {
+   color:#69F;
+}
+
+#ariesteam-content hr {
+   margin-bottom:10px;
+}
+
+#ariesteam-content p {
+   margin-bottom:10px;
 }
