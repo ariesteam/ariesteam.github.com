@@ -17,8 +17,8 @@ maps: Source, sink, use, and flow maps for above ecosystem services
 
 partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/logos/uvmlogo-words.gif" /></a>
 ---
-# Overview
------------
+### Overview
+-------------
 
 The Pico Duarte Coffee Region and surrounding Madre de Las Aguas
 (Mother of Waters) Conservation Area are areas of critical ecological,
@@ -32,8 +32,8 @@ poly-cultures play an essential role in ensuring ecosystem function to
 conserve water resources, provide habitat for birds, and provide
 consumptive resources to households.
 
-# Local conditions
--------------------
+### Local conditions
+---------------------
 
 Farmers recognize the role of their shade coffee in maintaining these
 types of services, but have struggled to maintain their farms. As
@@ -50,8 +50,8 @@ landscape have resulted in environmental degradation threatening the
 stability of this ecosystem to maintain function and provide services
 at local, national and international levels.
 
-# Practical application
-------------------------
+### Practical application
+--------------------------
 
 In recent years, hydroelectric generation provided only 18% of the
 Dominican Republic's total demand for electricity. Nearly all the
@@ -74,8 +74,8 @@ region, conservation organizations, and government agencies with the
 necessary information to make coordinated decisions that improve
 overall landscape functionality with minimum levels of investment.
 
-# Steps
---------
+### Steps
+----------
 
 We adapted previously developed ARIES sediment regulation models for
 use in the Dominican Republic by adding or removing locally important

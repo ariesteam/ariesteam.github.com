@@ -22,16 +22,16 @@ highlights: >
 
 partner-logo:
 ---
-# Overview
------------
+### Overview
+-------------
 
 The San Pedro River, which flows north from Sonora into Arizona, is
 internationally recognized for its high biodiversity and ecological
 significance. A long history of scientific research in the watershed
 exists to support ecosystem services research on the watershed.
 
-# Practical application
-------------------------
+### Practical application
+--------------------------
 
 Much of the Upper San Pedro River's riparian corridor is managed by
 the Bureau of Land Management (BLM)'s San Pedro Riparian National
@@ -44,8 +44,8 @@ decision making for the BLM in the San Pedro watershed and
 agency-wide, as well as for other federal agencies responsible for
 public land management.
 
-# Steps
---------
+### Steps
+----------
 
 An initial stakeholder meeting was held to prioritize ecosystem
 services for analysis. These included water, carbon, biodiversity, and

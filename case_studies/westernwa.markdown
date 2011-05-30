@@ -24,8 +24,8 @@ lessons-learned: >
 
 partner-logo: <a href="http://www.eartheconomics.org/"><img alt="Earth Economics" src="/images/logos/EELogo_Tiny_jpg.jpg" /></a>
 ---
-# Overview
------------
+### Overview
+-------------
 
 ARIES is built on basic science and our understanding of how natural
 systems work. The better the data on hydrology, topography, soils, and
@@ -41,8 +41,8 @@ provisioning and spatial flows of floodwater also sets in place the
 basis for a funding mechanism that can be developed for the Flood
 Authority.
 
-# Practical application
-------------------------
+### Practical application
+--------------------------
 
 ARIES allowed a fully integrated approach to flood protection,
 utilizing extensive information from geographic information system
@@ -55,8 +55,8 @@ provide water elevation data in each subwatersheds, flood flows and
 enable simulation of flood protection options, including an analysis
 of tradeoffs with other co-benefit ecosystem services.
 
-# Steps
---------
+### Steps
+----------
 
 In the case of the Chehalis River Basin and flood protection, local
 GIS data was first gathered and integrated into the ARIES GeoServer,
@@ -70,8 +70,8 @@ protection. Further work to test and integrate external models will
 improve the accuracy and policy relevance of these ARIES model
 outputs.
 
-# Modeling flood scenarios
----------------------------
+### Modeling flood scenarios
+-----------------------------
 
 The ARIES team is currently developing scenario analysis with actual
 data from the Chehalis River Basin. A discussion of this planned

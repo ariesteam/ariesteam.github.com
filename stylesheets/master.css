@@ -21,6 +21,10 @@ sub {
    line-height:0.5em;
 }
 
+h1,h2,h3,h4,h5,h6 {
+   font-weight:normal;
+}
+
 #pagecontainer {
    border:0px solid green;
    width:930px;
@@ -150,8 +154,6 @@ p.learn-more a {
 }
 
 #homepage-content h2 {
-   font-size:large;
-   font-weight:normal;
    text-align:justify;
 }
 
@@ -200,7 +202,6 @@ a.rollover:hover {
 
 #module-titlebar {
    border:0px solid black;
-   font-weight:normal;
 }
 
 #module-titlebar button {
@@ -289,7 +290,6 @@ a.rollover:hover {
    float:left;
    width:600px;
    margin-bottom:10px;
-   font-weight:normal;
 }
 
 #module-spec-status {
@@ -297,7 +297,6 @@ a.rollover:hover {
    float:right;
    width:325px;
    padding-top:5px;
-   font-weight:normal;
 }
 
 #module-spec-status span {
@@ -378,7 +377,6 @@ a.rollover:hover {
 
 #case-study-titlebar {
    border:0px solid black;
-   font-weight:normal;
 }
 
 #case-study-sidebar {
@@ -415,8 +413,7 @@ a.rollover:hover {
    padding:10px 0px;
 }
 
-#case-study-details h1 {
-   font-size:medium;
+#case-study-details h3 {
    color:#69F;
 }
 
@@ -426,4 +423,64 @@ a.rollover:hover {
 
 #case-study-details p {
    margin-bottom:15px;
+}
+
+/* About Template Styles */
+
+#about-at-a-glance {
+   border:0px solid red;
+   float:left;
+   width:290px;
+   padding:10px 10px 10px 0px;
+}
+
+#about-at-a-glance h3 {
+   color:#69F;
+   margin-bottom:10px;
+}
+
+#about-at-a-glance hr {
+   margin-bottom:10px;
+}
+
+#about-at-a-glance p {
+   margin-bottom:10px;
+}
+
+#about-content {
+   border:0px solid green;
+   float:right;
+   width:625px;
+   padding:10px 0px;
+}
+
+#about-content h3 {
+   color:#69F;
+   margin-bottom:10px;
+}
+
+#about-content hr {
+   margin-bottom:10px;
+}
+
+#about-content p {
+   margin-bottom:10px;
+}
+
+#about-consortium p {
+   border:0px solid orange;
+   float:left;
+   width:150px;
+   height:100px;
+   padding:0px 10px;
+}
+
+#about-consortium p img {
+   width: 150px;
+   border-width:0px;
+}
+
+#about-contact {
+   border:0px solid purple;
+   clear:left;
 }

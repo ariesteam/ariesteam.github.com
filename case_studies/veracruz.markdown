@@ -23,8 +23,8 @@ highlights: >
 
 partner-logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="/images/INECOL.jpg" /></a>
 ---
-# Overview
------------
+### Overview
+-------------
 
 More than 72% of Veracruz's original forest has been converted to
 pastureland and agriculture.  Still, the remaining natural vegetation
@@ -36,8 +36,8 @@ flooding is becoming increasingly likely. This has led to unrest over
 water resources between neighboring states and municipalities with
 large population centers on their territory.
 
-# Practical application
-------------------------
+### Practical application
+--------------------------
 
 A majority of people living in ten poor communities in the
 predominantly forested Gavilanes watershed (located above the city of
@@ -53,8 +53,8 @@ practices, location of beneficiaries) to support conservation of such
 benefits while maintaining production for the diverse economic sectors
 in the region.
 
-# Workshop
------------
+### Workshop
+-------------
 
 Two preliminary meetings in Xalapa, Mexico between INECOL faculty and
 UVM/CI ARIES researchers were followed by a one-week training session

@@ -26,8 +26,8 @@ highlights: >
 
 partner-logo:
 ---
-# Overview
------------
+### Overview
+-------------
 
 The forces of rapid urban expansion are causing a rise in demand for
 urban ecosystem services. This swell in demand is also driving an
@@ -38,8 +38,8 @@ this phenomenon, and establishes a proof-of-concept for the ARIES
 approach using real world data at the project site scale (ca. 550
 acres).
 
-# Practical application
-------------------------
+### Practical application
+--------------------------
 
 A complete ARIES assessment of West Coyote Hills can help stakeholders
 to elucidate how much the surrounding community benefits from the
@@ -55,8 +55,8 @@ approaches. Developers may also choose to use ARIES as a communication
 tool to present community-based decisions that are firmly founded in
 science.
 
-# Steps
---------
+### Steps
+----------
 
 The West Coyote Hills case study was completed in two phases. In the
 first phase ecosystem services and their beneficiaries were

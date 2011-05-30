@@ -15,8 +15,8 @@ models: Carbon sequestration and storage, recreational viewsheds
 
 partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/logos/uvmlogo-words.gif" /></a>
 ---
-# Overview
------------
+### Overview
+-------------
 
 In northern New England, a century of forest regrowth following
 intensive agricultural clearance has led to a landscape dominated
@@ -33,8 +33,8 @@ could support these efforts, but would benefit from emerging ecosystem
 service models to map and quantify ecosystem services under different
 management alternatives.
 
-# Practical application: Carbon sequestration and storage
-----------------------------------------------------------
+### Practical application: Carbon sequestration and storage
+------------------------------------------------------------
 
 Preliminary models of carbon sequestration and storage were developed
 to assess the sequestration and storage potential of the mixed
@@ -53,8 +53,8 @@ and energy products for market, demonstrating the role that human
 managed landscapes play in supplying diverse economic and ecological
 goods and services.
 
-# Practical application: Scenic viewsheds
-------------------------------------------
+### Practical application: Scenic viewsheds
+--------------------------------------------
 
 This project focused on viewshed values associated with viewpoints
 located within a newly created Nature Conservancy Preserve in the
@@ -71,8 +71,8 @@ Preserve), this model could be expanded and applied more broadly to
 the Northern Forest region of northeastern United States, particularly
 the Adirondacks, Vermont, New Hampshire, and Maine.
 
-# Steps
---------
+### Steps
+----------
 
 Following past ecosystem services modeling approaches "causal webs" of
 factors affecting carbon dynamics in agricultural and forest soils and

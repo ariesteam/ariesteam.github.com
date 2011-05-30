@@ -27,8 +27,8 @@ highlights: >
 partner-logo: <a href="http://www.conservation.org/"><img alt="Conservation International" src="/images/logos/cilogo2.jpg" /></a>
               <a href="http://www.unep-wcmc.org"><img alt="UNEP World Conservation Monitoring Centre" src="/images/UNEP.jpg" /></a>
 ---
-# Overview
------------
+### Overview
+-------------
 
 A global biodiversity hotspot, Madagascar suffers from high rates of
 deforestation and poverty.  There has been great interest in targeting
@@ -46,8 +46,8 @@ terrestrial and marine ecosystem service flow models are linked, they
 will provide an unprecedented view of the connections between human
 well-being and linked marine and terrestrial ecosystems.
 
-# Steps
---------
+### Steps
+----------
 
 The Madagascar ecosystem services models primarily run on global
 terrestrial and marine datasets, supplemented by local data assembled
@@ -65,8 +65,8 @@ we are now positioned to develop linked marine-terrestrial ecosystem
 service flow models for Madagascar, which can then be extended and
 tested in other coastal and marine environments.
 
-# Reference
-------------
+### Reference
+--------------
 
 [Wendland, K.J., M. Honzak, R. Portela, B. Vitale, S. Rubinoff, and
 J. Randrianarisoa. 2010. Targeting and implementing payments for
