@@ -136,7 +136,7 @@ p.learn-more a {
 
 #homepage-sidebar img {
    margin:10px 0px 10px 50px;
-   width: 150px;
+   width:150px;
    border-width:0px;
 }
 
@@ -158,34 +158,34 @@ p.learn-more a {
 }
 
 #homepage-content hr {
-   margin:10px 0px;
+   margin-top:10px;
 }
 
 #homepage-content h3 {
    border:0px solid purple;
    color:#69F;
    clear:both;
-   padding:10px 0px;
+   padding:15px 0px 5px 0px;
 }
 
 #homepage-content p.left {
    border:0px solid green;
    float:left;
-   width:250px;
+   width:220px;
    margin-right:10px;
 }
 
 #homepage-content p.left img {
-   width:250px;
+   width:220px;
 }
 
 #homepage-content p {
    border:0px solid brown;
    float:right;
-   width:390px;
+   width:420px;
 }
 
-a.rollover {
+a.launch-button {
    display:block;
    width:140px;
    height:28px;
@@ -194,7 +194,7 @@ a.rollover {
    background:url("/images/launch_button.jpg");
 }
 
-a.rollover:hover {
+a.launch-button:hover {
    background-position:-140px 0px;
 }
 
@@ -534,4 +534,70 @@ a.rollover:hover {
 
 #ariesteam-content p {
    margin-bottom:10px;
+}
+
+/* Resources Template Styles */
+
+h1#toolkit {
+   margin-bottom:20px;
+}
+
+#resources-content h2 {
+   color:#69F;
+   margin-top:20px;
+}
+
+#resources-content hr {
+   margin-bottom:10px;
+}
+
+#resources-content p {
+   margin-bottom:10px;
+}
+
+a.launch-button-large {
+   display:block;
+   width:235px;
+   height:47px;
+   margin:10px 0px 20px 50px;
+   text-decoration:none;
+   background:url("/images/launch_button_large.jpg");
+}
+
+a.launch-button-large:hover {
+   background-position:-235px 0px;
+}
+
+#links-sidebar {
+   border:0px solid red;
+   float:left;
+   width:230px;
+   padding:10px 10px 10px 0px;
+}
+
+#links-sidebar img {
+   margin:10px 0px 10px 30px;
+   width: 150px;
+   border-width:0px;
+}
+
+#links-content {
+   border:0px solid green;
+   float:right;
+   width:685px;
+   padding:15px 0px 10px 0px;
+}
+
+#links-content h3 {
+   color:#69F;
+}
+
+#links-content hr {
+   margin-bottom:10px;
+}
+
+#links-content p {
+   margin-bottom:10px;
+   text-indent:-2em;
+   margin-left:2em;
 }

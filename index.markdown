@@ -5,7 +5,7 @@ title: ARtificial Intelligence for Ecosystem Services
 ---
 <div id="homepage-sidebar" markdown="1">
 
-<a class="rollover"
+<a class="launch-button"
    title="ARIES early preview, only for demonstration. Best seen with Firefox, Safari, or Google Chrome."
    onClick="window.open('http://ecoinformatics.uvm.edu/aries.app',
                         'ariesapp',
@@ -26,7 +26,7 @@ title: ARtificial Intelligence for Ecosystem Services
 
 ### Project sponsored by
 
-[![National Science Foundation](/images/nsf1.gif)](http://www.nsf.gov)
+[![National Science Foundation](/images/logos/nsf_logo.png)](http://www.nsf.gov)
 
 [![United Nations Environment Programme World Conservation Monitoring Centre](/images/UNEP.jpg)](http://www.unep-wcmc.org)
 
