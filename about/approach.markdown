@@ -92,6 +92,8 @@ the appropriate models - deterministic or probabilistic and spatial
 data to quantify and map ecosystem services at the appropriate spatial
 scale and ecological and socioeconomic context.
 
+![](/images/integrated_modeling.png)
+
 ### A benefits- and beneficiaries-based approach to ecosystem services
 -----------------------------------------------------------------------
 
@@ -109,6 +111,8 @@ differently.  Conceptualizing ecosystem services as a concrete list of
 benefits for concrete beneficiary groups avoids the problem of "double
 counting" of benefits that has plagued past ecosystem service
 valuation efforts.
+
+![](/images/beneficiaries.png)
 
 ### Spatial dynamics of ecosystem services
 -------------------------------------------
@@ -129,6 +133,8 @@ potential provision of ecosystem services, ARIES maps actual
 provision, use, and flows of services by accounting for flow paths and
 rival use or "sink" regions that deplete or transform the carrier of a
 service as it moves across the landscape.
+
+![](/images/flows.png)
 
 ### Data and model integration
 -------------------------------

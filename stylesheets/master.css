@@ -571,6 +571,11 @@ a.launch-button:hover {
    padding:5px;
 }
 
+#about-content img {
+   width:550px;
+   margin-left:35px;
+}
+
 #about-consortium p {
    border:0px solid orange;
    float:left;

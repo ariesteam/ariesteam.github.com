@@ -115,7 +115,7 @@ flows to various beneficiary groups.
 
 ### Linking terrestrial and marine services for coastal management
 
-![](/images/438px-Heavy_Sediment_along_the_Queensland_Coast.jpg)
+![](/images/Queensland_Coast_cropped.png)
 {: .left }
 
 By accounting for biophysical flows of ecosystem services across the
