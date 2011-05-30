@@ -62,7 +62,7 @@ steeply-sloped environments where RUSLE is known to perform poorly.
 
 #### Madagascar
 
-![](/images/lemur_160.gif)
+![](/images/mg_stream.jpg)
 {: .left }
 
 Sedimentation is particularly problematic in Madagascar, where high

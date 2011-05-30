@@ -43,7 +43,7 @@ human well-being.
 
 #### Madagascar
 
-![](/images/lemur_160.gif)
+![](/images/800px-Boat_in_Nosy_Komba,_Madagascar.jpg)
 {: .left }
 
 Subsistence fisheries models for Madagascar rely on global spatial
