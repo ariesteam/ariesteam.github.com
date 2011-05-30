@@ -362,7 +362,7 @@ a.rollover:hover {
 
 #module-spec-specifications th {
    text-align:left;
-   padding:0px 5px 5px 5px;
+   padding:5px;
 }
 
 #module-spec-specifications td {
@@ -448,6 +448,12 @@ a.rollover:hover {
    margin-bottom:10px;
 }
 
+#about-at-a-glance ul {
+   list-style-type:none;
+   padding-left:0px;
+   margin-bottom:10px;
+}
+
 #about-content {
    border:0px solid green;
    float:right;
@@ -466,6 +472,14 @@ a.rollover:hover {
 
 #about-content p {
    margin-bottom:10px;
+}
+
+#about-content th {
+   padding:5px;
+}
+
+#about-content td {
+   padding:5px;
 }
 
 #about-consortium p {
