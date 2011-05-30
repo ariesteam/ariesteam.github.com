@@ -17,6 +17,10 @@ body {
    font-weight:normal;
 }
 
+sub {
+   line-height:0.5em;
+}
+
 #pagecontainer {
    border:0px solid green;
    width:930px;
@@ -207,6 +211,21 @@ a.rollover:hover {
 #module-intro {
    border:0px solid green;
    margin:20px 0px;
+}
+
+#module-intro object {
+   border:0px solid red;
+   height:350px;
+   width:745px;
+   margin:0px 0px 10px 90px;
+}
+
+#module-intro object img {
+   height:33px;
+   width:112px;
+}
+
+#module-intro > p {
    text-align:justify;
    font-size:medium;
 }
@@ -340,10 +359,6 @@ a.rollover:hover {
 #module-spec-specifications table {
    margin-bottom:10px;
 }
-
-//#module-spec-specifications tbody {
-//   border:1px solid red;
-//}
 
 #module-spec-specifications th {
    text-align:left;

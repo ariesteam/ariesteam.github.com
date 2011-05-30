@@ -7,6 +7,16 @@ module-specs-url: /modules/aesthspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+<object type="application/x-shockwave-flash" data="/flash/aesthetics.swf" markdown="1">
+  <param name="quality" value="high" />
+  <param name="wmode" value="opaque" />
+  <param name="swfversion" value="6.0.65.0" />
+  <param name="expressinstall" value="/flash/expressInstall.swf" />
+  <param name="LOOP" value="false" />
+**Content on this page requires a newer version of Adobe Flash Player.**
+[![Get Adobe Flash player](images/get_flash_player.gif)](http://www.adobe.com/go/getflashplayer)
+</object>
+
 Sensory enjoyment provided by the landscape is crucial to human
 well-being. ARIES supports the quantification of all these types of
 aesthetic value.
