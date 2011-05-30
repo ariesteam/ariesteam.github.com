@@ -216,7 +216,7 @@ reached at <octavio.maqueo@inecol.edu.mx>
 Rosimeiry Portela is an Ecological Economist/Senior Director for the
 Science and Knowledge at Conservation International
 (CI). Dr. Portela's research focus primarily on improving the
-understanding of the linkages between biodiversity conservation, and
+understanding of the linkages between biodiversity conservation and
 the provision of ecosystem services (ES). She leads a team of
 researchers working on a variety of biophysical and economics modeling
 techniques to estimate provision, benefits and values of ecosystem
@@ -226,15 +226,11 @@ biomes. Elements of Rosimeiry's work include: spatial assessment and
 valuation of ES provision; supporting development of ARIES; supporting
 development of the scientific framework, providing policy
 recommendations, and compiling ecosystem services values for TEEB -
-The Economics of Ecosystem and Biodiversity.
-
-Rosimeiry has extensive experience with natural resources management
-in the Brazilian southern Amazon. She has a Master's degree from the
-University of Florida, Gainesville and a Ph.D. from the University of
-Maryland, College Park. Rosimeiry also worked for the World Bank
-Institute to advance understanding of how market mechanisms can be
-used to conserve biodiversity and ES provision while maintaining
-sustainable livelihoods.  Rosimeiry can be reached at
-<r.portela@conservation.org>
+The Economics of Ecosystem and Biodiversity. She has a Master's degree 
+from the University of Florida, Gainesville and a Ph.D. from the University 
+of Maryland, College Park. Rosimeiry also worked for the World Bank Institute 
+to advance understanding of how market mechanisms can be used to conserve 
+biodiversity and ES provision while maintaining sustainable livelihoods.  
+Rosimeiry can be reached at <r.portela@conservation.org>
 
 </div>
