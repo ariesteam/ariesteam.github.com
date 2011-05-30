@@ -26,7 +26,7 @@ title: ARtificial Intelligence for Ecosystem Services
 
 ### Project sponsored by
 
-[![National Science Foundation](/images/nsf1.gif)](http://www.nsf.gov)
+[![National Science Foundation](/images/logos/nsf_logo.png)](http://www.nsf.gov)
 
 [![United Nations Environment Programme World Conservation Monitoring Centre](/images/UNEP.jpg)](http://www.unep-wcmc.org)
 
