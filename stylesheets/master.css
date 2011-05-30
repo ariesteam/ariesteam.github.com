@@ -17,7 +17,7 @@ body {
    font-weight:normal;
 }
 
-sub {
+sup,sub {
    line-height:0.5em;
 }
 
@@ -264,6 +264,7 @@ a.rollover:hover {
    border:0px solid purple;
    clear:both;
    padding:5px 0px;
+   font-weight:bold;
 }
 
 #module-in-the-field p.left {
@@ -451,7 +452,7 @@ a.rollover:hover {
    border:0px solid green;
    float:right;
    width:625px;
-   padding:10px 0px;
+   padding:6px 0px 10px 0px;
 }
 
 #about-content h3 {
@@ -483,4 +484,9 @@ a.rollover:hover {
 #about-contact {
    border:0px solid purple;
    clear:left;
+}
+
+#about-references p {
+   text-indent:-2em;
+   margin-left:2em;
 }
