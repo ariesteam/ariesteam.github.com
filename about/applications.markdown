@@ -5,7 +5,7 @@ title: Applications of ARIES
 ---
 # Applications of ARIES
 
-<div id="about-at-a-glance" markdown="1">
+<div id="about-sidebar" markdown="1">
 
 ## At a glance
 ---------------
