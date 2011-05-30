@@ -66,7 +66,7 @@ of natural or artificial mitigation structures.
 
 #### Madagascar
 
-![](/images/lemur_160.gif)
+![](/images/457px-Indlala_15_mar_2007_0640Z.jpg)
 {: .left }
 
 Eastern Madagascar is highly susceptible to tropical storms coming off

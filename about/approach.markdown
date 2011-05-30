@@ -84,211 +84,81 @@ process models or Bayesian models. ARIES then uses a series of
 agent-based flow algorithms to map actual service flow from ecosystems
 to people.
 
-### Introduction to probabilistic modeling
+### Integrated modeling platform
 -------------------------------------------
 
-Bayesian statistical approaches have been used to address a variety of
-issues in environmental valuation and value transfer (Brundson and
-Willis 2002), including determination of which independent variables
-to include in regression models (Moeltner and Rosenberger 2007,
-Leon-Gonzalez and Scarpa 2008), accounting for the "n vs. k" problem
-in function transfer, and in handling the effects of methodological
-independent variables when using a transfer function (Moeltner et
-al. 2007, Moeltner and Woodward 2009). Bayesian methods are a general
-approach to statistical problems in meta analysis and function
-transfer rather than a one-size-fits-all solution to the problems of
-ecosystem service valuation. Despite the use of Bayesian approaches to
-meta analysis and function transfer, the ARIES project is the first to
-use Bayesian models to map ecosystem services provision, use, and
-spatial dynamics.
+Through artificial intelligence and semantic modeling, ARIES assembles the 
+appropriate models - deterministic or probabilistic and spatial data to
+quantify and map ecosystem services at the appropriate spatial scale and
+ecological and socioeconomic context.  
 
-Basic principles of Bayesian models in ecology are described well by
-McCann et al. (2006), part of a special issue of the Canadian Journal
-of Forest Research dealing with Bayesian modeling in ecology.Marcot et
-al. (2006) provide a number of basic principles for Bayesian modeling
-that we have followed in our work regarding model construction,
-development of prior and conditional probabilities, and testing and
-review of the models.  Per Marcot et al.'s recommendations on keeping
-conditional probability tables tractable and transparent, we generally
-use no more than 3-5 discrete states for each variable (often
-classified as "high-moderate-low" or "very high-high-moderate-low-very
-low"), make each variable a function of no more than 3-5 other
-variables, and use intermediate variables where appropriate. We direct
-readers with further interest in Bayesian networks and stronger
-backgrounds in probability theory to Pearl (1988).
-
-We note that some readers who are unfamiliar with Bayesian approaches
-may feel uncomfortable with the perceived subjectivity of assigning
-prior and conditional probabilities in our models. We feel that
-Brundson and Willis (2002) address this point quite well:
-
-"Some would argue that incorporating beliefs about models other than
-those implied by empirical measurement is a subjective, or
-unscientific, approach. In response, it could be stated that,
-certainly, Bayesianism has the potential for this problem to arise,
-and so one must have a strict 'code of conduct' for prior distribution
-specification.  For example, making use of the outcomes off previous
-studies to provide prior beliefs is a reasonable scientific
-standpoint. Indeed, it could be argued that it is unscientific to
-ignore these prior results! Another way of avoiding subjectivity is to
-use non-informative priors in cases where prior information is
-unavailable or unobserved.  Of course, one could argue that even a
-non-informative prior gives us *some* form of information about the
-distribution of an unknown parameter: after all, a specific
-distribution is being supplied rather than the information that *any*
-distribution might apply.  However, in many cases non-informative
-priors do make reasonable models for a state of no subjective
-knowledge. In several 'text-book' examples of Bayesian analysis, for
-example multiple linear regression analysis assuming normal error
-terms, the adoption of non-informative priors results in tests
-algebraically identical to classical inferential procedures. In most
-cases, analysts are reasonably satisfied with regarding such classical
-approaches as 'objective'."
-
-As described for each model, we incorporate model elements from the
-literature and conversations with local experts on each ecosystem
-service, facilitated by our case study partners - Conservation
-International in Madagascar, CI and INECOL in Veracruz, Mexico, Earth
-Economics in Western Washington, and the U.N. Environmental
-Program-World Conservation Monitoring Center (UNEP-WCMC) for marine
-ecosystem services.
-
-Users should note that ad hoc Bayesian models are not always
-appropriate or necessary in the ARIES system - where well-accepted,
-peer-reviewed ecological process models can provide input data or
-values for the source, sink, or use of an ecosystem service, these
-models can be incorporated instead of probabilistic models. The ARIES
-system is then instructed as to which cases to use the probabilistic
-versus deterministic model (e.g., in a particular part of the world or
-at a particular spatial scale). Also, in some cases (particularly for
-the beneficiary or use models), a single spatial data layer or a
-simple GIS operation on two or more layers may suffice to map
-beneficiaries, rather than requiring a Bayesian network.
-
-### Next steps
+### A benefits- and beneficiaries-based approach to ecosystem services
 ---------------
 
-Like all ecological models, ARIES remains a work in progress as we
-continue to add the latest ecological knowledge and spatial datasets,
-incorporate existing process-based models where these can better
-inform ecosystem services modeling, build new probabilistic models for
-additional ecosystem services, and customize existing probabilistic
-models to provide useful estimates for new case study regions. Further
-testing of these models and review with local experts and decision
-makers for the case studies is a critical next step for the ARIES
-system in order to move it from a position of demonstrating the
-spatial dynamics of ecosystem services to being able to quantitatively
-inform conservation, restoration, land use, development, and resource
-extraction choices.
+Rather than relying on sometimes-abstract lists of ecosystem services, 
+ARIES maps concrete, spatially-explicit beneficiaries of ecosystem services, 
+and quantifies their demand for each service.  For instance, rather than 
+mapping "disturbance regulation," ARIES separately considers cases for 
+flooding on rivers, flooding in coastal zones, and avalanches or mudslides.  
+Regulation of each of these disturbances depends on different processes and 
+patterns of water or soil flows.  Different beneficiary groups are explicitly 
+identified (e.g., crops, housing, lives at risk, privately-owned structures 
+or public infrastructure), as each of these groups will value the benefit 
+differently.  Conceptualizing ecosystem services as a concrete list of benefits 
+for concrete beneficiary groups avoids the problem of "double counting" of 
+benefits that has plagued past ecosystem service valuation efforts.
 
-The economic valuation system in ARIES is currently limited in scope.
-Services are expressed in either biophysical units (i.e., for carbon,
-sediment, or flood water) or relative units (e.g., for view quality or
-recreational value).  Longer-range plans include integration of ARIES
-with the Ecosystem Services Database (ESD, Villa et al.  2002). This
-will enable users to view primary economic valuation studies from
-their region of interest. Since ARIES is capable of mapping ecosystem
-service flows - the connection between ecosystems and their human
-beneficiaries, spatial determinants of supply and demand, and in
-handing data probabilistically, future additions to the system can
-enable more sophisticated forms of value transfer that incorporate
-benefit flows and Bayesian approaches.  In the interim, an economic
-valuation system in ARIES links land use-land cover types to per-area
-economic value derived from studies like Costanza et al. (1997). The
-drawbacks of this approach are quite well known, and users are advised
-to interpret such results with a full understanding of their
-limitations.
-
-ARIES is an open-source project that strives for transparency in its
-use of data and models. We encourage all ARIES users to submit
-suggestions, edits, and additions to our library of models and spatial
-data, and to this modeling guide, as we continue working to improve
-the system.  Thank you for your interest as we work to build a system
-for improved environmental management built on the principles of
-environmental sustainability, socially just access to resources, and a
-more efficient allocation between market and non-market goods and
-services.
-
-<div id="about-references" markdown="1">
-
-### References
+### Spatial dynamics of ecosystem services
 ---------------
 
-Brunsdon, C. and Willis, K.G.  2002. Meta-analysis, a Bayesian
-perspective. In: R.J.G.M. Florax, et al. (Eds.), Comparative
-Environmental Economic Assessment, Edward Elgar, Cheltenham, UK.
+Researchers have long recognized that the ecosystems that provide benefits 
+to people and the beneficiaries of these services are not always located in 
+the same regions in space.  ARIES is the first modeling tool to explicitly 
+account for this spatial disconnect.  ARIES accomplishes this by first using 
+deterministic or probabilistic models to map provision, use, and sinks of 
+ecosystem services.  We then use agent-based models to move a carrier for 
+each service (e.g., tons of carbon dioxide, tons of sediment, kg of fish, 
+or abstract units of view) across the landscape according to service-specific 
+flow paths (e.g., through atmospheric mixing, hydrologic flows, transportation 
+networks, or lines of sight).  While most past ecosystem services mapping tools 
+and projects have simply mapped the potential provision of ecosystem services, 
+ARIES maps actual provision, use, and flows of services by accounting for flow 
+paths and rival use or "sink" regions that deplete or transform the carrier of 
+a service as it moves across the landscape.
 
-Chan, K.M.A., et al. 2006.  Conservation planning for ecosystem
-services. PLOS Biology 4 (11): 2138-2152.
+### Data and model integration
+---------------
 
-Costanza, R, et al.  1997. The value of the world&#39;s ecosystem
-services and natural capital. Nature 387: 253-260.
+Unlike manual approaches to ecosystem service mapping, where a user must 
+download, prepare, and manipulate spatial data directly, ARIES stores 
+hundreds of pre-loaded local through global scale GIS datasets on the 
+ARIES GeoServer.  These data are semantically annotated or "tagged" with 
+relevant concepts so that ecosystem service models automatically call on, 
+transform, and integrate the relevant data into each model.  The open-source 
+ARIES modeling language, written in Java and Clojure, assembles, transforms, 
+and processes data automatically while running the appropriate set of 
+probabilistic, deterministic, or agent-based models for each ecosystem service.  
+Results are returned to the user during an online ARIES session.  While full 
+reporting of results takes place online, the user can also export results 
+as netCDFs, which can be easily imported into external GIS or netCDF 
+viewing platforms for further display and analysis.
 
-Eade, J.D.O. and D. Moran.  1996. Spatial economic valuation: Benefits
-transfer using geographical information systems.  Journal of
-Environmental Management 48: 97-110.
 
-Fisher, B., et al.  2008. Ecosystem services and economic theory:
-Integration for policy-relevant research.  Ecological Applications 18
-(8): 2050-2067.
+### A pluralistic approach to economic valuation
+---------------
 
-Johnson, G., et al. 2010.  Service Path Attribute Networks (SPANs):
-Spatially quantifying the flow of ecosystem services from landscapes
-to people. Lecture Notes in Computer Science 6016: 238-253.
+ARIES is capable of using several approaches for economic valuation of ecosystem
+services. After computing values for a set of ecosystem services of interest, 
+multiple services can be paired with priority weights stated by the user, in a 
+multiple criteria analysis that will yield maps of concordance of the computed flows
+of ES with the levels of provision desired by the user. Such maps can be considered
+"abstract" quantification of relative value. Alternatively, ES flow information can
+be used to build a transfer function to translate previously assessed economic values
+for specific benefits into estimated valuation portfolios when required by the user.
+The transfer function operates on the agggregated values retrieved from the Ecosystem
+Services Database with the help of a neural network classification algorithm that 
+identifies most likely candidates based on ecological and economic similarities between
+source and destination areas.
 
-Leon-Gonzalez, R. and R. Scarpa 2008.  Improving multi-site benefit
-functions via Bayesian model averaging: A new approach to benefit
-transfer. Journal of Environmental Economics and Management 56: 50-68.
-
-Marcot, B.G., et al. 2006.  Guidelines for developing and updating
-Bayesian belief networks applied to ecological modeling and
-conservation. Canadian Journal of Forest Research 36: 3063-3074.
-
-McCann, R.K., et al.  2006. Bayesian belief networks: applications in
-ecology and natural resource management. Canadian Journal of Forest
-Research 36: 3053-3062.
-
-Moeltner, K. and R.S. Rosenberger.  2007. Meta-regression and benefit
-transfer: Data space, model space, and the quest for 'optimal scope.'
-UNR Joint Economics Working Paper Series Working Paper No. 07-011.
-Department of Resource Economics, University of Nevada, Reno.
-
-Moeltner, K., et al.  2007. Meta-analysis and benefit transfer for
-resource valuation, addressing classical challenges with Bayesian
-modeling. Journal of Environmental Economics and Management 53:
-250-269.
-
-Moeltner, K. and Woodward, R.  2009. Meta-functional benefit transfer
-for wetland valuation: Making the most of small samples. Environmental
-and Resource Economics 42: 89-108.
-
-Pearl, J. 1988.  Probabilistic reasoning in intelligent systems:
-Networks of plausible inference.  Morgan-Kaufmann: San Francisco.
-
-Raudsepp-Hearne, C., et al.  2010. Ecosystem service bundles for
-analyzing tradeoffs in diverse landscapes.  Proceedings of the
-National Academy of Sciences 107 (11): 5242-5247.
-
-Ruhl, J.B., et al.  2007. The law and policy of ecosystem
-services. Island Press: Washington, DC.
-
-Tallis, H., et al.  2008. An ecosystem services framework to support
-both practical conservation and economic development. Proceedings of
-the National Academy of Sciences 105 (28): 9457-9464.
-
-Tallis, H.T., et al. 2010.  InVEST 1.004 beta User's Guide. The
-Natural Capital Project, Stanford.
-
-Villa, F., et al. 2002.  Designing an integrated knowledge base to
-support ecosystem services valuation. Ecological Economics 41:
-445-456.
-
-Villa, F., et al.  2009. ARIES (Artificial Intelligence for Ecosystem
-Services): A new tool for ecosystem services assessment, planning, and
-valuation.  Proceedings of the 11<sup>th</sup> Annual BIOECON
-Conference on Economic Instruments to Enhance the Conservation and
-Sustainable Use of Biodiversity, Venice, Italy, September, 2000
-
-</div>
 
 </div>

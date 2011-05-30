@@ -101,4 +101,42 @@ operations.  These applications can help businesses reduce liability,
 maintain and improve a positive corporate image, and explore new
 revenue streams.
 
+### Managing tradeoffs for public lands
+
+![](/images/san-pedro-leaves47a.jpg)
+{: .left }
+
+ARIES is being tested, along with other ecosystem service tools, for
+use in comparing tradeoffs between extractive resource use and
+ecosystem service provision on public lands.  As these lands come
+under greater pressure for resource use, quantifying associated
+ecosystem service tradeoffs becomes critical in protecting service
+flows to various beneficiary groups.
+
+### Linking terrestrial and marine services for coastal management
+
+![](/images/438px-Heavy_Sediment_along_the_Queensland_Coast.jpg)
+{: .left }
+
+By accounting for biophysical flows of ecosystem services across the
+landscape, ARIES can link marine and terrestrial habitats as never
+before.  For example, we can model flows of sediment, nutrients, and
+freshwater from land to nearshore ecosystems, allowing us to model
+change in provision of marine ecosystem services based on changing
+land use practices.  ARIES' initial marine case study is being
+developed in Madagascar through a partnership with UNEP's World
+Conservation Monitoring Center.
+
+### Climate change and ecosystem services
+
+![](/images/774px-Smokestacks_3958.jpg)
+{: .left }
+
+ARIES can be used to generate scenarios to explore changes in
+ecosystem service provision and use based on changes in ecosystem
+service supply or demand.  By using climate change scenarios that
+account for changes in precipitation or other climate variables, we
+can predict changes to ecosystem services under various potential
+climate futures.
+
 </div>
