@@ -5,7 +5,7 @@ title: ARtificial Intelligence for Ecosystem Services
 ---
 <div id="homepage-sidebar" markdown="1">
 
-<a class="rollover"
+<a class="launch-button"
    title="ARIES early preview, only for demonstration. Best seen with Firefox, Safari, or Google Chrome."
    onClick="window.open('http://ecoinformatics.uvm.edu/aries.app',
                         'ariesapp',
