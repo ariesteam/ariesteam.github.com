@@ -1,7 +1,7 @@
 ---
 layout: module
 
-title: Sediment regulation
+title: Sediment retention
 
 module-specs-url: /modules/soilspecs.html
 ---

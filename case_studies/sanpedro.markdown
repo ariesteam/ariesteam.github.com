@@ -1,7 +1,7 @@
 ---
 layout: case_study
 
-title: San Pedro River Case Study
+title: San Pedro River, AZ Case Study
 
 case-study-image: <img src="/images/sanpedromap.jpg" alt="San Pedro watershed map" />
 

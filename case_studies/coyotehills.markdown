@@ -1,7 +1,7 @@
 ---
 layout: case_study
 
-title: West Coyote Hills, Orange County Case Study
+title: West Coyote Hills, CA Case Study
 
 case-study-image: <img src="/images/CoyoteHillsCarbonUptake.jpg" alt="West Coyote Hills carbon sequestration map" />
 

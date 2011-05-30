@@ -1,7 +1,7 @@
 ---
 layout: case_study
 
-title: La Antigua, Veracruz Case Study
+title: Veracruz, Mexico Case Study
 
 case-study-image: <img src="/images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
 

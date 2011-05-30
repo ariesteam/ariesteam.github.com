@@ -7,7 +7,7 @@ title: The ARIES Team
 
 <div id="ariesteam-sidebar" markdown="1">
 
-## Collaboratory Partners
+## Collaboratory partners
 --------------------------
 
 [![United Nations Environment Programme World Conservation Monitoring Centre](/images/UNEP.jpg)](http://www.unep-wcmc.org)
