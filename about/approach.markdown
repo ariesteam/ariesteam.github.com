@@ -85,7 +85,7 @@ agent-based flow algorithms to map actual service flow from ecosystems
 to people.
 
 ### Integrated modeling platform
--------------------------------------------
+---------------------------------
 
 Through artificial intelligence and semantic modeling, ARIES assembles the 
 appropriate models - deterministic or probabilistic and spatial data to
@@ -93,7 +93,7 @@ quantify and map ecosystem services at the appropriate spatial scale and
 ecological and socioeconomic context.  
 
 ### A benefits- and beneficiaries-based approach to ecosystem services
----------------
+-----------------------------------------------------------------------
 
 Rather than relying on sometimes-abstract lists of ecosystem services, 
 ARIES maps concrete, spatially-explicit beneficiaries of ecosystem services, 
@@ -109,7 +109,7 @@ for concrete beneficiary groups avoids the problem of "double counting" of
 benefits that has plagued past ecosystem service valuation efforts.
 
 ### Spatial dynamics of ecosystem services
----------------
+-------------------------------------------
 
 Researchers have long recognized that the ecosystems that provide benefits 
 to people and the beneficiaries of these services are not always located in 
@@ -127,7 +127,7 @@ paths and rival use or "sink" regions that deplete or transform the carrier of
 a service as it moves across the landscape.
 
 ### Data and model integration
----------------
+-------------------------------
 
 Unlike manual approaches to ecosystem service mapping, where a user must 
 download, prepare, and manipulate spatial data directly, ARIES stores 
@@ -143,9 +143,8 @@ reporting of results takes place online, the user can also export results
 as netCDFs, which can be easily imported into external GIS or netCDF 
 viewing platforms for further display and analysis.
 
-
 ### A pluralistic approach to economic valuation
----------------
+-------------------------------------------------
 
 ARIES is capable of using several approaches for economic valuation of ecosystem
 services. After computing values for a set of ecosystem services of interest, 
@@ -159,6 +158,5 @@ The transfer function operates on the agggregated values retrieved from the Ecos
 Services Database with the help of a neural network classification algorithm that 
 identifies most likely candidates based on ecological and economic similarities between
 source and destination areas.
-
 
 </div>
