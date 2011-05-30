@@ -230,7 +230,19 @@ a.launch-button:hover {
    width:112px;
 }
 
-#module-intro > p {
+#module-intro p.center {
+   border:0px solid purple;
+   width:100%;
+   text-align:center;
+}
+
+#module-intro p img {
+   border:0px solid red;
+   height:350px;
+   margin-bottom:10px;
+}
+
+#module-intro p {
    text-align:justify;
    font-size:medium;
 }

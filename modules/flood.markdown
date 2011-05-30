@@ -7,6 +7,9 @@ module-specs-url: /modules/floodspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/800px-Breached_Farm_Levee_in_East_Carroll_Parish.jpg)
+{: .center }
+
 Floods are complex events, difficult to predict and even more
 difficult to protect against. Typically, a watershed's hydrology is
 poorly understood; weather is notoriously difficult to forecast.

@@ -7,6 +7,9 @@ module-specs-url: /modules/soilspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/Coal_Runoff.jpg)
+{: .center }
+
 Erosion and sedimentation are major global problems that impose a high
 cost on the functioning of ecosystems (e.g. aquatic, coastal, and
 nearshore marine ecosystems) and economic sectors (e.g., agriculture,

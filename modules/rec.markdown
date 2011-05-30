@@ -7,6 +7,9 @@ modules-specs-url: /modules/recspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/hikers_cropped.png)
+{: .center }
+
 Ecosystems provide settings for a hugely diverse array of recreational
 activities. Recreational values are among the most well-recognized of
 all ecosystem services by the public, and human preferences for

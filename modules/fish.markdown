@@ -7,6 +7,9 @@ module-specs-url: /modules/fishspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/800px-Boat_in_Nosy_Komba_Madagascar.jpg)
+{: .center }
+
 Many rural communities around the world depend on fisheries as a key
 protein source. Sustainable fisheries management requires an
 understanding of the linkages between deforestation, erosion, sediment

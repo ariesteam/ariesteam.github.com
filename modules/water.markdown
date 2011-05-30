@@ -7,6 +7,9 @@ module-specs-url: /modules/waterspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/mg_stream.jpg)
+{: .center }
+
 Water supply is a critical ecosystem service, and the quantity,
 quality, and timing of freshwater in surface water bodies and
 groundwater are important factors in supporting human well-being.

@@ -7,6 +7,9 @@ module-specs-url: /modules/coastspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/800px-Atlantic_hurricane_tracks.jpg)
+{: .center }
+
 High-profile tropical storm and tsunami events including the Indian
 Ocean tsunami in 2004 and Hurricane Katrina in 2005 spurred great
 interest in understanding the role of coastal ecosystems in mitigating
