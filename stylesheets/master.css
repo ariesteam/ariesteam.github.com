@@ -153,7 +153,11 @@ p.learn-more a {
    margin:0px 25px 20px 20px;
 }
 
-#homepage-content h2 {
+#homepage-content p.large {
+   border:0px solid red;
+   float:none;
+   width:100%;
+   font-size:large;
    text-align:justify;
 }
 
@@ -559,7 +563,7 @@ a.launch-button-large {
    display:block;
    width:235px;
    height:47px;
-   margin:10px 0px 20px 50px;
+   margin:15px 0px 20px 345px;
    text-decoration:none;
    background:url("/images/launch_button_large.jpg");
 }

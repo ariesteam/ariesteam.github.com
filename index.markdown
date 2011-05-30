@@ -51,7 +51,12 @@ title: ARtificial Intelligence for Ecosystem Services
         allowfullscreen="true">
 </iframe>
 
-## ARIES redefines ecosystem services assessment and valuation in decision-making. The ARIES approach to mapping benefits, beneficiaries, and service flows is a powerful new way to value and manage the ecosystems on which the human economy and well-being depend.
+ARIES redefines ecosystem services assessment and valuation in
+decision-making. The ARIES approach to mapping benefits,
+beneficiaries, and service flows is a powerful new way to visualize,
+value, and manage the ecosystems on which the human economy and
+well-being depend.
+{: .large }
 
 ---------------------------
 
