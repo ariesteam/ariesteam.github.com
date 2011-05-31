@@ -76,7 +76,7 @@ ecosystems and the services they provide.
 
 #### Dominican Republic
 
-![](/images/Dominican%20Rep-NASA.jpg)
+![](/images/Dominican_Rep-NASA.jpg)
 {: .left }
 
 In the Dominican Republic, sediment loss from intensive agricultural

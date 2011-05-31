@@ -75,7 +75,7 @@ relevant ecosystem types.
 
 #### La Antigua, Veracruz
 
-![La Antigua Photo by Jen Harrison-Cox](/images/veracruz-la%20Antigua%20075.jpg)
+![La Antigua Photo by Jen Harrison-Cox](/images/veracruz-la_Antigua_075.jpg)
 {: .left }
 
 We developed ARIES water supply models for Mexico's La Antigua River
