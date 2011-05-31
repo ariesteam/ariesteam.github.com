@@ -38,19 +38,19 @@ model archives, and case study applications.
 ### Ferdinando Villa
 ---------------------
 
-**Ferdinando Villa, Principal Investigator.** Ferdinando holds a
-Ph.D. in theoretical Ecology and had a long parallel career as a
-scientific software designer and engineer. After working in many
-fields of Ecology, from theoretical Island Biogeography to
-spatially-explicit Decision Analysis, he joined the Gund Institute for
-Ecological Economics at the University of Vermont. He has since
-expanded the focus of his research to the interface of policy, ecology
-and economics, concentrating on artificial intelligence approaches to
-assist environmental decision making and natural system assessment and
-valuation. Dr. Villa currently leads the ARIES project (Artificial
-Intelligence for Ecosystem Services which is producing a
+Ferdinando Villa is the Principal Investigator for the ARIES project.
+Ferdinando holds a Ph.D. in theoretical Ecology and had a long 
+parallel career as a scientific software designer and engineer. 
+After working in many fields of Ecology, from theoretical Island 
+Biogeography to spatially-explicit Decision Analysis, he joined the 
+Gund Institute for  Ecological Economics at the University of Vermont. 
+He has since expanded the focus of his research to the interface of 
+policy, ecology and economics, concentrating on artificial intelligence 
+approaches to assist environmental decision making and natural system 
+assessment and valuation. Ferdinando currently leads the ARIES project 
+(Artificial Intelligence for Ecosystem Services which is producing a
 next-generation web application meant to make environmental decisions
-easier and more effective. Along with ARIES, Dr. Villa collaborates
+easier and more effective. Along with ARIES, Ferdinando collaborates
 with many other projects including the Long Term Ecosystem Research
 project and the SEAMLESS (System for Environmental and Agricultural
 Modeling; Linking European Science and Society project, financed by
@@ -74,7 +74,7 @@ at <ferdinando.villa@bc3research.org>
 ### Brian Voigt
 ----------------
 
-Brian Voigt is a Post-doctoral Fellow at the Rubenstein School for the
+Brian Voigt is a Post-Doctoral Fellow at the Rubenstein School for the
 Environment and Natural Resources at the University of Vermont. His
 interests focus on developing and applying computer based systems for
 modeling land use conversion and urban sprawl. Brian has applied an
@@ -90,21 +90,22 @@ Brian can be reached at <bvoigt@uvm.edu>
 ### David Batker
 -----------------
 
-Dave Batker completed his graduate training in economics under Herman
-Daly, one of the world's foremost ecological economists. Dave has
-taught in the Training Department of the World Bank, and has worked
-for Greenpeace International, specializing in trade and international
+Dave Batker is the Executive Director of Earth Economics, a 
+non-profit he founded in 1998 that applies ecological economics 
+to land use planning and policy around the globe.  Dave completed 
+his graduate training in economics under Herman Daly, one of the 
+world's foremost ecological economists. Dave has taught in the 
+Training Department of the World Bank and has worked for 
+Greenpeace International, specializing in trade and international
 finance. He also worked for two years with the Rural Reconstruction
 Movement, a Philippine non-profit group dedicated to ecologically
-sound community-based development. In 1998, Dave founded the Earth
-Economics, a non-profit that applies ecological economics to land use
-planning and policy around the globe. Dave can be reached
+sound community-based development. Dave can be reached
 at <dbatker@eartheconomics.org>
 
 ### Gary Johnson
 -----------------
 
-Gary Johnson is a Ph.D.  candidate in Computer Science at the
+Gary Johnson is a Ph.D. candidate in Computer Science at the
 University of Vermont. He graduated summa cum laude from Marlboro
 College in 2005 with his B.S.  in Computer Science/Geoinformatics upon
 the completion of a self-designed program of study focusing on the
@@ -170,10 +171,10 @@ College at the UVM. Marta can be reached at
 ### Maya Kocian
 ----------------
 
-Maya Kocian graduated from Pacific Lutheran University with a
+Maya Kocian has worked as a Research Analyst at Earth Economics since 2006. 
+Maya graduated from Pacific Lutheran University with a
 Bachelor's degree in Economics. During her years at PLU she studied
-abroad in both Latin America and Europe. In 2006 Maya joined Earth
-Economics as a research analyst. She has contributed to several
+abroad in both Latin America and Europe. She has contributed to several
 projects including a determination of the potential effects of oil
 drilling in the Yasuni National Park, a pristine environment of the
 Ecuadorian Amazon. While in Ecuador, she produced and designed briefs
@@ -198,7 +199,7 @@ at <m.honzak@conservation.org>
 ### Octavio Perez-Maqueo
 -------------------------
 
-Octavio Perez-Maqueo received his Ph.D.  degree from the Instituto de
+Octavio Perez-Maqueo received his Ph.D. degree from the Instituto de
 Ecologia, A.C. in Mexico where he presently works as a researcher. He
 teaches within the INECOL postgraduate program and has participated in
 more than twenty environmental studies courses conducted for both the
