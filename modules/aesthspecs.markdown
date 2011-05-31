@@ -289,7 +289,6 @@ the effects of visual blight.
 | <span />                             | Presence of housing                           | County assessors' offices                              | Vector shapefiles                                            | Clallam, Grays Harbor, Jefferson, King, Kitsap, Mason, Snohomish, Thurston Cos., WA | 2004 (Kitsap Co.), 2006 (King Co.); uncertain for others |
 | <span />                             | Housing values                                | County assessors' offices                              | Vector shapefiles                                            | Grays Harbor, King, Kitsap, Mason, Snohomish, Thurston Cos., WA                     | 2004 (Kitsap Co.), 2006 (King Co.); uncertain for others |
 |--------------------------------------+-----------------------------------------------+--------------------------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------------|
-{: rules="groups"}
 
 <div id="module-spec-references" markdown="1">
 

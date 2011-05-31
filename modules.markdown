@@ -82,79 +82,66 @@ human benefit.
 ### Source, sink, use, and flow characteristics for ARIES ecosystem services modules
 -------------------------------------------------------------------------------------
 
-|----------------------+-----------------------------------------------+-------------------------------------------------------|
-| Service              | Carbon sequestration and storage              | Open space proximity                                  |
-|----------------------+-----------------------------------------------+-------------------------------------------------------|
-| Service/carrier type | Provisioning/Beneficial                       | Provisioning/Beneficial                               |
-| Medium/units         | Tons CO<sub>2</sub> absorbed/emitted          | Open space (abstract units, 0-100)                    |
-| Scale                | Global                                        | Walking distance                                      |
-| Movement             | Atmospheric mixing                            | Walking simulation                                    |
-| Decay                | None                                          | Gaussian                                              |
-| Rivalness            | Rival                                         | Nonrival                                              |
-| Source               | Vegetation and soil carbon sequestration      | Open spaces, particularly in urban and suburban areas |
-| Sink                 | Stored carbon release (fire, land use change) | Obstructions (highways)                               |
-| Use                  | CO<sub>2</sub> emitters                       | Housing/housing value                                 |
-|----------------------+-----------------------------------------------+-------------------------------------------------------|
-{: rules="groups"}
-
-|----------------------+--------------------------------------------+---------------------------------------|
-| Service              | Aesthetic viewsheds                        | Flood regulation                      |
-|----------------------+--------------------------------------------+---------------------------------------|
-| Service/carrier type | Provisioning/Beneficial                    | Preventive/Detrimental                |
-| Medium/units         | Scenic beauty (abstract units, 0-100)      | Water (runoff, mm/yr)                 |
-| Scale                | Viewshed                                   | Watershed                             |
-| Movement             | Line of sight                              | Hydrologic flow                       |
-| Decay                | Inverse square                             | None                                  |
-| Rivalness            | Nonrival                                   | Nonrival                              |
-| Source               | Mountains, water bodies, scenic vegetation | Rainfall and snowmelt                 |
-| Sink                 | Visual blight                              | Water absorbed by soil and vegetation |
-| Use                  | Housing/housing value                      | Economic assets in floodplains        |
-|----------------------+--------------------------------------------+---------------------------------------|
-{: rules="groups"}
-
-|----------------------+----------------------------------------+------------------------------------------|
-| Service              | Sediment regulation                    | Water supply                             |
-|----------------------+----------------------------------------+------------------------------------------|
-| Service/carrier type | Provisioning or Preventive             | Provisioning/Beneficial                  |
-| Medium/units         | Sediment (tons)                        | Surface or groundwater (mm/yr)           |
-| Scale                | Watershed                              | Watershed                                |
-| Movement             | Hydrologic flow                        | Hydrologic flow, surface and groundwater |
-| Decay                | None                                   | None                                     |
-| Rivalness            | Rival                                  | Rival                                    |
-| Source               | Landscapes alonog waterways            | Precipitation, infiltration, and others  |
-| Sink                 | Riparian zones where deposition occurs | Infiltration, evapotranspiration, others |
-| Use                  | Multiple                               | Surface water withdrawals or wells       |
-|----------------------+----------------------------------------+------------------------------------------|
-{: rules="groups"}
-
-|----------------------+----------------------------------------+----------------------------------------|
-| Service              | Coastal flood regulation               | Subsistence fisheries                  |
-|----------------------+----------------------------------------+----------------------------------------|
-| Service/carrier type | Preventive/Detrimental                 | Provisioning/Beneficial                |
-| Medium/units         | Storm surge (m)                        | Fish (kg)                              |
-| Scale                | Coastal zones                          | Walking distance                       |
-| Movement             | Wave runup                             | Walking simulation                     |
-| Decay                | None                                   | Gaussian                               |
-| Rivalness            | Nonrival                               | Rival                                  |
-| Source               | Coastal zones prone to storms          | Fishing grounds                        |
-| Sink                 | Vegetation and topographic features    | None                                   |
-| Use                  | Economic assets in coastal flood zones | Subsistence communities near fisheries |
-|----------------------+----------------------------------------+----------------------------------------|
-{: rules="groups"}
-
-|----------------------+--------------------------------------------------+------------------------------------------|
-| Service              | Recreation                                       | Nutrient regulation                      |
-|----------------------+--------------------------------------------------+------------------------------------------|
-| Service/carrier type | Provisioning/Beneficial                          | Preventive/Detrimental                   |
-| Medium/units         | Recreational enjoyment (abstract units, 0-100)   | Nutrients in water (kg N/P)              |
-| Scale                | Driving distance                                 | Watershed                                |
-| Movement             | Driving simulation (transportation model)        | Hydrologic flow                          |
-| Decay                | Gaussian                                         | None                                     |
-| Rivalness            | Nonrival but congestible                         | Nonrival                                 |
-| Source               | Recreational areas suitable for a given activity | Landscapes along waterways               |
-| Sink                 | None                                             | Filters in landscape and along waterways |
-| Use                  | Recreationists interested in a given activity    | Multiple                                 |
-|----------------------+--------------------------------------------------+------------------------------------------|
-{: rules="groups"}
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| **Service**          | **Carbon sequestration and storage**             | **Open space proximity**                              |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| Service/carrier type | Provisioning/Beneficial                          | Provisioning/Beneficial                               |
+| Medium/units         | Tons CO<sub>2</sub> absorbed/emitted             | Open space (abstract units, 0-100)                    |
+| Scale                | Global                                           | Walking distance                                      |
+| Movement             | Atmospheric mixing                               | Walking simulation                                    |
+| Decay                | None                                             | Gaussian                                              |
+| Rivalness            | Rival                                            | Nonrival                                              |
+| Source               | Vegetation and soil carbon sequestration         | Open spaces, particularly in urban and suburban areas |
+| Sink                 | Stored carbon release (fire, land use change)    | Obstructions (highways)                               |
+| Use                  | CO<sub>2</sub> emitters                          | Housing/housing value                                 |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| **Service**          | **Aesthetic viewsheds**                          | **Flood regulation**                                  |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| Service/carrier type | Provisioning/Beneficial                          | Preventive/Detrimental                                |
+| Medium/units         | Scenic beauty (abstract units, 0-100)            | Water (runoff, mm/yr)                                 |
+| Scale                | Viewshed                                         | Watershed                                             |
+| Movement             | Line of sight                                    | Hydrologic flow                                       |
+| Decay                | Inverse square                                   | None                                                  |
+| Rivalness            | Nonrival                                         | Nonrival                                              |
+| Source               | Mountains, water bodies, scenic vegetation       | Rainfall and snowmelt                                 |
+| Sink                 | Visual blight                                    | Water absorbed by soil and vegetation                 |
+| Use                  | Housing/housing value                            | Economic assets in floodplains                        |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| **Service**          | **Sediment regulation**                          | **Water supply**                                      |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| Service/carrier type | Provisioning or Preventive                       | Provisioning/Beneficial                               |
+| Medium/units         | Sediment (tons)                                  | Surface or groundwater (mm/yr)                        |
+| Scale                | Watershed                                        | Watershed                                             |
+| Movement             | Hydrologic flow                                  | Hydrologic flow, surface and groundwater              |
+| Decay                | None                                             | None                                                  |
+| Rivalness            | Rival                                            | Rival                                                 |
+| Source               | Landscapes alonog waterways                      | Precipitation, infiltration, and others               |
+| Sink                 | Riparian zones where deposition occurs           | Infiltration, evapotranspiration, others              |
+| Use                  | Multiple                                         | Surface water withdrawals or wells                    |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| **Service**          | **Coastal flood regulation**                     | **Subsistence fisheries**                             |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| Service/carrier type | Preventive/Detrimental                           | Provisioning/Beneficial                               |
+| Medium/units         | Storm surge (m)                                  | Fish (kg)                                             |
+| Scale                | Coastal zones                                    | Walking distance                                      |
+| Movement             | Wave runup                                       | Walking simulation                                    |
+| Decay                | None                                             | Gaussian                                              |
+| Rivalness            | Nonrival                                         | Rival                                                 |
+| Source               | Coastal zones prone to storms                    | Fishing grounds                                       |
+| Sink                 | Vegetation and topographic features              | None                                                  |
+| Use                  | Economic assets in coastal flood zones           | Subsistence communities near fisheries                |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| **Service**          | **Recreation**                                   | **Nutrient regulation**                               |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
+| Service/carrier type | Provisioning/Beneficial                          | Preventive/Detrimental                                |
+| Medium/units         | Recreational enjoyment (abstract units, 0-100)   | Nutrients in water (kg N/P)                           |
+| Scale                | Driving distance                                 | Watershed                                             |
+| Movement             | Driving simulation (transportation model)        | Hydrologic flow                                       |
+| Decay                | Gaussian                                         | None                                                  |
+| Rivalness            | Nonrival but congestible                         | Nonrival                                              |
+| Source               | Recreational areas suitable for a given activity | Landscapes along waterways                            |
+| Sink                 | None                                             | Filters in landscape and along waterways              |
+| Use                  | Recreationists interested in a given activity    | Multiple                                              |
+|----------------------+--------------------------------------------------+-------------------------------------------------------|
 
 </div>

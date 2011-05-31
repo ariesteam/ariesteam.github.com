@@ -73,7 +73,7 @@ Explorer, Valuation Database, and Biodiversity Explorer), custom ARIES
 interfaces can be built to simplify use by specific groups of end
 users.
 
-[ ](/intro.html)
+[ ](/about/intro.html)
 {: .learn-more }
 
 ### Focus on conservation

@@ -224,7 +224,6 @@ and fire risk.
 | Use - Madagascar            | Population density                       | LANDSCAN, Oak Ridge National Lab                               | 30 arc-second                                       | Global                                 |      2006 |
 | <span />                    | Per capita emissions                     | Energy Information Administration: International Energy Annual | Non-spatial                                         | Global                                 |      2006 |
 |-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-{: rules="groups"}
 
 <div id="module-spec-references" markdown="1">
 
@@ -298,6 +297,8 @@ Wundscher, T., et al. 2008. Spatial targeting of payments for
 environmental services: A tool for boosting conservation
 benefits. Ecological Economics 65: 822-833.
 
+</div>
+
 ### Additional contributors
 
 Ted Auch and Serguei Krivov reviewed generalized carbon
@@ -306,7 +307,5 @@ County) and Sam Gorton and Jennifer Wright (Vermont). Data and model
 review were provided by Dave Batker and Paula Swedeen at Earth
 Economics for Western Washington and Miro Honzak at Conservation
 International for Madagascar.
-
-</div>
 
 </div>
