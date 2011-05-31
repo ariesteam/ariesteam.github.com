@@ -13,7 +13,7 @@ completed: May 2010
 
 models: Carbon sequestration and storage, recreational viewsheds
 
-partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/logos/uvmlogo-words.gif" /></a>
+partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/uvmlogo-words.gif" /></a>
 ---
 ### Overview
 -------------

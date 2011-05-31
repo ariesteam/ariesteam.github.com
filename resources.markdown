@@ -10,17 +10,17 @@ title: References and Links
 ## Partners and sponsors
 -------------------------
 
-[![National Science Foundation](/images/logos/nsf_logo.png)](http://www.nsf.gov)
+[![National Science Foundation](/images/nsf_logo.png)](http://www.nsf.gov)
 
 [![United Nations Environment Programme World Conservation Monitoring Centre](/images/UNEP.jpg)](http://www.unep-wcmc.org)
 
-[![University of Vermont](/images/logos/uvmlogo-words.gif)](http://www.uvm.edu/giee)
+[![University of Vermont](/images/uvmlogo-words.gif)](http://www.uvm.edu/giee)
 
-[![Conservation International](/images/logos/cilogo2.jpg)](http://www.conservation.org)
+[![Conservation International](/images/cilogo2.jpg)](http://www.conservation.org)
 
-[![Earth Economics](/images/logos/EELogo_Tiny_jpg.jpg)](http://www.eartheconomics.org)
+[![Earth Economics](/images/EELogo_Tiny_jpg.jpg)](http://www.eartheconomics.org)
 
-[![Basque Center for Climate Change](/images/logos/bc3logo_web.jpg)](http://www.bc3research.org)
+[![Basque Center for Climate Change](/images/bc3logo_web.jpg)](http://www.bc3research.org)
 
 [![Instituto de Ecologia](/images/INECOL.jpg)](http://www.ecologia.edu.mx)
 

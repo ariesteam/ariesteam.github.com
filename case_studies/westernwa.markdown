@@ -22,7 +22,7 @@ lessons-learned: >
                  available by Summer 2011, enabling full comparison of
                  ecosystem services tradeoffs.
 
-partner-logo: <a href="http://www.eartheconomics.org/"><img alt="Earth Economics" src="/images/logos/EELogo_Tiny_jpg.jpg" /></a>
+partner-logo: <a href="http://www.eartheconomics.org/"><img alt="Earth Economics" src="/images/EELogo_Tiny_jpg.jpg" /></a>
 ---
 ### Overview
 -------------

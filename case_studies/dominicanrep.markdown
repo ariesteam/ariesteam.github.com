@@ -15,7 +15,7 @@ models: Sediment regulation
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 
-partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/logos/uvmlogo-words.gif" /></a>
+partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/uvmlogo-words.gif" /></a>
 ---
 ### Overview
 -------------
