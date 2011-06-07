@@ -17,7 +17,7 @@ title: Applications of ARIES
 * [Coastal flood regulation](/modules/coast.html)
 * [Aesthetic views and open space proximity](/modules/aesth.html)
 * [Freshwater supply](/modules/water.html)
-* [Sediment retention](/modules/soil.html)
+* [Sediment regulation](/modules/soil.html)
 * [Subsistence fisheries](/modules/fish.html)
 * [Recreation](/modules/rec.html)
 

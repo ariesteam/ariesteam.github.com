@@ -46,7 +46,7 @@ human well-being.
 
 #### Madagascar
 
-![](/images/800px-Boat_in_Nosy_Komba_Madagascar.jpg)
+![](/images/800px-Fishing_in_Downtown_Antananarivo.jpg)
 {: .left }
 
 Subsistence fisheries models for Madagascar rely on global spatial

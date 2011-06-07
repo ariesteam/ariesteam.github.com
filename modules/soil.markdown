@@ -1,13 +1,13 @@
 ---
 layout: module
 
-title: Sediment retention
+title: Sediment regulation
 
 module-specs-url: /modules/soilspecs.html
 ---
 <div id="module-intro" markdown="1">
 
-![](/images/Coal_Runoff.jpg)
+![](/images/800px-Rio_de_la_Plata_BA_2.jpg)
 {: .center }
 
 Erosion and sedimentation are major global problems that impose a high

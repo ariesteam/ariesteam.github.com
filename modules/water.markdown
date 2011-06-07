@@ -7,7 +7,7 @@ module-specs-url: /modules/waterspecs.html
 ---
 <div id="module-intro" markdown="1">
 
-![](/images/mg_stream.jpg)
+![](/images/Elwha_River_-_Humes_Ranch_Area2.jpg)
 {: .center }
 
 Water supply is a critical ecosystem service, and the quantity,
