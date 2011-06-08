@@ -32,11 +32,10 @@ to model multiple ecosystem services across varied ecological and socioeconomc
 settings.  Case studies are designed using local, typically high-resolution spatial
 datasets and models that account for locally-important ecological and socioeconomic 
 variables that influence ecosystem service provision and use. The map below shows 
-the ARIES case studies that are currently available.
-
-ARIES will eventually incorporate a series of generalized global models that 
-rely on coarser scale global spatial datasets and generalized relationships to 
-model the provision, use, and spatial dynamics of ecosystem services.
+the ARIES case studies that are currently available. ARIES will eventually incorporate 
+a series of generalized global models that rely on coarser scale global spatial datasets 
+and generalized relationships to model the provision, use, and spatial dynamics of 
+ecosystem services.
 
 <div id="case-study-overview" markdown="1">
 

@@ -154,7 +154,7 @@ Biological Conservation 139: 235-246.
 
 [National Academies Press: Valuing ecosystem services](http://www.nap.edu/catalog.php?record_id=11139#orgs)
 
-[National Ecosystem Services Partnership]http://nicholasinstitute.duke.edu/ecosystem/nesp)
+[National Ecosystem Services Partnership](http://nicholasinstitute.duke.edu/ecosystem/nesp)
 
 [Natural Capital Project, Stanford University](http://www.naturalcapitalproject.org/)
 
@@ -176,7 +176,7 @@ Biological Conservation 139: 235-246.
 
 [World Business Council for Sustainable Development and ecosystem services](http://www.wbcsd.org/templates/TemplateWBCSD5/layout.asp?type=p&MenuId=NzE)
 
-[Worldchanging feature on ecosystem services] (http://www.worldchanging.com/archives/006048.html)
+[Worldchanging feature on ecosystem services](http://www.worldchanging.com/archives/006048.html)
 
 [WRI People and Ecosystems](http://www.wri.org/ecosystems#EcosystemServices)
 
