@@ -46,7 +46,7 @@ of Agricultural and Environmental Information Systems.
 Johnson, G., K.J. Bagstad, R.R. Snapp, and F. Villa.  2010.  Service
 Path Attribute Networks (SPANs): Spatially quantifying the flow of
 ecosystem services from landscapes to people.  Lecture Notes in
-Computer Science 6016: 238-253
+Computer Science 6016: 238-253.
 
 Mulligan, M. A. Guerry, K. Arkema, K. Bagstad and F. Villa.  2010.
 Capturing and quantifying the flow of ecosystem services.  In:
@@ -61,7 +61,7 @@ ecosystem services assessment, planning, and valuation.  Proceedings
 of the 11th Annual BIOECON Conference on Economic Instruments to
 Enhance the Conservation and Sustainable Use of Biodiversity, Venice,
 Italy, September, 2009.  Available at:
-http://www.ucl.ac.uk/bioecon/11th_2009/Villa.pdf.
+[http://www.ucl.ac.uk/bioecon/11th_2009/Villa.pdf](http://www.ucl.ac.uk/bioecon/11th_2009/Villa.pdf).
 
 ### Background papers on ARIES modeling approaches
 ----------------------
