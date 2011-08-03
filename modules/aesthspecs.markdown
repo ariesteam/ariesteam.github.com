@@ -9,9 +9,9 @@ module-status: functional
 
 This module computes benefits related to the sensory enjoyment,
 recreational potential and cultural values of the landscape.
-[Beneficiaries](/science/beneficiaries.html) can be customized to
+Beneficiaries can be customized to
 reflect specific constituencies, such as property owners or
-tourists. [Sink models](/science/sink.html) are built for the area to
+tourists. Sink models are built for the area to
 represent visual blight or obstacles to access.
 
 </div>
