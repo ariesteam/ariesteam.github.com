@@ -4,12 +4,9 @@ layout: modulespec
 title: Subsistence fisheries module specs
 
 module-status: functional
-
-Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation and references for these models.
 ---
 <div id="module-spec-intro" markdown="1">
-
-<p>Our initial subsistence fisheries case study, developed for Madagascar, relies on global spatial datasets for 
+Our initial subsistence fisheries case study, developed for Madagascar, relies on global spatial datasets for 
 fisheries, population density, and poverty, combined with non-spatial data on national fisheries use from the FAO 
 (2008) and The Sea Around Us Project (2010).  Since such data are available for all nations, it is quite feasible 
 to extend coverage of this subsistence fisheries model to other countries.  However, since key harvested fish 
@@ -20,8 +17,10 @@ importance, and typical means of harvest.  From this list, The Sea Around Us pro
 relative abundance maps for four species, as described below in the source model. Our initial fisheries models 
 focus on subsistence use of fisheries as the only class of beneficiaries, ignoring for the time being both recreational 
 and commercial fisheries. Future ARIES models will account for recreational and commercial fisheries, and will 
-include more complex flow models that represent trade networks and recreational choices.</p>
+include more complex flow models that represent trade networks and recreational choices.
 
+Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation and 
+references for these models.
 </div>
 
 <div id="module-spec-definitions" markdown="1">
@@ -88,8 +87,8 @@ for each species according to their relative abundance along the Madagascar coas
 of subsistence fish production for each species under the above assumptions (Equation 1).  A similar equation 
 holds for subsistence fisheries use (Equation 2).
 		
-		(1)  S = a1S1 + a2S2 + a3S3 + ... + anSn  
-		(2)  D = a1S1 + a2S2 + a3S3 + ... + anSn  
+		(1)  S = a1S1 + a2S2 + a3S3 + ... + anSn
+		(2)  D = a1S1 + a2S2 + a3S3 + ... + anSn
 
 Where  S = the total source or supply of subsistence fisheries (kg)
 	   D = the total demand for subsistence fisheries (kg)
@@ -133,7 +132,7 @@ subsistence users comes from either trade or inland fisheries in rivers and lake
 supply or source of subsistence fisheries, we assume that each of the three valuable species supplies 20% of the 
 fish use for subsistence users (Equation 2).
 
-(/images/bn/fishuse.gif)
+[![Bayesian network model for subsistence fisheries use](/images/bn/fishuse.gif)](/images/bn/fishuse.gif)
 
 **Subsistence fisheries flow models.** Subsistence fisheries flow models are designed to show the 
 expected spatial dependence of specific fisheries users on particular fisheries areas.  Subsistence 
@@ -150,56 +149,28 @@ slowly declining subsistence use out to a distance of 5 km of the coast.  Along 
 have some form of access (e.g., roads, paths) to access the coastal fisheries.
 
 Key model outputs from the flow models include: 
+
 1. Subsistence fish supply: The supply of harvestable fish.
 2. Subsistence fish demand: The demand for fish from subsistence users.
-3. Subsistence fish flow: The movement of fish from areas where they are caught to communities 
-where they are consumed, based on transportation networks, supply, demand, and distance decay.
+3. Subsistence fish flow: The movement of fish from areas where they are caught to communities where they are consumed, based on transportation networks, supply, demand, and distance decay.
 4. Utilized subsistence fish: The quantity of fish harvested for subsistence use.
-5. Satisfied subsistence fish demand: The portion of demand for fish satisfied by flows of fish 
-to people from a fishery.
-6. Unutilized subsistence fish: Fisheries that are not used due to lack of proximity or pathways 
-to users.  This value may also be positive if some of the fish supply remains after all demand 
-is satisfied.
-7. Unsatisfied fish demand: The portion of demand for fish not satisfied due to inadequate size 
-of the fishery or a lack of proximity to a fishery.  If this is zero, some unutilized fish may be 
-a result of a true surplus and not just a lack of proximity.  If this is greater than zero, there 
-is no surplus within range.
+5. Satisfied subsistence fish demand: The portion of demand for fish satisfied by flows of fish to people from a fishery.
+6. Unutilized subsistence fish: Fisheries that are not used due to lack of proximity or pathways to users.  This value may also be positive if some of the fish supply remains after all demand is satisfied.
+7. Unsatisfied fish demand: The portion of demand for fish not satisfied due to inadequate size of the fishery or a lack of proximity to a fishery.  If this is zero, some unutilized fish may be a result of a true surplus and not just a lack of proximity.  If this is greater than zero, there is no surplus within range.
 
 ### Spatial data
-
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Model                       | Layer                                    | Source                                                         | Resolution                                          | Extent                                 |      Year |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Source - Western Washington | Slope                                    | Derived from National Elevation Dataset                        | 30 x 30 m                                           | Western Washington                     |       n/a |
-| <span />                    | Soil pH                                  | SSURGO soils data                                              | 30 x 30 m                                           | Western Washington                     |       n/a |
-| <span />                    | Soil oxygen conditions                   | NLCD 2001                                                      | 30 x 30 m                                           | United States                          |      2001 |
-| <span />                    | Soil carbon storage                      | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Successional stage                       | BLM/Interagency Vegetation Mapping Project                     | 25 x 25 m                                           | Western Washington & Oregon            |      1996 |
-| <span />                    | Vegetation cover                         | NLCD 2001                                                      | 30 x 30 m                                           | United States                          |      2001 |
-| <span />                    | Fire frequency                           | Washington DNR                                                 | 1.5 x 1.5 km point density derived from fire points | Washington State                       | 1970-2007 |
-| <span />                    | Vegetation carbon storage                | National Biomass and Carbon Dataset                            | 30 x 30 m                                           | Western Washington                     |      2000 |
-| <span />                    | Soil C:N ratio                           | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Summer high - winter low                 | PRISM/Oregon State                                             | 800 x 800 m                                         | United States                          | 1971-2000 |
-| <span />                    | Hardwood: softwood ratio                 | BLM/Interagency Vegetation Mapping Project                     | 25 x 25 m                                           | Western Washington & Oregon            |      1996 |
-| <span />                    | Vegetation and soil carbon sequestration | NBII/Millennium Ecosystem Assessment                           | 1 km<sup>2</sup>                                    | Global                                 |      2000 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Source - Madagascar         | Slope                                    | Derived from global SRTM data                                  | 90 x 90 m                                           | Madagascar                             |       n/a |
-| <span />                    | Soil pH                                  | FAO soils                                                      | 0.5 min<sup>2</sup>                                 | Global                                 | 1970-1978 |
-| <span />                    | Soil oxygen conditions                   | Kew Gardens Madagascar vegetation map                          | 30 x 30 m                                           | Madagascar                             | 1999-2003 |
-| <span />                    | Soil carbon storage                      | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Population density                       | LANDSCAN/Oak Ridge National Lab                                | 30 arc-second                                       | Global                                 |      2006 |
-| <span />                    | Vegetation cover                         | GLCF/Univ. of Maryland                                         | 1 km<sup>2</sup>                                    | Global (processed only for Africa)     |      2000 |
-| <span />                    | Soil C:N ratio                           | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Summer high - winter low                 | WorldClim                                                      | 30 arc-seconds<sup>2</sup>                          | Global                                 | 1950-2000 |
-| <span />                    | Degradation status                       | FTM (Madagascar National Mapping Agency)                       | Vector shapefile                                    | Madagascar                             | Mid-1990s |
-| <span />                    | Deforestation risk                       | GLCF/Univ. of Maryland                                         | 250 x 250 m                                         | Global (processed only for Madagascar) | 2001-2005 |
-| <span />                    | Vegetation and soil carbon sequestration | NBII/Millennium Ecosystem Assessment                           | 1 km<sup>2</sup>                                    | Global                                 |      2000 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Use - Western Washington    | GHG emissions                            | VULCAN Project, Purdue Univ.                                   | 10x10 km                                            | United States                          |      2002 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Use - Madagascar            | Population density                       | LANDSCAN, Oak Ridge National Lab                               | 30 arc-second                                       | Global                                 |      2006 |
-| <span />                    | Per capita emissions                     | Energy Information Administration: International Energy Annual | Non-spatial                                         | Global                                 |      2006 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
+   
+|---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
+| Model               | Layer                                                             | Source                                 | Spatial Extent | Data type/Spatial resolution   |          Year |
+|---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
+| Source - Madagascar | L. borbonicus, L. mahsena, L. argentimaculatus relative abundance | Sea Around Us Project                  | Global         | Raster/0.5 degrees<sup>2</sup> |     1950-2003 |
+|---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
+| Use - Madagascar    | Distance to coast                                                 | Derived from global SRTM data          | Madagascar     | 90 x 90 m                      |           n/a |
+| <span />            | Population density                                                | FAO soils                              | Global         | 0.5 min<sup>2</sup>            |     1970-1978 |
+| <span />            | Poverty                                                           | Kew Gardens Madagascar vegetation map  | Madagascar     | 30 x 30 m                      |     1999-2003 |
+|---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
+| Flow - Madagascar   | Paths                                                             | BD500 (Madagascar infrastructure data) | Madagascar     | Vector line data               | Not available |
+|---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
 
 <div id="module-spec-references" markdown="1">
 

@@ -4,12 +4,10 @@ layout: modulespec
 title: Coastal flood regulation module specs
 
 module-status: functional
-
-Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation and references for these models.
 ---
 <div id="module-spec-intro" markdown="1">
 
-<p>The coastal storm protection models described here are intended as a proof-of-concept framework 
+The coastal storm protection models described here are intended as a proof-of-concept framework 
 to spatially link: 1) storm wave sources, 2) ecosystem "sinks" that mitigate wave damage; and 
 3) social groups or assets that are susceptible to harm by coastal flooding, via flow models that 
 account for wave movement.  These models use historical storm track, wind speed, and atmospheric 
@@ -23,7 +21,9 @@ on global datasets for historical storms, coastal ecosystems capable of mitigati
 lives and property at risk of flood damage.  However, the models do not yet incorporate external process 
 models to describe storm surge, wave mitigation, or wave run-up, which will be included in future ARIES 
 releases.
-</p>
+
+Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation 
+and references for these models.
 
 </div>
 
@@ -78,7 +78,7 @@ greatest at lowest pressure, highest winds, and over the shallowest water depths
 as the strongest influence on values in the contingent probability table, followed by wind speed, then 
 atmospheric pressure.
 
-(/images/bn/stormsource.gif)
+[![Bayesian network model for coastal flood source](/images/bn/stormsource.gif)](/images/bn/stormsource.gif)
 
 **Coastal flood wave sink models.** We consulted the literature on coastal protection to determine which 
 variables to incorporate into a Bayesian network to model coastal protection, until existing process models 
@@ -115,7 +115,7 @@ Naeraa and Jury (1998), however, report an average tide height of around 1.0 m f
 this is a relatively small influence relative to other coastal regions of the world.  Tidal influence could 
 thus be increased in the contingent probability table when the model is applied to regions with a greater tidal range.
 
-(/images/bn/ecologicalfloodsink.gif)
+[![Bayesian network model for coastal flood sink](/images/bn/ecologicalfloodsink.gif)](/images/bn/ecologicalfloodsink.gif)
 
 **Coastal flood use models.** To map coastal flood use, we identify areas with human life and economic value 
 (e.g., housing and other infrastructure) at risk.  Since spatial data exist for population and economic assets 
@@ -150,9 +150,10 @@ deepwater and slope regions, protection as higher in shallowly sloped pelagic an
 cause more wave build-up), and set the greatest level of protection in regions above sea level with high slope 
 (particularly in the presence of dunes).
 
-(/images/bn/geomorphicsink.gif)
+[![Bayesian network model for coastal flood geomorphic sink](/images/bn/geomorphicsink.gif)](/images/bn/geomorphicsink.gif)
 
-Key model outputs from the flow models include: 
+Key model outputs from the flow models include:
+
 1. Actual wave flow: Wave flows when accounting for their routing and sinks that deplete their magnitude.
 2. Flood damaging wave source: Waves that actually harm people or damage property when accounting for flow paths and sinks.
 3. Utilized wave mitigation: Sinks that actively reduce waves, providing the benefit of reduced flood damage for people.
@@ -164,39 +165,25 @@ Key model outputs from the flow models include:
 
 ### Spatial data
 
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Model                       | Layer                                    | Source                                                         | Resolution                                          | Extent                                 |      Year |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Source - Western Washington | Slope                                    | Derived from National Elevation Dataset                        | 30 x 30 m                                           | Western Washington                     |       n/a |
-| <span />                    | Soil pH                                  | SSURGO soils data                                              | 30 x 30 m                                           | Western Washington                     |       n/a |
-| <span />                    | Soil oxygen conditions                   | NLCD 2001                                                      | 30 x 30 m                                           | United States                          |      2001 |
-| <span />                    | Soil carbon storage                      | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Successional stage                       | BLM/Interagency Vegetation Mapping Project                     | 25 x 25 m                                           | Western Washington & Oregon            |      1996 |
-| <span />                    | Vegetation cover                         | NLCD 2001                                                      | 30 x 30 m                                           | United States                          |      2001 |
-| <span />                    | Fire frequency                           | Washington DNR                                                 | 1.5 x 1.5 km point density derived from fire points | Washington State                       | 1970-2007 |
-| <span />                    | Vegetation carbon storage                | National Biomass and Carbon Dataset                            | 30 x 30 m                                           | Western Washington                     |      2000 |
-| <span />                    | Soil C:N ratio                           | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Summer high - winter low                 | PRISM/Oregon State                                             | 800 x 800 m                                         | United States                          | 1971-2000 |
-| <span />                    | Hardwood: softwood ratio                 | BLM/Interagency Vegetation Mapping Project                     | 25 x 25 m                                           | Western Washington & Oregon            |      1996 |
-| <span />                    | Vegetation and soil carbon sequestration | NBII/Millennium Ecosystem Assessment                           | 1 km<sup>2</sup>                                    | Global                                 |      2000 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Source - Madagascar         | Slope                                    | Derived from global SRTM data                                  | 90 x 90 m                                           | Madagascar                             |       n/a |
-| <span />                    | Soil pH                                  | FAO soils                                                      | 0.5 min<sup>2</sup>                                 | Global                                 | 1970-1978 |
-| <span />                    | Soil oxygen conditions                   | Kew Gardens Madagascar vegetation map                          | 30 x 30 m                                           | Madagascar                             | 1999-2003 |
-| <span />                    | Soil carbon storage                      | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Population density                       | LANDSCAN/Oak Ridge National Lab                                | 30 arc-second                                       | Global                                 |      2006 |
-| <span />                    | Vegetation cover                         | GLCF/Univ. of Maryland                                         | 1 km<sup>2</sup>                                    | Global (processed only for Africa)     |      2000 |
-| <span />                    | Soil C:N ratio                           | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Summer high - winter low                 | WorldClim                                                      | 30 arc-seconds<sup>2</sup>                          | Global                                 | 1950-2000 |
-| <span />                    | Degradation status                       | FTM (Madagascar National Mapping Agency)                       | Vector shapefile                                    | Madagascar                             | Mid-1990s |
-| <span />                    | Deforestation risk                       | GLCF/Univ. of Maryland                                         | 250 x 250 m                                         | Global (processed only for Madagascar) | 2001-2005 |
-| <span />                    | Vegetation and soil carbon sequestration | NBII/Millennium Ecosystem Assessment                           | 1 km<sup>2</sup>                                    | Global                                 |      2000 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Use - Western Washington    | GHG emissions                            | VULCAN Project, Purdue Univ.                                   | 10x10 km                                            | United States                          |      2002 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Use - Madagascar            | Population density                       | LANDSCAN, Oak Ridge National Lab                               | 30 arc-second                                       | Global                                 |      2006 |
-| <span />                    | Per capita emissions                     | Energy Information Administration: International Energy Annual | Non-spatial                                         | Global                                 |      2006 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
+|---------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+----------------+------------------------------+-----------|
+| Model               | Layer                                                             | Source                                                              | Spatial Extent | Data type/Spatial resolution | Year      |
+|---------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+----------------+------------------------------+-----------|
+| Source - Madagascar | Bathymetry                                                        | NASA ETOPO1                                                         | Global         | Raster/1 arc-minute          | n/a       |
+| <span />            | Tropical storm tracks (incl. wind speed and atmospheric pressure) | UNEP                                                                | Global         | Vector line data             | 1980-2005 |
+|---------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+----------------+------------------------------+-----------|
+| Sink - Madagascar   | Artificial coastal protection                                     | Location of port cities from BD500 (Madagascar infrastructure data) | Madagascar     | Vector line data             | n/a       |
+| <span />            | Coral reef bleaching                                              | UNEP-WCMC and ReefBase                                              | Global         | Vector shapefile             | 2003      |
+| <span />            | Mangroves                                                         | FTM (Madagascar National Mapping Agency)                            | Madagascar     | Vector shapefile             | Mid-1990s |
+| <span />            | Seagrass                                                          | UNEP-WCMC                                                           | Global         | Vector shapefile             | 2005      |
+| <span />            | Terrestrial vegetation type                                       | FTM (Madagascar National Mapping Agency)                            | Madagascar     | Vector shapefile             | Mid-1990s |
+|---------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+----------------+------------------------------+-----------|
+| Use - Madagascar    | Economic value at risk                                            | CIESIN/ Columbia Univ.                                              | Global         | Raster/2.5 x 2.5 minute      | 1981-2000 |
+| <span />            | Lives at risk                                                     | CIESIN/ Columbia Univ.                                              | Global         | Raster/2.5 x 2.5 minute      | 1981-2000 |
+|---------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+----------------+------------------------------+-----------|
+| Flow - Madagascar   | Bathymetry & elevation                                            | NASA ETOPO1                                                         | Global         | Raster/1 arc-minute          | n/a       |
+| <span />            | Dune presence                                                     | BD500 (Madagascar infrastructure data)                              | Madagascar     | Vector line file             | n/a       |
+| <span />            | Slope (incl. bathymetric)                                         | NASA ETOPO1                                                         | Global         | Raster/1 arc-minute          | n/a       |
+|---------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+----------------+------------------------------+-----------|
 
 <div id="module-spec-references" markdown="1">
 
