@@ -175,7 +175,7 @@ Similarly to mapping the supply or source of subsistence fisheries, we
 assume that each of the three valuable species supplies 20% of the
 fish use for subsistence users (Equation 2).
 
-[![Bayesian network model for subsistence fisheries use](/images/bn/fishuse.gif)](/images/bn/fishuse.gif)
+[![Bayesian network model for subsistence fisheries use](/images/bn/fishuse.gif)](/downloads/FisheriesSubsistenceUseMg.xdsl)
 {: .bayesnet }
 
 **Subsistence fisheries flow models.** Subsistence fisheries flow
