@@ -113,7 +113,7 @@ cover, and mean annual precipitation.  For the Orange County model, we used the 
 as input nodes to sequestration rate, then combined sequestration rate with percent tree canopy cover 
 to estimate annual vegetation and soil carbon sequestration. Actual evapotranspiration (AET) has been 
 found to have a strong relationship with primary productivity, and therefore carbon sequestration 
-(Lieth and Box 1972, Elegene 1989, Metherell et al. 1993). This is especially true in water-limited 
+(Lieth and Box 1972, Elegene et al. 1989, Metherell et al. 1993). This is especially true in water-limited 
 regions such as semi-arid biomes, as with the Orange County case study (Claudio et al. 2006, Fuentes 
 et al., 2006). Vegetation type can help to predict the quantity of vegetation sequestration and storage 
 capacities from expected biomass for certain plant species (Kirby and Potvin 2007).  In the Vermont 
@@ -137,6 +137,9 @@ mean summer high and winter low temperatures, and land cover and vegetation type
 applicable).  We set sequestration to its greatest values at high levels of vegetation density and sequestration 
 rate.
 
+[![Bayesian network model for carbon sequestration in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/CSourceMg.gif)](/downloads/CarbonSourceMg.xdsl)
+{: .bayesnet }
+
 **Potential stored carbon release sink models.**
 We set stored carbon release as a function of vegetation and soil carbon storage (the sum of vegetation carbon 
 storage and soil carbon storage) and the risk of deforestation and/or fire, with greater stored carbon release 
@@ -152,7 +155,7 @@ influence in Madagascar.   For the San Pedro, we set vegetation carbon storage a
 and vegetation density.  For the Orange County model, deforestation was not considered as an influence on stored 
 carbon release (though it would be included in non-urban areas within the same biome), slope was dropped as an 
 influence on soil carbon storage (since slope/aspect influence AET and other water balance measurements in chaparral 
-and scrub ecosystems, Miller 1947, Parsons 1973, Ng 1980), and actual evapotranspiration and percent tree canopy cover 
+and scrub ecosystems, Miller 1947, Parsons 1973, Ng and Miller 1980), and actual evapotranspiration and percent tree canopy cover 
 were added as influences on soil carbon storage.  We set vegetation carbon storage as a function of land cover, vegetation 
 type, percent tree canopy cover, and AET for the Orange County model.  The Vermont model used soil tillage and biomass 
 removal rate as influences on agricultural stored carbon release (Gollany et al. 2010, Gonzalez-Chavez et al. 2010).  
@@ -175,6 +178,9 @@ carbon storage and greater deforestation and fire risk.
 The output of the carbon sink model is the potential stored carbon release.  To better estimate actual carbon release in 
 a given year, the user would need to overlay areas of fire or land use change.  Actual carbon loss could then be estimated 
 for that year.  This feature will be included in carbon flow models within a future ARIES release.
+
+[![Bayesian network model for potential stored carbon release in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/CSinkMg.gif)](/downloads/CarbonSinkMg.xdsl)
+{: .bayesnet }
 
 **Greenhouse gas emissions use models.**
 The beneficiaries of carbon sequestration and storage are greenhouse gas emitters 
@@ -199,111 +205,129 @@ Key model outputs from the flow models include:
 
 ### Spatial data
 
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Model                       | Layer                                    | Source                                                         | Resolution                                          | Extent                                 |      Year |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Source - Western Washington | Slope                                    | Derived from National Elevation Dataset                        | 30 x 30 m                                           | Western Washington                     |       n/a |
-| <span />                    | Soil pH                                  | SSURGO soils data                                              | 30 x 30 m                                           | Western Washington                     |       n/a |
-| <span />                    | Soil oxygen conditions                   | NLCD 2001                                                      | 30 x 30 m                                           | United States                          |      2001 |
-| <span />                    | Soil carbon storage                      | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Successional stage                       | BLM/Interagency Vegetation Mapping Project                     | 25 x 25 m                                           | Western Washington & Oregon            |      1996 |
-| <span />                    | Vegetation cover                         | NLCD 2001                                                      | 30 x 30 m                                           | United States                          |      2001 |
-| <span />                    | Fire frequency                           | Washington DNR                                                 | 1.5 x 1.5 km point density derived from fire points | Washington State                       | 1970-2007 |
-| <span />                    | Vegetation carbon storage                | National Biomass and Carbon Dataset                            | 30 x 30 m                                           | Western Washington                     |      2000 |
-| <span />                    | Soil C:N ratio                           | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Summer high - winter low                 | PRISM/Oregon State                                             | 800 x 800 m                                         | United States                          | 1971-2000 |
-| <span />                    | Hardwood: softwood ratio                 | BLM/Interagency Vegetation Mapping Project                     | 25 x 25 m                                           | Western Washington & Oregon            |      1996 |
-| <span />                    | Vegetation and soil carbon sequestration | NBII/Millennium Ecosystem Assessment                           | 1 km<sup>2</sup>                                    | Global                                 |      2000 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Source - Madagascar         | Slope                                    | Derived from global SRTM data                                  | 90 x 90 m                                           | Madagascar                             |       n/a |
-| <span />                    | Soil pH                                  | FAO soils                                                      | 0.5 min<sup>2</sup>                                 | Global                                 | 1970-1978 |
-| <span />                    | Soil oxygen conditions                   | Kew Gardens Madagascar vegetation map                          | 30 x 30 m                                           | Madagascar                             | 1999-2003 |
-| <span />                    | Soil carbon storage                      | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Population density                       | LANDSCAN/Oak Ridge National Lab                                | 30 arc-second                                       | Global                                 |      2006 |
-| <span />                    | Vegetation cover                         | GLCF/Univ. of Maryland                                         | 1 km<sup>2</sup>                                    | Global (processed only for Africa)     |      2000 |
-| <span />                    | Soil C:N ratio                           | FAO soils                                                      | 0.0833 min<sup>2</sup>                              | Global                                 | 1970-1978 |
-| <span />                    | Summer high - winter low                 | WorldClim                                                      | 30 arc-seconds<sup>2</sup>                          | Global                                 | 1950-2000 |
-| <span />                    | Degradation status                       | FTM (Madagascar National Mapping Agency)                       | Vector shapefile                                    | Madagascar                             | Mid-1990s |
-| <span />                    | Deforestation risk                       | GLCF/Univ. of Maryland                                         | 250 x 250 m                                         | Global (processed only for Madagascar) | 2001-2005 |
-| <span />                    | Vegetation and soil carbon sequestration | NBII/Millennium Ecosystem Assessment                           | 1 km<sup>2</sup>                                    | Global                                 |      2000 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Use - Western Washington    | GHG emissions                            | VULCAN Project, Purdue Univ.                                   | 10x10 km                                            | United States                          |      2002 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
-| Use - Madagascar            | Population density                       | LANDSCAN, Oak Ridge National Lab                               | 30 arc-second                                       | Global                                 |      2006 |
-| <span />                    | Per capita emissions                     | Energy Information Administration: International Energy Annual | Non-spatial                                         | Global                                 |      2006 |
-|-----------------------------+------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------+----------------------------------------+-----------|
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
+| Model                                                | Layer                                   | Source                                                         | Spatial Extent                         | Data type/Spatial resolution                |      Year |
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
+| Source - All models                                  | Carbon sequestration                    | NBII/Millennium Ecosystem Assessment                           | Global                                 | 1 km<sup>2</sup>                            |      2000 |
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
+| Source & sink - Orange County                        | Average annual evapotranspiration       | SAGE/Univ. of Wisconsin                                        | Global                                 | Raster/0.5 x 0.5 degree                     | 1950-1999 |
+| <span />                                             | Land cover                              | NLCD 2001                                                      | United States                          | Raster/30 x 30 m                            |      2001 |
+| Source & sink - Western WA                           | Forest successional stage               | BLM/Interagency Vegetation Mapping Project                     | Western Washington & Oregon            | Raster/25 x 25 m                            |      1996 |
+| <span />                                             | Hardwood: softwood ratio                | BLM/Interagency Vegetation Mapping Project                     | Western Washington & Oregon            | Raster/25 x 25 m                            |      1996 |
+| Source & sink - San Pedro, Vermont                   | Mean annual precipitation               | PRISM/Oregon State                                             | United States                          | Raster/800 x 800 m                          | 1971-2000 |
+| Source & sink - Orange County, San Pedro, Western WA | Percent tree canopy cover               | NLCD 2001                                                      | United States                          | Raster/30 x 30 m                            |      2001 |
+| Source & sink - Madagascar                           | <span />                                | GLCF/Univ. of Maryland                                         | Global                                 | Raster/1 km<sup>2</sup>                     |      2000 |
+| Source & sink - Madagascar, Western WA               | Soil C:N ratio                          | FAO soils                                                      | Global                                 | Raster/0.0833 min<sup>2</sup>               | 1970-1978 |
+| Source & sink - Vermont, Western WA                  | Summer high - winter low                | PRISM/Oregon State                                             | United States                          | Raster/800 x 800 m                          | 1971-2000 |
+| Source & sink - Madagascar                           | <span />                                | WorldClim                                                      | Global                                 | Raster/30 arc-seconds<sup>2</sup>           | 1950-2000 |
+| Source & sink - Orange County, Vermont               | Vegetation type                         | NLCD 2001                                                      | United States                          | Raster/30 x 30 m                            |      2001 |
+| Source & sink - San Pedro                            | <span />                                | Southwest Regional GAP Analysis (SWReGAP)                      | AZ, CO, NM, NV, UT                     | Raster/30 x 30 m                            | 1999-2001 |
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
+| Sink - Madagascar                                    | Deforestation risk                      | GLCF/Univ. of Maryland                                         | Global (processed only for Madagascar) | Raster/250 x 250 m                          | 2001-2005 |
+| Sink - Orange County                                 | Fire frequency                          | California Fire & Resource Assessment Program                  | California                             | Raster/100 x 100 m                          |      2003 |
+| Sink - San Pedro                                     | <span />                                | Southwest Regional Gap Analysis LULC & TNC fire data           | AZ, CO, NM, NV, UT                     | Raster/30 x 30 m                            |      2000 |
+| Sink - Western WA                                    | <span />                                | Washington DNR & Oregon Dept. of Forestry                      | Washington & Oregon                    | Raster/1.5 x 1.5 km derived from point data | 1970-2007 |
+| Sink - Madagascar                                    | Population density                      | LANDSCAN/Oak Ridge National Lab                                | Global                                 | Raster/30 arc-second                        |      2006 |
+| Sink - Madagascar, San Pedro, Western WA             | Slope                                   | Derived from global SRTM data                                  | Global                                 | Raster/90 x 90 m                            |       n/a |
+| Sink - All models                                    | Soil carbon storage                     | FAO soils                                                      | Global                                 | Raster/0.0833 min<sup>2</sup>               | 1970-1978 |
+| Sink - Orange County, San Pedro, Western WA          | Soil oxygen conditions (e.g., wetlands) | NLCD 2001                                                      | United States                          | Raster/30 x 30 m                            |      2001 |
+| Sink - Madagascar                                    | <span />                                | Kew Gardens Madagascar vegetation map                          | Madagascar                             | Raster/30 x 30 m                            | 1999-2003 |
+| Sink - Orange County, San Pedro, Western WA          | Soil pH                                 | SSURGO soils data                                              | United States                          | Rasterized shapefile at 30 x 30 m           |       n/a |
+| Sink - Madagascar                                    | <span />                                | FAO soils                                                      | Global                                 | Raster/0.0833 min<sup>2</sup>               | 1970-1978 |
+| Sink - Orange County, San Pedro, Vermont, Western WA | Vegetation carbon storage               | National Biomass and Carbon Dataset                            | United States                          | Raster/30 x 30 m                            |      2000 |
+| Sink - Madagascar                                    | <span />                                | CDIAC/Ruesch & Gibbs                                           | Global                                 | Raster/1 km<sup>2</sup>                     |      2000 |
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
+| Use - All U.S. models                                | GHG emissions                           | VULCAN Project, Purdue Univ.                                   | United States                          | Raster/10x10 km                             |      2002 |
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
+| Use - Madagascar                                     | Population density                      | LANDSCAN, Oak Ridge National Lab                               | Global                                 | Raster/30 arc-second                        |      2006 |
+| <span />                                             | Per capita emissions                    | Energy Information Administration: International Energy Annual | Global                                 | Non-spatial                                 |      2006 |
+|------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
 
 <div id="module-spec-references" markdown="1">
 
 ### References
 
-Auch, W.A. 2010. Modeling the interaction between climate, chemistry,
-and ecosystem fluxes at the global scale. PhD Dissertation, The
-University of Vermont, Burlington, VT.
+Auch, W.A.  2010.  Modeling the interaction between climate, chemistry, and ecosystem fluxes at the global scale.  
+PhD Dissertation, The University of Vermont, Burlington, VT.
 
-Chan, K.M.A., et al. 2006. Conservation planning for ecosystem
-services. PLOS Biology 4 (11): 2138-2152.
+Bosworth, S., and B.J.J. Tricou.  1999.  Optimizing Manure and Nitrogen Fertilizer Applied to Grass Hay Crops, in 
+Mississquoi Water Quality.  University of Vermont Extension: Burlington, Vermont.
 
-Eade, J.D.O. and D. Moran. 1996. Spatial economic valuation: Benefits
-transfer using geographical information systems. Journal of
-Environmental Management 48: 97-110.
+Chan, K.M.A., et al.  2006.  Conservation planning for ecosystem services.  PLOS Biology 4 (11): 2138-2152.
 
-Egoh, B., et al. 2008. Mapping ecosystem services for planning and
-management. Agriculture, Ecosystems and Environment 127: 135-140.
+Claudio, H., et al.  2006.  Monitoring drought effects on vegetation water content and fluxes in chaparral with the 970 
+nm water band index. Remote Sensing of Environment 103 (3): 304-311.
 
-Gaston, G., et al. 1998. State and change in carbon pools in the
-forests of tropical Africa. Global Change Biology 4: 97-114.
+Darby, H., et al.  2009.  Vermont Organic Corn Silage Performance Trial Results. University of Vermont Extension: 
+Burlington, VT.
 
-Gibbs, H.K., et al. 2007. Monitoring and estimating tropical forest
-carbon stocks: Making REDD a reality. Environmental Research Letters
-2: 1-13.
+Eade, J.D.O. and D. Moran.  1996.  Spatial economic valuation: Benefits transfer using geographical information systems.  
+Journal of Environmental Management 48: 97-110.
 
-Iverson, L.R., et al. 1994. Use of GIS for estimating potential and
-actual biomass for continental South and Southeast Asia. Pp. 67-116
-in: Dale, V, ed. Effects of land use change on atmospheric CO2
-concentrations: Southeast Asia as a case study. Springer Verlag: New
-York.
+Egoh, B, et al.  2008.  Mapping ecosystem services for planning and management.  Agriculture, Ecosystems and Environment 
+127: 135-140.
 
-Marcot, B.G., et al. 2006. Guidelines for developing and updating
-Bayesian belief networks applied to ecological modeling and
-conservation. Canadian Journal of Forest Research 36: 3063-3074.
+Elegene, B., et al.  1989.  Accuracy of the AVHRR vegetation index as a predictor of biomass, primary productivity 
+and net CO2 flux. Vegetation 80: 71-89.
 
-Millennium Ecosystem Assessment (MA). 2005. Millennium Ecosystem
-Assessment: Living beyond our means - Natural assets and human
-well-being. Washington, D.C.: World Resources Institute.
+Fuentes, D., et al.  2006.  Mapping carbon and water vapor fluxes in a chaparral ecosystem using vegetation indices 
+derived from AVIRIS. Remote Sensing of Environment 103: 312-323.
 
-Naidoo, R. and T.H. Ricketts. 2006. Mapping the economic costs and
-benefits of conservation. PLOS Biology 4 (11): 2153-2164.
+Gaston, et al. 1998.  State and change in carbon pools in the forests of tropical Africa.  Global Change Biology 4: 
+97-114.
 
-Portela, R., et al. 2008. The idea of market-based mechanisms for
-forest conservation and climate change. Pp. 11-29 in: Streck, C., et
-al., eds. Climate change and forests: Emerging policy and market
-opportunities. Brookings Institution Press: Washington, DC.
+Gollany, H.T., et al.  2010.  Simulating Soil Organic Carbon Dynamics with Residue Removal Using the CQESTR Model.  Soil 
+Science Society of America Journal 74 (2): 372-383.
 
-Parry, M.L., et al. 2007. Technical Summary. Climate Change 2007:
-Impacts, Adaptation and Vulnerability. Contribution of Working Group
-II to the Fourth Assessment Report of the Intergovernmental Panel on
-Climate Change, Parry, M.L., et al., Eds. Cambridge University Press:
-Cambridge, UK.
+Gonzalez-Chavez, M.D.A., et al.  2010.  Soil microbial community, C, N, and P responses to long-term tillage and crop 
+rotation. Soil and Tillage Research 106 (2): 285-293.
 
-<p>Schr&ouml;ter, D., et al. 2005. Ecosystem service supply and
-vulnerability to global change in Europe. Science 310: 1333-1337.</p>
+Hai, L., et al.  2010.  Long-term fertilization and manuring effects on physically-separated soil organic matter pools 
+under a wheat-wheat-maize cropping system in an arid region of China.  Soil Biology & Biochemistry 42 (2): 253-259.
 
-Stern, N. 2006. Part II: Impacts of climate change on growth and
-development. In: Stern, N. Stern Review: The economics of climate
-change. Cambridge University Press: Cambridge, UK.
+Iverson, L.R., et al. 1994.  Use of GIS for estimating potential and actual biomass for continental South and 
+Southeast Asia.  Pp. 67-116 in: Dale, V, ed.  Effects of land use change on atmospheric CO2 concentrations: Southeast 
+Asia as a case study.  Springer Verlag: New York.
 
-Tallis, H.T., et al. 2010. InVEST 1.004 beta User's Guide. The Natural
-Capital Project, Stanford.
+Kirby, K. and C. Potvin.  2007.  Variation in carbon storage among tree species: implications for the management 
+of a small-scale carbon sink project. Forestry Ecology and Management 246: 208-221.
 
-Wendland, K.J., et al. In press. Targeting and implementing payments
-for ecosystem services: Opportunities for bundling conservation with
-carbon and water services in Madagascar. Forthcoming in: Ecological
-Economics.
+Liu, X., et al.  2010.  Soil Organic Carbon, Carbon Fractions and Nutrients as Affected by Land Use in Semi-Arid 
+Region of Loess Plateau of China. Pedosphere 20 (2): 146-152.
 
-Wundscher, T., et al. 2008. Spatial targeting of payments for
-environmental services: A tool for boosting conservation
-benefits. Ecological Economics 65: 822-833.
+Marcot, B.G., et al. 2006.  Guidelines for developing and updating Bayesian belief networks applied to ecological 
+modeling and conservation.  Canadian Journal of Forest Research 36: 3063-3074.
+
+Metherell, A., et al.  1993.  CENTURY Soil Organic Matter Model Environment. Technical Documentation Agroecosystem 
+Version 4.0. Great Plains System Research Unit. Technical Report No. 4, USDA-ARS:  Fort Collins, CO.
+
+Miller, E. H., Jr.  1947.  Growth and environmental conditions in southern California chaparral. American 
+Midland Naturalist 37: 379-420.
+
+Naidoo, R. and T.H. Ricketts.  2006.  Mapping the economic costs and benefits of conservation.  PLOS Biology 
+4 (11): 2153-2164.
+
+Ng, E. and E.H. Miller.  1980.  Soil moisture relations in the southern California chaparral. Ecology 6 
+(1): 98-107.
+
+Nelson, E., et al.  2008.  Efficiency of incentives to jointly increase carbon sequestration and species 
+conservation on a landscape.  Proceedings of the National Academy of Sciences 105 (28): 9471-9476.
+
+Parsons, D.J.  1973.  A comparative study of vegetation structure in the Mediterranean scurb communities of 
+California and Chile.  PhD Dissertation. Stanford University: Palo Alto, CA.
+
+Portela, R., et al.  2008.  The idea of market-based mechanisms for forest conservation and climate change.  
+Pp. 11-29 in: Streck, C., et al., eds.  Climate change and forests: Emerging policy and market opportunities.  
+Brookings Institution Press: Washington, DC.
+
+Tallis, H.T., et al.  2011. InVEST 2.0 beta User's Guide. The Natural Capital Project: Stanford.
+
+Wendland, K.J., et al.  2010.  Targeting and implementing payments for ecosystem services: Opportunities 
+for bundling biodiversity conservation with carbon and water services in Madagascar.  Ecological Economics 
+69: 2093-2107.
+
+Wundscher, T., et al. 2008.  Spatial targeting of payments for environmental services: A tool for 
+boosting conservation benefits.  Ecological Economics 65: 822-833.
 
 </div>
 

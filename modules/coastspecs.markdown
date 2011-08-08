@@ -78,7 +78,7 @@ greatest at lowest pressure, highest winds, and over the shallowest water depths
 as the strongest influence on values in the contingent probability table, followed by wind speed, then 
 atmospheric pressure.
 
-[![Bayesian network model for coastal flood source](/images/bn/stormsource.gif)](/images/bn/stormsource.gif)
+[![Bayesian network model for coastal flood source. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/stormsource.gif)](/downloads/CoastalFloodSourceMg.xdsl)
 {: .bayesnet }
 
 **Coastal flood wave sink models.** We consulted the literature on coastal protection to determine which 
@@ -116,7 +116,7 @@ Naeraa and Jury (1998), however, report an average tide height of around 1.0 m f
 this is a relatively small influence relative to other coastal regions of the world.  Tidal influence could 
 thus be increased in the contingent probability table when the model is applied to regions with a greater tidal range.
 
-[![Bayesian network model for coastal flood sink](/images/bn/ecologicalfloodsink.gif)](/images/bn/ecologicalfloodsink.gif)
+[![Bayesian network model for coastal flood sink. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ecologicalfloodsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
 {: .bayesnet }
 
 **Coastal flood use models.** To map coastal flood use, we identify areas with human life and economic value 
@@ -152,7 +152,7 @@ deepwater and slope regions, protection as higher in shallowly sloped pelagic an
 cause more wave build-up), and set the greatest level of protection in regions above sea level with high slope 
 (particularly in the presence of dunes).
 
-[![Bayesian network model for coastal flood geomorphic sink](/images/bn/geomorphicsink.gif)](/images/bn/geomorphicsink.gif)
+[![Bayesian network model for coastal flood geomorphic sink. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/geomorphicsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
 {: .bayesnet }
 
 Key model outputs from the flow models include:
