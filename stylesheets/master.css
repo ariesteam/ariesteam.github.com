@@ -391,9 +391,13 @@ a.launch-button:hover {
 #module-spec-intro {
    border:0px solid blue;
    clear:both;
-   padding:5px 0px;
+   padding:0px;
    background:#eee;
    font-size:medium;
+}
+
+#module-spec-intro p {
+   padding:5px;
 }
 
 #module-spec-definitions {
@@ -438,6 +442,14 @@ a.launch-button:hover {
 
 #module-spec-specifications p {
    margin-bottom:10px;
+}
+
+#module-spec-specifications .equation {
+   margin-bottom:10px;
+}
+
+#module-spec-specifications .bayesnet img {
+   width:620px;
 }
 
 #module-spec-specifications table {

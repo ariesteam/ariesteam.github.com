@@ -79,6 +79,7 @@ as the strongest influence on values in the contingent probability table, follow
 atmospheric pressure.
 
 [![Bayesian network model for coastal flood source](/images/bn/stormsource.gif)](/images/bn/stormsource.gif)
+{: .bayesnet }
 
 **Coastal flood wave sink models.** We consulted the literature on coastal protection to determine which 
 variables to incorporate into a Bayesian network to model coastal protection, until existing process models 
@@ -116,6 +117,7 @@ this is a relatively small influence relative to other coastal regions of the wo
 thus be increased in the contingent probability table when the model is applied to regions with a greater tidal range.
 
 [![Bayesian network model for coastal flood sink](/images/bn/ecologicalfloodsink.gif)](/images/bn/ecologicalfloodsink.gif)
+{: .bayesnet }
 
 **Coastal flood use models.** To map coastal flood use, we identify areas with human life and economic value 
 (e.g., housing and other infrastructure) at risk.  Since spatial data exist for population and economic assets 
@@ -151,16 +153,26 @@ cause more wave build-up), and set the greatest level of protection in regions a
 (particularly in the presence of dunes).
 
 [![Bayesian network model for coastal flood geomorphic sink](/images/bn/geomorphicsink.gif)](/images/bn/geomorphicsink.gif)
+{: .bayesnet }
 
 Key model outputs from the flow models include:
 
-1. Actual wave flow: Wave flows when accounting for their routing and sinks that deplete their magnitude.
-2. Flood damaging wave source: Waves that actually harm people or damage property when accounting for flow paths and sinks.
-3. Utilized wave mitigation: Sinks that actively reduce waves, providing the benefit of reduced flood damage for people.
-4. Flood damage received: Actual damage received by people and property when accounting for sources of waves and their sinks and flow paths.
-5. Absorbed wave flow: Flood flows that are absorbed by sinks prior to reaching human beneficiaries of wave regulation.
-6. Mitigated wave source: The portion of coastal waves that are reduced by the action of wave sinks.
-7. Flood mitigation benefits accrued: People or economically valuable assets who are spared from coastal flood damage due to the flood regulation activity of sinks.
+1. Actual wave flow: Wave flows when accounting for their routing and
+   sinks that deplete their magnitude.
+2. Flood damaging wave source: Waves that actually harm people or
+   damage property when accounting for flow paths and sinks.
+3. Utilized wave mitigation: Sinks that actively reduce waves,
+   providing the benefit of reduced flood damage for people.
+4. Flood damage received: Actual damage received by people and
+   property when accounting for sources of waves and their sinks and
+   flow paths.
+5. Absorbed wave flow: Flood flows that are absorbed by sinks prior to
+   reaching human beneficiaries of wave regulation.
+6. Mitigated wave source: The portion of coastal waves that are
+   reduced by the action of wave sinks.
+7. Flood mitigation benefits accrued: People or economically valuable
+   assets who are spared from coastal flood damage due to the flood
+   regulation activity of sinks.
 
 
 ### Spatial data
