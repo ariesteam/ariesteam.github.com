@@ -81,7 +81,7 @@ blight can also be mapped. Higher concentrations of residential users
 or visual blight lead to higher levels of ecosystem service use or
 sinks, respectively.
 
-### Assumptions
+### Model structure and assumptions
 
 **Aesthetic proximity source value.** Aesthetic proximity depends
 foremost on having open space in some form - forests, wetlands, beach,

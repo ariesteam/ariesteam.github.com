@@ -7,27 +7,24 @@ module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
-<p>The importance of carbon sequestration and storage by ecosystems is
-increasingly recognized given the threat of climate change. Carbon
-sequestration and storage help provide a more stable global climate by
-taking up greenhouse gases and keeping them out of the atmosphere.
-Specific beneficiaries of climate stability can be identified,
-particularly in regions most vulnerable to climate change. Regions and
-human populations vulnerable to climate change are described in the
-ecosystem services and climate change literature (MA 2005,
-Schr&ouml;ter et al.  2005, Stern 2006, Parry et al. 2007). These
-groups include coastal populations at risk of sea level rise and more
-intense storms, populations dependent on glaciers and snowpack for
-water supplies, populations in arid regions at risk of drought, and
-populations using infrastructure built on permafrost, among others. A
-variety of spatial data layers enable the mapping of these groups
-vulnerable to climate change. Alternatively, greenhouse gas emitters
-can be conceptualized as the beneficiaries of carbon sequestration and
-storage. Since greenhouse gas emitters benefit from the waste
-absorption capacity of the biosphere, carbon sequestration and storage
-can be divided among emitters. Existing and proposed systems to cap
-and assign property rights to atmospheric greenhouse gas emissions use
-this framework.</p>
+The importance of ecosystems in storing and sequestering carbon is increasingly recognized 
+given the threat of climate change and the rapid human-induced rise in atmospheric CO<sub>2</sub> 
+concentrations (Portela et al. 2008).  Because these processes are influenced by different 
+ecological processes in different regions, local carbon models have been developed in ARIES 
+for Madagascar as well as four ecologically distinct areas in the United States: Orange 
+County, California, Southeast Arizona and Northern Sonora's San Pedro River Watershed, 
+Vermont, and Western Washington State.  In the ARIES system, the areas of carbon sequestered 
+in vegetation and soils are designated as sources of the ecosystem service; the areas of 
+potential stored carbon release, due to fire, land use change, deforestation, or other vegetation 
+and soil disturbances, are sinks.  By subtracting the potential stored carbon release from carbon 
+sequestration in a region of interest, we can compute the carbon available to offset anthropogenic 
+emissions. Greenhouse gas emitters can be conceptualized as the beneficiaries of carbon 
+sequestration and storage.  By mapping levels of carbon sequestration, stored carbon release, 
+and anthropogenic emissions in a common unit (tonnes C/yr), we can fully describe regional carbon 
+balances - the level of a region's net release or uptake of atmospheric CO<sub>2</sub>.  
+
+Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation 
+and references for these models.
 
 </div>
 
@@ -36,43 +33,30 @@ this framework.</p>
 ## Definitions
 ---------------
 
-### Carbon sinks
+### Carbon source
 
 The term "carbon sink" is used in the scientific and popular media to
-describe locations that sequester and store carbon (e.g., forests,
-soils, grasslands, the ocean, or underground geologic formations as
-carbon sinks).This definition is more in line with the carbon "source"
-models, since sources are areas where an ecosystem service carrier, in
-this case, carbon absorption capacity, is generated.  However, using
-the ARIES framework, where sinks denote regions that deplete an
-ecosystem service carrier en route from an ecosystem to its human
-users, this service has no "sink." Ecosystems provide carbon
-sequestration and storage capacity, which are used by greenhouse gas
+describe locations that sequester or store carbon (e.g., forests,
+soils, grasslands, the ocean, or underground geologic formations). 
+This definition aligns with the ARIES carbon "source" models, since 
+sources are areas where an ecosystem service carrier, in
+this case, carbon absorption capacity, is generated.  Ecosystems 
+provide carbon sequestration capacity, which can be used by greenhouse gas
 emitters to "offset" their emissions.
 
-### Net carbon uptake
+### Carbon sink
 
-Net carbon is the difference between vegetation and soil carbon
-storage and stored carbon release (i.e., due to deforestation, land
-use change, or fire) - both of which are rates or flows.
+Carbon sinks in the ARIES framework are areas of potential stored carbon 
+release, due to fire, land use change, deforestation, or other vegetation and 
+soil disturbances. These sinks leave less carbon sequestration capacity available 
+for offsetting anthropogenic emissions.
 
-### Carbon use
+### Carbon beneficiaries
 
-There are several ways to describe the users of carbon sequestration
-and storage. For example, greenhouse gas emitters who release
-CO<sub>2</sub> into the atmosphere rely on ecosystems to absorb and
-store carbon in order to avoid even larger rises in atmospheric
-CO<sub>2</sub> than are currently seen. A healthy planetary
-atmospheric carbon balance also helps maintain a stable climate.  We
-can thus map all people on the planet as beneficiaries of a stable
-climate, or map groups particularly vulnerable to climate change
-(e.g., residents of coastal regions vulnerable to sea level rise,
-regions dependent on snowpack for water supply). Our initial carbon
-sequestration and storage use maps simply display greenhouse gas
-emitters. GIS datasets of greenhouse gas emissions exist for the
-United States (. Globally, we can use maps of population density
-multiplied by per capita emissions for the country or sub-national
-region of interest.
+In ARIES, greenhouse gas emitters are defined as the users of carbon sequestration 
+and storage. By releasing CO<sub>2</sub> into the atmosphere, emitters rely on 
+ecosystems to absorb and store carbon in order to avoid even larger rises in 
+atmospheric CO<sub>2</sub> than are currently seen.
 
 ### Carbon flow
 
@@ -102,92 +86,116 @@ sequestered.
 4. San Pedro River, Arizona and Sonora
 5. Madagascar
 
-### Explanation
+### Model structure and assumptions
 
-We conceptualize the provision of this service as carbon sequestration
-and storage by terrestrial ecosystems (i.e., within vegetation and
-soils). In order to combine sequestration (a rate or flow, e.g., tons
-C/ha-yr) and storage (a stock, e.g., tons C/ha), we estimate carbon
-source value (i.e., net carbon uptake) as the difference between
-vegetation and soil carbon sequestration and stored carbon release
-(i.e., due to deforestation, land use change, or fire) - both of which
-are rates or flows.  This framework is analogous to proposed
-forest-based carbon credit programs, where credits could be issued for
-sequestration plus avoided deforestation (e.g., REDD, Gibbs et
-al. 2007). While spatial datasets exist for net primary productivity
-(i.e., carbon sequestration) and vegetation and carbon soil storage,
-these values are influenced by various biotic, physical, and climate
-factors, which can be used to train Bayesian networks in cases where
-datasets are incomplete or of inadequate spatial resolution. Past
-spatial ecosystem service models have identified a number of these
-influences including land use-land cover (Tallis et al. 2010), timber
-harvest or deforestation probabilities (Tallis et al. 2010, Wundscher
-et al. 2008), carbon pools and decay rates (Eade and Moran 1996, Chan
-et al. 2006, Egoh et al. 2008, Tallis et al. 2010, Wendland et al. in
-press), biotic life zones (Wundscher et al. 2008), tree height, DBH,
-and stem density by forest type (Naidoo and Ricketts 2006), and
-population density, slope, elevation, mean annual precipitation, soil
-texture and depth, and climatic indices (Iverson et al. 1994, Gaston
-et al.  1998), including the difference between mean summer high and
-winter low temperatures (Auch 2010). These influences can be assembled
-into Bayesian models to map carbon sequestration and storage.
+**Carbon sequestration source models.** Although carbon sequestration data are 
+available globally at 1 km<sup>2</sup> resolution, we developed simple Bayesian 
+network models that include the influences on carbon sequestration (e.g., vegetation, 
+soils, climate).  Existing datasets can be used in ARIES to provide mean values to 
+use in training finer-grained models, allowing estimation of carbon sequestration 
+changes in scenarios or for up-scaled modeling of carbon sequestration where higher 
+resolution input data are available.  
 
-### Assumptions
+Based on the literature (e.g., Iverson et al. 1994, Eade and Moran 1996, Gaston et al. 1998, 
+Chan et al. 2006, Naidoo and Ricketts 2006, Egoh et al. 2008, Wundscher et al. 2008, Auch 2010, 
+Wendland et al. 2010, Tallis et al. 2011) and discussions with regional experts, we set carbon 
+sequestration as a function of vegetation density and sequestration rate, two intermediate variables 
+created to keep conditional probability tables tractable (Marcot et al. 2006).  We set 
+sequestration rate as a function of soil C:N ratio and the difference between mean summer 
+high and winter low (in Madagascar and Western Washington), and as a function of land cover, 
+vegetation type, and actual evapotranspiration (in Orange County).  We set vegetation density 
+as a function of hardwood:softwood ratio, percent tree canopy cover, and successional stage 
+(in Western Washington), and percent tree canopy cover and forest degradation status (in Madagascar).  
+For the San Pedro, Orange County, and Vermont agricultural carbon models, we used a collapsed number 
+of variables, removing the intermediate nodes for vegetation density and sequestration rate.  For 
+the San Pedro model, we estimate sequestration as a function of vegetation type, percent tree canopy 
+cover, and mean annual precipitation.  For the Orange County model, we used the above noted variables 
+as input nodes to sequestration rate, then combined sequestration rate with percent tree canopy cover 
+to estimate annual vegetation and soil carbon sequestration. Actual evapotranspiration (AET) has been 
+found to have a strong relationship with primary productivity, and therefore carbon sequestration 
+(Lieth and Box 1972, Elegene 1989, Metherell et al. 1993). This is especially true in water-limited 
+regions such as semi-arid biomes, as with the Orange County case study (Claudio et al. 2006, Fuentes 
+et al., 2006). Vegetation type can help to predict the quantity of vegetation sequestration and storage 
+capacities from expected biomass for certain plant species (Kirby and Potvin 2007).  In the Vermont 
+model, we estimated sequestration as a function of vegetation carbon storage (itself a function of mean 
+annual precipitation, vegetation type, and the difference between mean summer high and winter low) and 
+soil C:N ratio (Liu et al. 2010).  We used Jenks natural breaks to discretize summer high-winter low, 
+soil C:N ratio, and actual evapotranspiration.  We used equal intervals to discretize vegetation and 
+soil carbon sequestration, hardwood:softwood ratio, and percent tree canopy cover.  
 
-We set stored carbon release as a function of vegetation and soil
-carbon storage (the sum of vegetation carbon storage and soil carbon
-storage) and the risk of deforestation and/or fire, with greater
-stored carbon release at higher risk and carbon storage levels. Soil
-carbon storage is influenced by slope, soil pH, soil oxygen conditions
-(i.e., greater storage in wetlands where anaerobic conditions inhibit
-respiration), vegetation density (an intermediate variable
-incorporating vegetation cover, degradation status in Madagascar, and
-successional stage and hardwood:softwood ratio in Western Washington),
-and soil carbon:nitrogen ratio. The importance of these variables in
-influencing soil carbon dynamics has been noted by previous authors
-(including those listed in the preceding paragraph). We set vegetation
-carbon storage as a function of the difference between mean summer
-high and winter low temperature (Auch 2009) and vegetation density,
-with population density added as an influence in Madagascar. Iverson
-et al. (1994) and Gaston et al. (1998) note the importance of this
-variable in measuring carbon storage in developing tropical nations,
-where subsistence firewood collection is an economically important
-activity.
+We based prior probabilities for the models on either the actual distribution of regional data (where we 
+have these datasets), expert opinion (where consensus by experts was possible), or uninformed priors (where 
+there was true uncertainty and a lack of consensus by experts).  We filled out conditional probability tables 
+by setting extremes set at both ends (i.e., "pegging the corners," Marcot et al. 2006) and interpolating 
+intermediate values.  Where possible we used expert opinion about which variables are most influential, and 
+which should have the greatest influence on the contingent probability tables, and what the general level of 
+uncertainty was for that system (i.e., how wide to set the distribution of values across discrete states).  
+All else being equal, we set vegetation density at its highest values at greater percent tree canopy cover, 
+later successional stages, more softwoods, and no forest degradation (where applicable).  We set sequestration 
+rate with its highest values at higher C:N ratios, higher actual evapotranspiration, lower differences between 
+mean summer high and winter low temperatures, and land cover and vegetation types with greater biomass (where 
+applicable).  We set sequestration to its greatest values at high levels of vegetation density and sequestration 
+rate.
 
-We set vegetation and soil sequestration rate as a function of
-vegetation density and sequestration rate, two intermediate variables
-created to keep conditional probability tables tractable (Marcot et
-al. 2006). Sequestration rate is set as a function of soil C:N ratio
-and the difference between mean summer high and winter low. Vegetation
-density is a function of hardwood:softwood ratio, vegetation percent
-cover, and successional stage (in Western Washington) and vegetation
-percent cover and forest degradation status (in Madagascar).
+**Potential stored carbon release sink models.**
+We set stored carbon release as a function of vegetation and soil carbon storage (the sum of vegetation carbon 
+storage and soil carbon storage) and the risk of deforestation and/or fire, with greater stored carbon release 
+at higher risk and carbon storage levels.  Soil carbon storage is influenced by slope, soil pH, soil oxygen 
+conditions (i.e., greater storage in wetlands where anaerobic conditions inhibit respiration), vegetation density 
+(an intermediate variable incorporating tree canopy cover and degradation status in Madagascar, tree canopy cover, 
+and vegetation type in the San Pedro, and successional stage, tree canopy cover, and hardwood:softwood ratio in 
+Western Washington, noted as important determinants of carbon sequestration in the Pacific Northwest by Nelson et 
+al. 2008), and soil carbon:nitrogen ratio.  The importance of these variables in influencing soil carbon dynamics 
+has been noted by previous authors.  We set vegetation carbon storage as a function of the difference between mean 
+summer high and winter low temperature (Auch 2010) and vegetation density, with population density added as an 
+influence in Madagascar.   For the San Pedro, we set vegetation carbon storage as a function of mean annual precipitation 
+and vegetation density.  For the Orange County model, deforestation was not considered as an influence on stored 
+carbon release (though it would be included in non-urban areas within the same biome), slope was dropped as an 
+influence on soil carbon storage (since slope/aspect influence AET and other water balance measurements in chaparral 
+and scrub ecosystems, Miller 1947, Parsons 1973, Ng 1980), and actual evapotranspiration and percent tree canopy cover 
+were added as influences on soil carbon storage.  We set vegetation carbon storage as a function of land cover, vegetation 
+type, percent tree canopy cover, and AET for the Orange County model.  The Vermont model used soil tillage and biomass 
+removal rate as influences on agricultural stored carbon release (Gollany et al. 2010, Gonzalez-Chavez et al. 2010).  
+This model considered soil C:N ratio, biomass residue input (Hai et al. 2010), and vegetation type as influences on 
+soil carbon storage and vegetation type, mean annual precipitation, and the difference between mean summer high and 
+winter low temperature.
 
-Iverson et al. (1994) and Gaston et al. (1998) provide discretization
-of continuous variables for slope and population density. We used
-natural breaks to discretize soil carbon storage, summer high-winter
-low, vegetation and soil carbon storage, soil C:N ratio, vegetation
-carbon storage, fire frequency, and actual evapotranspiration. We used
-equal intervals to discretize vegetation and soil carbon
-sequestration, hardwood:softwood ratio, and vegetation percent cover.
+Iverson et al. (1994) and Gaston et al. (1998) provide discretization of continuous variables for slope and population 
+density. Bosworth and Tricou (1999) and Darby et al. (2009) provide discretization for vegetation carbon storage in the 
+Vermont carbon model.  We used Jenks natural breaks to discretize soil carbon storage, summer high-winter low, vegetation 
+and soil carbon storage, soil C:N ratio, vegetation carbon storage, fire frequency, and actual evapotranspiration.  We 
+used equal intervals to discretize hardwood:softwood ratio and percent tree canopy cover.  
 
-Most of the priors for the carbon source model are currently
-uninformed. We filled out conditional probability tables with extremes
-set at both ends (i.e., "pegging the corners," Marcot et al. 2006) and
-intermediate values interpolated. We set soil carbon storage at its
-highest values at low or high pH, high C:N ratio, level slopes, high
-vegetation density, and on anoxic (i.e., wetland) soils, and vice
-versa. Vegetation carbon storage was set at its highest values with
-low differences between mean summer high and winter low temperature,
-high vegetation density, and low population density (in
-Madagascar). Vegetation density was set with its highest values at
-greater vegetation percent cover, later successional stages, more
-softwoods, and no forest degradation (where applicable).
-Sequestration rate was set with its highest values at higher C:N
-ratios and lower differences between mean summer high and winter low
-temperatures.  Stored carbon release was set at its highest with
-greater vegetation and soil carbon storage and greater deforestation
-and fire risk.
+All else being equal, we set soil carbon storage at its highest values at low or high pH, high C:N ratio, level slopes, 
+high vegetation density, and on anoxic (i.e., wetland) soils, and vice versa.  We set vegetation carbon storage at its 
+highest values with low differences between mean summer high and winter low temperature, high vegetation density, and 
+low population density (in Madagascar).  We set stored carbon release at its highest with greater vegetation and soil 
+carbon storage and greater deforestation and fire risk.
+
+The output of the carbon sink model is the potential stored carbon release.  To better estimate actual carbon release in 
+a given year, the user would need to overlay areas of fire or land use change.  Actual carbon loss could then be estimated 
+for that year.  This feature will be included in carbon flow models within a future ARIES release.
+
+**Greenhouse gas emissions use models.**
+The beneficiaries of carbon sequestration and storage are greenhouse gas emitters 
+who release CO<sub>2</sub> into the atmosphere. Spatially explicit data on greenhouse 
+gas emissions exist for the United States.  Globally, we use population density data 
+multiplied by per capita emissions for the country or sub-national region of interest.
+
+**Carbon flow models.**
+Since carbon dioxide is relatively quickly mixed in the atmosphere, the benefits of carbon 
+sequestration and storage can be enjoyed by any human beneficiary on Earth, regardless of 
+location.  As such, no flow model is necessary for carbon sequestration and storage.  However, 
+for a given region, we can calculate the differential between carbon uptake by ecosystems 
+(sequestration minus release of stored carbon) and anthropogenic carbon release.  This 
+information can be used in a flow model to show whether that region has a negative or 
+positive carbon balance, i.e., whether its emissions are greater or less than the amount 
+of carbon sequestered.
+
+Key model outputs from the flow models include: 
+
+1. Carbon mitigation surplus: Calculated when local sequestration exceeds emissions plus atmospheric carbon sources.
+2. Carbon mitigation deficit: Calculated when local emissions exceed net carbon uptake (sequestration minus stored carbon release).
 
 ### Spatial data
 
@@ -301,11 +309,13 @@ benefits. Ecological Economics 65: 822-833.
 
 ### Additional contributors
 
-Ted Auch and Serguei Krivov reviewed generalized carbon
-models. Specific case studies were developed by Mark Casias (Orange
-County) and Sam Gorton and Jennifer Wright (Vermont). Data and model
-review were provided by Dave Batker and Paula Swedeen at Earth
-Economics for Western Washington and Miro Honzak at Conservation
-International for Madagascar.
+Ted Auch and Serguei Krivov provided input on the initial ARIES carbon models.  
+Mark Casias developed the case study for Orange County.  Sam Gorton developed 
+the agricultural carbon case study for Vermont.  Dave Batker, Jim Pittman, and 
+Paula Swedeen provided data and model review for the Western Washington case 
+study.  Miro Honzak provided data and model review for the Madagascar case 
+study.  An expert review panel including individuals from the U.S. Geological 
+Survey, University of Arizona, Bureau of Land Management, and other organizations 
+provided data and model review for the San Pedro case study.
 
 </div>
