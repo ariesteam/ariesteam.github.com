@@ -62,7 +62,7 @@ damage if they reach inhabited areas.
 
 1. Madagascar
 
-### Assumptions
+### Model structure and assumptions
 
 **Coastal flood source models.** Developing a generalizable model to predict storm surge height from 
 wind speed data is a difficult process, as local coastal geomorphology has a strong influence on surge 

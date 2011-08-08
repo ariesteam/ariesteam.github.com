@@ -17,9 +17,9 @@ module-specs-url: /modules/aesthspecs.html
 [![Get Adobe Flash player](images/get_flash_player.gif)](http://www.adobe.com/go/getflashplayer)
 </object>
 
-Sensory enjoyment provided by the landscape is crucial to human
-well-being. ARIES supports the quantification of all these types of
-aesthetic value.
+Sensory enjoyment provided by the landscape is an important contributor 
+to human well-being. ARIES supports the quantification of all these types 
+of aesthetic value.
 
 </div>
 

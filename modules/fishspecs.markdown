@@ -72,7 +72,7 @@ to communities where fish are consumed, via transportation networks.
 
 1. Madagascar
 
-### Assumptions
+### Model structure and assumptions
 
 **Subsistence fisheries source models.** The data available to
 establish the quantity of fish supplied and demanded in subsistence
