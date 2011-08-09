@@ -181,7 +181,7 @@ reaching zero at a distance of 1 mile from the open space parcel. While Sengupta
 proximity to rivers in the arid Southwest as having a less steep distance decay function, for the time being we use a 
 uniform distance decay function in the proximity flow model.
 
-Key model outputs from the flow models include: 
+Key outputs from the flow models include: 
 
 1. Possible proximate open space: The density of service flow along each walking path between an open space and user, before accounting for highways that limit local access.
 2. Accessible open space: Open space providing value when accounting for proximity and the location of homeowners but not highways that limit local access.
@@ -260,7 +260,7 @@ Steinitz et al. (2003) note that for southeast Arizona, the view of another resi
 0.5-mile radius of the viewer¡¯s perspective (i.e., the effect drops off relatively quickly).  Thus, we use a steep decay function to 
 model the effects of sinks (visual blight).
 
-Key model outputs from the flow models include: 
+Key outputs from the flow models include: 
 
 1. Possible views: The flow of aesthetic information (views) from natural areas toward homeowners, when not accounting for sinks.
 2. Visible natural beauty: Open space providing views when accounting for lines of sight and the location of homeowners but not visual blight.

@@ -198,7 +198,7 @@ information can be used in a flow model to show whether that region has a negati
 positive carbon balance, i.e., whether its emissions are greater or less than the amount 
 of carbon sequestered.
 
-Key model outputs from the flow models include: 
+Key outputs from the flow models include: 
 
 1. Carbon mitigation surplus: Calculated when local sequestration exceeds emissions plus atmospheric carbon sources.
 2. Carbon mitigation deficit: Calculated when local emissions exceed net carbon uptake (sequestration minus stored carbon release).

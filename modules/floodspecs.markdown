@@ -156,7 +156,7 @@ unless excess water in an already-full reservoir must be released downstream.  I
 it causes damage.  This damage can be attributed to upstream flood sources, and mitigated damage can be attributed 
 to upstream flood sinks, which provide the ecosystem service of flood regulation.
 
-Key model outputs from the flow models include: 
+Key outputs from the flow models include: 
 
 1. Potentially damaging flood flow: The flow route of floodwater across the landscape in the absence of sinks.
 2. Potentially damaging runoff: Runoff capable of harming people or damaging property when accounting for flow paths but not sinks.

@@ -199,7 +199,7 @@ declining subsistence use out to a distance of 5 km of the coast.
 Along with proximity, users must have some form of access (e.g.,
 roads, paths) to access the coastal fisheries.
 
-Key model outputs from the flow models include: 
+Key outputs from the flow models include: 
 
 1. Subsistence fish supply: The supply of harvestable fish.
 2. Subsistence fish demand: The demand for fish from subsistence users.

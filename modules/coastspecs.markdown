@@ -155,7 +155,7 @@ cause more wave build-up), and set the greatest level of protection in regions a
 [![Bayesian network model for coastal flood geomorphic sink. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/geomorphicsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
 {: .bayesnet }
 
-Key model outputs from the flow models include:
+Key outputs from the flow models include:
 
 1. Actual wave flow: Wave flows when accounting for their routing and
    sinks that deplete their magnitude.
