@@ -73,7 +73,7 @@ relevant ecosystem types.
 ### In the field
 -----------------
 
-#### La Antigua, Veracruz
+#### La Antigua River, Veracruz, Mexico
 
 ![La Antigua Photo by Jen Harrison-Cox](/images/veracruz-la_Antigua_075.jpg)
 {: .left }
@@ -88,7 +88,7 @@ water. *Photo credit: J. Harrison-Cox.*
 [ ](/case_studies/veracruz.html)
 {: .learn-more }
 
-#### San Pedro River, Arizona and Sonora
+#### San Pedro River, Arizona and Sonora, Mexico
 
 ![](/images/6cgsan-pedro-leaves26a.jpg)
 {: .left }

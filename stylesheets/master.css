@@ -123,7 +123,6 @@ p.learn-more a {
    float:left;
    width:250px;
    padding:10px 10px 10px 0px;
-   border-right:2px solid lightgrey;
 }
 
 #homepage-sidebar h3 {
@@ -145,6 +144,7 @@ p.learn-more a {
    float:right;
    width:655px;
    padding:10px 0px 10px 10px;
+   border-left:2px solid lightgrey;
 }
 
 #homepage-content iframe {
@@ -181,6 +181,8 @@ p.learn-more a {
 
 #homepage-content p.left img {
    width:220px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
 }
 
 #homepage-content p {
@@ -240,6 +242,8 @@ a.launch-button:hover {
    border:0px solid red;
    height:350px;
    margin-bottom:10px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
 }
 
 #module-intro p {
@@ -292,6 +296,8 @@ a.launch-button:hover {
 
 #module-in-the-field p.left img {
    width:160px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
 }
 
 #module-in-the-field p {
@@ -380,7 +386,6 @@ a.launch-button:hover {
 #module-spec-status {
    border:0px solid green;
    float:right;
-   width:325px;
    padding-top:5px;
 }
 
@@ -403,8 +408,8 @@ a.launch-button:hover {
 #module-spec-definitions {
    border:0px solid red;
    float:left;
-   width:290px;
-   padding:10px 10px 10px 0px;
+   width:280px;
+   padding:10px 20px 10px 0px;
 }
 
 #module-spec-definitions h3 {
@@ -417,6 +422,7 @@ a.launch-button:hover {
 }
 
 #module-spec-definitions p {
+   text-align:justify;
    margin:0px 0px 10px 10px;
 }
 
