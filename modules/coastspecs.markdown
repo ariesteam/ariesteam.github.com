@@ -226,7 +226,7 @@ Ocean.  WMO/TD-No. 577; Report No. TCP-12.  Secretariat of the World Meteorologi
 
 </div>
 
-### Additional contributors
+### Acknowledgements and additional contributors
 
 UNEP-WCMC provided funding for development of marine ecosystem services models in ARIES and supplied 
 other marine biotic datasets.  Liz Selig and Carmen Lacambra provided helpful guidance in obtaining 

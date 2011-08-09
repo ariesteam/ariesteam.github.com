@@ -208,7 +208,7 @@ Key model outputs from the flow models include:
 |------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
 | Model                                                | Layer                                   | Source                                                         | Spatial Extent                         | Data type/Spatial resolution                |      Year |
 |------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
-| Source - All models                                  | Carbon sequestration                    | NBII/Millennium Ecosystem Assessment                           | Global                                 | 1 km<sup>2</sup>                            |      2000 |
+| Source - All models                                  | Carbon sequestration                    | NBII/Millennium Ecosystem Assessment                           | Global                                 | Raster/1 km<sup>2</sup>                     |      2000 |
 |------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
 | Source & sink - Orange County                        | Average annual evapotranspiration       | SAGE/Univ. of Wisconsin                                        | Global                                 | Raster/0.5 x 0.5 degree                     | 1950-1999 |
 | <span />                                             | Land cover                              | NLCD 2001                                                      | United States                          | Raster/30 x 30 m                            |      2001 |
@@ -237,7 +237,7 @@ Key model outputs from the flow models include:
 | Sink - Orange County, San Pedro, Vermont, Western WA | Vegetation carbon storage               | National Biomass and Carbon Dataset                            | United States                          | Raster/30 x 30 m                            |      2000 |
 | Sink - Madagascar                                    | <span />                                | CDIAC/Ruesch & Gibbs                                           | Global                                 | Raster/1 km<sup>2</sup>                     |      2000 |
 |------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
-| Use - All U.S. models                                | GHG emissions                           | VULCAN Project, Purdue Univ.                                   | United States                          | Raster/10x10 km                             |      2002 |
+| Use - All U.S. models                                | GHG emissions                           | VULCAN Project, Purdue Univ.                                   | United States                          | Raster/10 x 10 km                             |      2002 |
 |------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------+----------------------------------------+---------------------------------------------+-----------|
 | Use - Madagascar                                     | Population density                      | LANDSCAN, Oak Ridge National Lab                               | Global                                 | Raster/30 arc-second                        |      2006 |
 | <span />                                             | Per capita emissions                    | Energy Information Administration: International Energy Annual | Global                                 | Non-spatial                                 |      2006 |
@@ -331,7 +331,7 @@ boosting conservation benefits.  Ecological Economics 65: 822-833.
 
 </div>
 
-### Additional contributors
+### Acknowledgements and additional contributors
 
 Ted Auch and Serguei Krivov provided input on the initial ARIES carbon models.  
 Mark Casias developed the case study for Orange County.  Sam Gorton developed 

@@ -402,7 +402,7 @@ Ecological Economics 65: 822-833.
 
 </div>
 
-### Additional contributors
+### Acknowldegements and additional contributors
 
 Dave Batker, Jim Pittman, and Paula Swedeen provided data and model review for the Western 
 Washington case study.  An expert review panel including individuals from the U.S. Geological 

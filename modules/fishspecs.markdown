@@ -286,7 +286,7 @@ Worm, B., et al.  2009.  Rebuilding global fisheries.  Science 325: 578-585.
 
 </div>
 
-### Additional contributors
+### Acknowledgements and additional contributors
 
 William Cheung provided fisheries datasets.  UNEP-WCMC provided
 funding for development of marine ecosystem services models in ARIES
