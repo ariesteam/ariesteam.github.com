@@ -5,7 +5,8 @@ title: Veracruz, Mexico Case Study
 
 case-study-image: <img src="/images/veracruz_ramsar_site.jpg" alt="Veracruz Ramsar Site" />
 
-primary-partner: <a href="http://www.ecologia.edu.mx/">Instituto de Ecologia, INECOL</a>
+primary-partner: <a href="http://www.conservation.org/">Conservation International</a>,
+                 <a href="http://www.ecologia.edu.mx/">Instituto de Ecologia, INECOL</a>
 
 completed: March 2011
 
@@ -21,7 +22,8 @@ highlights: >
             in a small watershed where payments for ecosystem services
             are in place.
 
-partner-logo: <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="/images/INECOL.jpg" /></a>
+partner-logo: <a href="http://www.conservation.org/"><img alt="Conservation International" src="/images/cilogo2.jpg" /></a>
+              <a href="http://www.ecologia.edu.mx/"><img alt="Instituto de Ecologia" src="/images/INECOL.jpg" /></a>
 ---
 ### Overview
 -------------

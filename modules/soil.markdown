@@ -86,7 +86,7 @@ well-being. Mapping the costs and benefits of erosion can show the
 added economic and environmental benefits of shade-grown coffee over
 intensive agriculture.
 
-#### Western Washington State
+#### Chehalis River Basin, Washington
 
 ![](/images/SnoquamieForest.jpg)
 {: .left }

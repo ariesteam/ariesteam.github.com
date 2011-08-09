@@ -44,7 +44,7 @@ privacy and access to open space.
 ### In the field
 -----------------
 
-#### Viewsheds: Western Washington State
+#### Viewsheds: Puget Sound, Washington
 
 ![](/images/seattle.jpg)
 {: .left }
@@ -56,7 +56,7 @@ determine property value. Views of mountains and water bodies provide
 value to homeowners and municipal tax bases. City and regional land
 use policies can either improve or degrade these values over time.
 
-#### Open space proximity: Western Washington State
+#### Open space proximity: Puget Sound, Washington
 
 ![](/images/EastWA.jpg)
 {: .left }

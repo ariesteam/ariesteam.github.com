@@ -63,7 +63,7 @@ ecosystem services in alternative scenarios for flood management.
 ### In the field
 -----------------
 
-#### Western Washington State
+#### Chehalis River Basin, Washington
 
 ![](/images/chehalis.jpg)
 {: .left }

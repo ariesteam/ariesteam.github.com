@@ -82,7 +82,7 @@ markets. In developing world contexts like Madagascar, carbon markets
 can potentially help finance conservation activities, if carefully
 planned.
 
-#### Western Washington State
+#### Puget Sound, Washington
 
 ![](/images/SnoquamieForest.jpg)
 {: .left }
@@ -93,7 +93,7 @@ timber harvests, flood control, and water supply in the Pacific
 Northwest forests. Careful consideration of these tradeoffs will be
 important as climate change policies continue to evolve.
 
-#### San Pedro River, Arizona and Sonora
+#### San Pedro River, Arizona and Sonora, Mexico
 
 ![](/images/6cgsan-pedro-leaves26a.jpg)
 {: .left }
