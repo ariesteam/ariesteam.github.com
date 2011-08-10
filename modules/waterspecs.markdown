@@ -1,7 +1,7 @@
 ---
 layout: modulespec
 
-title: Flood regulation module specs
+title: Water supply module specs
 
 module-status: functional
 ---
@@ -30,22 +30,45 @@ and references for these models.
 ## Definitions
 ---------------
 
-### Flood source
+### Surface water source
 
 Precipitation and snowmelt, which can cause floods.
 
-### Flood sink
+### Surface water sink
 
 Areas that absorb, detain, or promote infiltration of floodwater, including vegetation 
 and soils that can promote infiltration and evapotranspiration (green infrastructure) 
 and dams and detention basins (gray infrastructure) that can detain flood waters.
 
-### Flood beneficiaries
+### Surface water beneficiaries
 
 Beneficiaries of flood regulation include residents, farmers, and users of public 
 infrastructure in flood zones.
 
-### Flood flow
+### Surface water flow
+
+Flood flows are routed across the landscape through topography and stream networks. 
+Once floodwater is in a stream, it can overtop the streambanks, depending on the 
+amount of floodwater, floodplain width, and the presence of levees. Flood damage 
+can be attributed to upstream flood sources, and mitigated damage can be attributed 
+to upstream flood sinks, which provide the ecosystem service of flood regulation.
+
+### Groundwater source
+
+Precipitation and snowmelt, which can cause floods.
+
+### Groundwater sink
+
+Areas that absorb, detain, or promote infiltration of floodwater, including vegetation 
+and soils that can promote infiltration and evapotranspiration (green infrastructure) 
+and dams and detention basins (gray infrastructure) that can detain flood waters.
+
+### Groundwater beneficiaries
+
+Beneficiaries of flood regulation include residents, farmers, and users of public 
+infrastructure in flood zones.
+
+### Groundwater flow
 
 Flood flows are routed across the landscape through topography and stream networks. 
 Once floodwater is in a stream, it can overtop the streambanks, depending on the 
@@ -62,17 +85,17 @@ to upstream flood sinks, which provide the ecosystem service of flood regulation
 
 ### Case studies
 
-1. Western Washington State
-2. Orange County, California
+1. San Pedro River Watershed, Arizona and Sonora
+2. La Antigua Watershed, Veracruz, Mexico
 
 ### Model structure and assumptions
 
-**Flood source models.** We use annual precipitation is the source of floodwater. Flood regulation is 
+**Water supply source models.** We use annual precipitation is the source of floodwater. Flood regulation is 
 For event-based flood modeling, snowmelt is an extremely important variable in seasonally cold-weather 
 climates, such as Western Washington.  Since data limitations prevent event-based flood modeling in 
 ARIES, snow presence and snowmelt are not currently included in the flood source model.  
 
-**Flood sink models.** Past ecosystem services studies have essentially mapped flood sinks using spatial 
+**Water supply sink models.** Past ecosystem services studies have essentially mapped flood sinks using spatial 
 data; we drew on these approaches in developing our sink models.  Eade and Moran (1996) mapped flood 
 regulation based on soil drainage classifications, while Chan et al. (2006) did so by estimating percent 
 natural land cover, percent natural land cover within riparian zones, distance to the 100-year floodplain, 
@@ -136,16 +159,19 @@ much greater storage when there were very low or low mean days of precipitation 
 We summed values for dam and detention basin storage to quantify gray infrastructure storage, and added this 
 to the value of green infrastructure storage to estimate the total flood sink.
 
-[![Bayesian network model for flood sinks in Western Washington. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/FloodSinkPuget.gif)](/downloads/FloodSinkPugetAnnual.xdsl)
+[![Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/SurfaceWaterSinkLA.gif)](/downloads/SurfaceWaterSinkLA.xdsl)
 {: .bayesnet }
 
-**Flood use models.** Beneficiaries of flood regulation can be mapped using spatial data and simple GIS 
+**Water supply use models.** Beneficiaries of flood regulation can be mapped using spatial data and simple GIS 
 overlay operations, eliminating the need for more complex approaches.  In these case studies, we identified 
 different beneficiary classes, including farmers, residents, and municipalities with public infrastructure 
 located within the floodplain boundaries.  We mapped beneficiaries in both the 100-year and 500-year 
 floodplains in order to differentiate between levels of risk from catastrophic floods of different sizes.
 
-**Flood flow models.** The source and sink models determine the quantity (in mm/yr) of precipitation falling 
+[![Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/SurfaceWaterUseLAAgriculture.gif)](/downloads/SurfaceWaterUseLAAgriculture.xdsl)
+{: .bayesnet }
+
+**Water supply flow models.** The source and sink models determine the quantity (in mm/yr) of precipitation falling 
 on the landscape and absorbed or detained by the landscape, while the use model defines the location of potential 
 flood regulation beneficiaries.  The flow model routes water from its source locations through the watershed 
 based on the topography of the location.  Once the flow of water moving across a landscape intersects a stream, 
@@ -171,39 +197,38 @@ Key outputs from the flow models include:
 
 ### Spatial data
 
-|---------------------------+------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------+----------------------------------------------------------|
-| Model                     | Layer                                    | Source                                         | Spatial Extent                                                                      | Data type/Spatial resolution                       |                                                     Year |
-|---------------------------+------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------+----------------------------------------------------------|
-| Source - All models       | Annual precipitation                     | PRISM/Oregon State Univ.                       | United States                                                                       | Raster/800 x 800 m                                 |                                                1971-2000 |
-|---------------------------+------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------+----------------------------------------------------------|
-| Sink - All models         | Average annual actual evapotranspiration | SAGE/Univ. of Wisconsin                        | Global                                                                              | Raster/0.5 x 0.5 degree                            |                                                1950-1999 |
-| <span />                  | Average annual runoff                    | SAGE/Univ. of Wisconsin                        | Global                                                                              | Raster/0.5 x 0.5 degree                            |                                                1955-1990 |
-| <span />                  | Dam storage                              | National Atlas of the United States            | United States                                                                       | Rasterized point data                              |                                                     2006 |
-| <span />                  | Hydrologic soils group                   | SSURGO & STATSGO soil data                     | United States                                                                       | Rasterized shapefile at 30 x 30 m                  |                                                      n/a |
-| <span />                  | Impervious surface cover                 | NLCD 2001                                      | United States                                                                       | Raster/30 x 30 m                                   |                                                     2001 |
-| <span />                  | Slope                                    | Derived from global SRTM data                  | Global                                                                              | Raster/90 x 90 m                                   |                                                      n/a |
-| <span />                  | Tree canopy cover                        | NLCD 2001                                      | United States                                                                       | Raster/30 x 30 m                                   |                                                     2001 |
-| Sink - Orange County      | Average annual soil infiltration         | LA Basin Groundwater Augmentation Model (GWAM) | West Coyote Hills site                                                              | Vector shapefile                                   |                                                1951-2002 |
-| <span />                  | Vegetation type                          | U.S. Forest Service                            | Northern Orange & Southern LA Counties                                              | Vector shapefile                                   |                                                     2003 |
-| Sink - Western WA         | Vegetation type                          | NLCD 2001                                      | United States                                                                       | Raster/30 x 30 m                                   |                                                     2001 |
-| <span />                  | Detention basins                         | County GIS offices                             | King, Pierce, San Juan counties                                                     | Rasterized point data                              |                                                   Varies |
-| <span />                  | Mean days of precipitation per year      | PRISM/Oregon State Univ.                       | United States                                                                       | Vector shapefile>                                  |                                                1971-2000 |
-| <span />                  | Successional stage                       | BLM/Interagency Vegetation Mapping Project     | Western Washington & Oregon                                                         | Raster/25 x 25 m                                   |                                                     1996 |
-| <span />                  | Vegetation height                        | Puget Sound LIDAR Consortium                   | Parts of Western Washington                                                         | Raster/3 foot2 & 6 foot2, downsampled to 30 x 30 m |                                                2000-2006 |
-|---------------------------+------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------+----------------------------------------------------------|
-| Use - All models          | Farmland                                 | NLCD 2001                                      | United States                                                                       | Raster/30 x 30 m                                   |                                                     2001 |
-| <span />                  | Floodplain extents                       | FEMA Q3 Flood Data                             | United States                                                                       | Vector shapefile                                   |                                                   Varies |
-| <span />                  | Highways                                 | TIGER/Line files                               | United States                                                                       | Vector line data                                   |                                                     2000 |
-| <span />                  | Railways                                 | TIGER/Line files                               | United States                                                                       | Vector line data                                   |                                                     2000 |
-| Use - Western Washington  | Presence of housing                      | County assessors' offices                      | Clallam, Grays Harbor, Jefferson, King, Kitsap, Mason, Snohomish, Thurston cos., WA | Rasterized shpefile at 100 x 100 m                 | 2004 (Kitsap Co.), 2006 (King Co.); uncertain for others |
-|---------------------------+------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------+----------------------------------------------------------|
-| Flow - All models         | Dams                                     | National Atlas of the United States            | United States                                                                       | Rasterized point data                              |                                                     2006 |
-| <span />                  | Elevation                                | SRTM                                           | Global                                                                              | Raster/90 x 90 m                                   |                                                      n/a |
-| <span />                  | Floodplain extents                       | FEMA Q3 Flood Data                             | United States                                                                       | Vector shapefile                                   |                                                   Varies |
-| Flow - Orange County      | Hydrography                              | Caltrans Teale Data Center                     | California                                                                          | Vector line data                                   |                                                      n/a |
-| Flow - Western Washington | <span />                                 | Washington DNR                                 | Washington State                                                                    | Vector line data                                   |                                                      n/a |
-| <span />                  | Levees                                   | County GIS offices                             | King, Lewis, Pierce counties                                                        | Vector line data                                   |                                                   Varies |
-|---------------------------+------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------+----------------------------------------------------------|
+|---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
+| Model                     | Layer                                    | Source                                                 | Spatial Extent                     | Data type/Spatial resolution     |                               Year |
+|---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
+| Source - All models       | Annual precipitation                     | WorldClim                                              | Global                             | Raster/30 x 30 arc seconds       |                          1950-2000 |
+| Source - San Pedro        | <span />                                 | PRISM/Oregon State Univ.                               | United States                      | Raster/800 x 800 m               |                          1971-2000 |
+| Source & sink - San Pedro | Soil infiltration                        | USGS                                                   | Continental United States          | Raster/1 km<sup>2</sup>          | Derived from 1951-1980 runoff data |
+| <span />                  | Springs                                  | Arizona Geographic Information Council                 | Arizona                            | Rasterized point data            |                                n/a |
+| Source - All models       | Snowmelt                                 | Univ. Delaware Global Water Balance Archive            | Global                             | Raster/0.5 x 0.5 degree          |                          1950-1999 |
+|---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
+| Sink - All models         | Average annual actual evapotranspiration | SAGE/Univ. Wisconsin                                   | Global                             | Raster/0.5 x 0.5 degree          |                          1950-1999 |
+| <span />                  | Average annual runoff                    | SAGE/Univ. Wisconsin                                   | Global                             | Raster/0.5 x 0.5 degree          |                          1955-1990 |
+| <span />                  | Tree canopy cover                        | GLCF/Univ. Maryland                                    | Global                             | Raster/1 km<sup>2</sup>          |                               2000 |
+| Sink - San Pedro          | <span />                                 | NLCD 2001                                              | United States                      | Raster/30 x 30 m                 |                               2001 |
+| <span />                  | Annual maximum temperature               | WorldClim                                              | Global                             | Raster/30 x 30 arc seconds       |                          1950-2000 |
+| <span />                  | <span />                                 | PRISM/Oregon State Univ.                               | United States                      | Raster/800 x 800 m               |                          1971-2000 |
+| <span />                  | Mountainfront recharge zones             | Derived from Arizona Geographic Information Council    | Arizona                            | Vector shapefile                 |                                n/a |
+| Sink - San Pedro          | Vegetation type                          | Southwest Regional Gap Analysis (SWReGAP) LULC         | AZ, CO, NM, NV, UT                 | Raster/30 x 30 m                 |                               2000 |
+| Sink & flow - San Pedro   | Hydrography                              | National Hydrography Dataset                           | Arizona                            | Vector line data                 |                                n/a |
+| <span />                  | <span />                                 | EPA San Pedro Data Browser                             | Upper San Pedro in Sonora, Mexico  | Vector line data                 |                                n/a |
+| Sink & flow - La Antigua  | <span />                                 | INECOL                                                 | La Antigua                         | Vector line data                 |                                n/a |
+| Sink - La Antigua         | Vegetation tyoe                          | INECOL                                                 | La Antigua                         |                                  |                      Not available |
+| <span />                  | Slope                                    | Derived from global SRTM data                          | Global                             | Raster/90 x 90 m                 |                                n/a |
+| <span />                  | Impervious surface cover                 | NOAA-NGDC                                              | Global                             | Raster/1 km<sup>2</sup>          |                          2000-2001 |
+| <span />                  | Hydrologic soils group                   | Gately (2008) using FAO soils data                     | Global                             | Raster/0.083 degrees<sup>2</sup> |                                n/a |
+|---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
+| Use - San Pedro           | Surface diversions                       | Digitized locations of St. David & Pomerene Diversions | San Pedro                          | Rasterized point data            |                               2010 |
+| <span />                  | Well user type, capacity, depth          | Arizona Dept. of Water Resources Wells 55 Database     | Arizona                            | Rasterized point data            |                               2010 |
+| Use - All models          | Well locations                           | INECOL                                                 | States of Puebla, Sonora, Veracruz | Rasterized point data            |                      Not available |
+| Use - La Antigua          | Water extracton amounts and user types   | INECOL                                                 | La Antigua                         | Rasterized point data            |                      Not available |
+|---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
+| Flow - All models         | Elevation                                | SRTM                                                   | Global                             | Raster/90 x 90 m                 |                                n/a |
+|---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
 
 <div id="module-spec-references" markdown="1">
 
