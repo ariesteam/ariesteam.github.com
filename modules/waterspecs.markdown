@@ -7,18 +7,21 @@ module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
-The ARIES flood models start by mapping sources of precipitation and snowmelt, which can cause floods, 
-sinks that absorb, detain, or promote infiltration of floodwater, and beneficiaries that may receive 
-flood mitigation services.  Sink models incorporate vegetation and soil data that describe how well 
-different areas can promote infiltration and evapotranspiration.  Vegetation and soils provide what 
-is collectively termed green infrastructure, which acts along with gray infrastructure such as dams 
-and detention basins that detain flood waters.  Flood flow models spatially link sources of floodwater, 
-beneficial sinks, and beneficiaries in the landscape.  These models account for the location and width 
-of floodplains and the effects of levees, which protect assets at risk behind levees but at the same 
-time increase the energy of the water conveyed downstream, potentially increasing downstream damage.  
-Different beneficiary groups may be protected from flooding - crops, privately owned housing or other 
-buildings, publicly owned infrastructure, and human life.  GIS data showing riverine flood zones and 
-maps of population, agriculture, and structures allow beneficiaries to be mapped.
+Water supply is a complex ecosystem service to spatially model, given that groundwater and surface water 
+are closely connected but move based on different controlling factors, that these influences on hydrology 
+and hydrologic models differ greatly based on the spatial and temporal scale and the region of the world 
+considered, and that available spatial data can rarely support modeling at both high spatial and temporal 
+resolutions.  Given these limitations, our initial water supply models operate at an annual scale (which 
+is matched by available spatial data for important variables including precipitation, infiltration, snowmelt, 
+and evapotranspiration).  We currently consider only flows of surface water, though we do model the 
+infiltration of surface water into groundwater and groundwater extraction from wells.  We also use a set of 
+generalized models to represent sources of surface water (precipitation, snowmelt, springs, baseflow to 
+rivers, and incoming inter-basin water transfers), sinks of surface water (evapotranspiration, infiltration), 
+beneficiaries or users of surface water, and the flow of surface water across the landscape (routed using 
+SRTM elevation data).  The long-term intent of our modeling process is to incorporate existing hydrologic 
+models wherever appropriate that will more realistically account for hydrologic processes.  Over time this 
+includes modeling groundwater and its movement and use.  As spatial data continue to improve, it may also be 
+possible to model water supply at finer temporal scales.
 
 Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation 
 and references for these models.
@@ -32,49 +35,40 @@ and references for these models.
 
 ### Surface water source
 
-Precipitation and snowmelt, which can cause floods.
+Areas where surface water enters the landscape and becomes available for human use, via 
+precipitation, snowmelt, springs, baseflow to rivers, and incoming inter-basin water 
+transfers.
 
 ### Surface water sink
 
-Areas that absorb, detain, or promote infiltration of floodwater, including vegetation 
-and soils that can promote infiltration and evapotranspiration (green infrastructure) 
-and dams and detention basins (gray infrastructure) that can detain flood waters.
+Areas that where surface water transitions to groundwater (via infiltration) or atmospheric 
+water (via evapotranspiration).
 
 ### Surface water beneficiaries
 
-Beneficiaries of flood regulation include residents, farmers, and users of public 
-infrastructure in flood zones.
+Human users of surface water, obtained via water intakes or surface diversions.
 
 ### Surface water flow
 
-Flood flows are routed across the landscape through topography and stream networks. 
-Once floodwater is in a stream, it can overtop the streambanks, depending on the 
-amount of floodwater, floodplain width, and the presence of levees. Flood damage 
-can be attributed to upstream flood sources, and mitigated damage can be attributed 
-to upstream flood sinks, which provide the ecosystem service of flood regulation.
+Surface water flows are routed across the landscape through topography and stream networks.
 
 ### Groundwater source
 
-Precipitation and snowmelt, which can cause floods.
+Areas where groundwater enters the water table and becomes available for human use, via 
+infiltration or artificial groundwater augmentation.
 
 ### Groundwater sink
 
-Areas that absorb, detain, or promote infiltration of floodwater, including vegetation 
-and soils that can promote infiltration and evapotranspiration (green infrastructure) 
-and dams and detention basins (gray infrastructure) that can detain flood waters.
+Areas where groundwater transitions to surface water (via springs or baseflow).
 
 ### Groundwater beneficiaries
 
-Beneficiaries of flood regulation include residents, farmers, and users of public 
-infrastructure in flood zones.
+Human users of groundwater, obtained via groundwater wells.
 
 ### Groundwater flow
 
-Flood flows are routed across the landscape through topography and stream networks. 
-Once floodwater is in a stream, it can overtop the streambanks, depending on the 
-amount of floodwater, floodplain width, and the presence of levees. Flood damage 
-can be attributed to upstream flood sources, and mitigated damage can be attributed 
-to upstream flood sinks, which provide the ecosystem service of flood regulation.
+Groundwater flows, which depend on subsurface geology (e.g., porosity of rock layers) and 
+groundwater elevations.
 
 </div>
 
@@ -90,110 +84,129 @@ to upstream flood sinks, which provide the ecosystem service of flood regulation
 
 ### Model structure and assumptions
 
-**Water supply source models.** We use annual precipitation is the source of floodwater. Flood regulation is 
-For event-based flood modeling, snowmelt is an extremely important variable in seasonally cold-weather 
-climates, such as Western Washington.  Since data limitations prevent event-based flood modeling in 
-ARIES, snow presence and snowmelt are not currently included in the flood source model.  
+**Water supply source models.** Past studies have used a variety of spatial data to map water supply and 
+regulation services on the landscape.  These have typically included overlays of supply and demand (Boyd 
+and Wainger 2003, Wundscher et al. 2008), estimates of water stored in soils and aquifers using infiltration 
+data (Egoh et al. 2008), precipitation and evapotranspiration data (Chan et al. 2006), or the SCS curve 
+number (SCS 1972, Gately 2008) or Budyko Curve method to account for precipitation and evapotranspiration
+across the landscape (Tallis et al. 2011).  Given the difficulty in developing a generalized model of 
+hydrologic processes that is applicable at multiple spatial scales and in different ecological contexts, 
+the initial ARIES water supply models include direct data or Bayesian models (for surface water sinks) 
+that are applicable to our case study regions but that incorporate many of the influences on hydrologic 
+processes that were used by the above authors.   In cases where vegetation-hydrology relationships are 
+poorly understood, such as in tropical forests (Bruijnzeel 2004), ARIES' data-driven modeling approach 
+may be more appropriate than using process-based approaches.  In many other cases, future generation ARIES 
+models will link existing hydrologic models, improving model quality and credibility.
 
-**Water supply sink models.** Past ecosystem services studies have essentially mapped flood sinks using spatial 
-data; we drew on these approaches in developing our sink models.  Eade and Moran (1996) mapped flood 
-regulation based on soil drainage classifications, while Chan et al. (2006) did so by estimating percent 
-natural land cover, percent natural land cover within riparian zones, distance to the 100-year floodplain, 
-percent agricultural land, and housing units in the 100-year floodplain.  Finally, Boyd and Wainger (2003) 
-mapped flood regulation using spatial data including floodplain locations, housing and commercial units 
-and value, percent floodplain as impervious and wetland.  Boyd and Wainger also included an environmental 
-justice component to their measures, by mapping median income and percent black or Hispanic populations 
-within their impacted area.  We drew on these studies to conceptualize our flood sink models, then extended 
-these approaches by including additional variables considered by others to be important for flood regulation 
-(Eade and Moran 1996, Boyd and Wainger 2003, Chan et al. 2006, Bradshaw et al. 2007).
+Spatial data or calibrated hydrologic model outputs can generally be used as the source value for surface 
+and groundwater supply, with no Bayesian model needed.  There are at least five potential sources of 
+surface water, which can be summed to obtain the total annual surface water source value: precipitation, 
+snowmelt, springs, baseflow to rivers, and incoming inter-basin water transfers where water is discharged 
+into surface water bodies.  If we run the model using annual average values, snowmelt only becomes important 
+in locations with glaciers (i.e., annual snowmelt in all other locations is included in annual precipitation 
+totals).  Sources of groundwater include areas of infiltration and deep percolation that lead to aquifer 
+recharge, along with artificial groundwater recharge.
 
-We defined flood sink value, the top-level output of the sink model, as the sum of green infrastructure 
-storage (the sum of infiltration, absorption, detention, or evapotranspiration of potential flood waters by 
-vegetation, soils, and floodplains) and gray infrastructure storage (the sum of storage in detention basins 
-and reservoirs). Both gray and green infrastructure can be "saturated" when their individual components are 
-at full capacity. Because of this, we added the mean days of precipitation per year as an influence to green 
-and gray infrastructure storage in the Western Washington model.  This accounts for the fact that green and 
-gray infrastructure are likely to be saturated for more of the year in regions where precipitation is more 
-evenly distributed over the course of a year, allowing soil moisture to remain more temporally uniform.  We 
-did not include this variable in the Orange County model, since we assume the system to be "unsaturated" 
-for most of the year, since Southern California experiences low annual rainfall and flood events are 
-extremely flashy.
+For the San Pedro, we use annual precipitation as the source value for surface water.  We show initial 
+results for a representative dry (2002) and wet year (2007), since the 30-year average data from PRISM 
+is less meaningful in arid environments where annual precipitation is highly variable.  If desired, a 
+user could also input precipitation data from other years to use as the surface water source value.  
+For groundwater, we can compare spatial data for soil infiltration, infiltration results from the surface 
+water sink Bayesian network model, and the results of hydrologic models (once incorporated) as possible 
+source values.  In the future, we could also incorporate data on the location of groundwater recharge 
+facilities in the Sierra Vista area, assuming the data were available.  We do not include snowmelt in 
+the source model, as there is no persistent snowpack in the mountains within the San Pedro River Watershed.  
+Until detailed surface and groundwater models are incorporated, we lack data on baseflow.  Although incoming 
+interbasin water transfers are proposed (Bureau of Reclamation 2007), there are currently no incoming water 
+transfers from outside the basin.  Finally, while we have data on the location of springs in the San Pedro, 
+we do not use these data in the source model as we do not know their discharge volume, and most spring 
+discharge quickly infiltrates back into the soil via ephemeral stream channels.
 
-By computing the difference between precipitation and runoff (which accounts for vegetation and soil 
-characteristics), we can estimate the contribution of green infrastructure to flood mitigation.  We can thus 
-use the difference between precipitation and runoff as training data for the Bayesian network.  Models such 
-as the Curve Number method (CN, SCS 1972), which incorporates data on precipitation, hydrologic soils group, 
-and land use-land cover, can also be used to calculate runoff.
+For La Antigua, we also use annual precipitation as the source value for surface water.  Infiltration 
+results from the surface water sink Bayesian network model can serve as the source value for groundwater.  
+Like the San Pedro, there is no persistent snowpack in the mountains within the La Antigua watershed.  
+We also lack detailed hydrologic data or models on springs, baseflow, incoming interbasin water transfers, 
+and groundwater recharge, so do not include these as sources of surface or groundwater.
 
-We set soil infiltration as a function of impervious surface cover, slope, and hydrologic soils group. These 
-variables have been routinely recognized as predictive variables for potential soil infiltration (i.e., USACE 
-1998, Tetra Tech, Inc. 2005, Laton et al. 2006, BOR 2007).  We considered adding water table depth (available 
-from SSURGO/STATSGO data) as an influence on infiltration but ultimately decided not to include it to maintain 
-tractability in the contingent probability table. Evapotranspiration reduces soil moisture, thereby allowing 
-increased infiltration.  In addition, it serves as a proxy for other flood mitigation processes due to the 
-presence of vegetation.  We set evapotranspiration as a function of percent tree canopy cover and vegetation 
-type (in both models) and added influences for successional stage and vegetation height for the Western Washington 
-model.  Jones and Post (2004) and Moore and Wondzell (2005) note the importance of forest cover and successional 
-stage as drivers of hydrologic processes in Pacific Northwest forests.
+**Water supply sink models.** Surface water sinks include areas of evapotranspiration and infiltration.  
+Conversely, groundwater sinks include springs and baseflow to rivers.  Lacking an external groundwater model, 
+we currently do not include springs or baseflow as groundwater sinks for the San Pedro.  For both the San Pedro 
+and La Antigua, we set the total surface water sink as the sum of evapotranspiration and deep soil infiltration.  
+Runoff data will play a role in training of the Bayesian network models to help account for the difference 
+between precipitation and sinks.
 
-We discretized mean days of precipitation per year using Jenks natural breaks and estimated its priors on a 
-review of the data for Western Washington.  We reviewed GIS data for Orange County and Western Washington to 
-derive priors for impervious surface cover, slope, and hydrologic soils group. We discretized impervious surface 
-cover to account for ecological thresholds typically present when impervious surface exceeds 10% (Booth and 
-Jackson 1997). We used equal intervals to discretize percent tree canopy cover and Jenks natural breaks to 
-discretize vegetation height for Western Washington. We estimated priors based on spatial data for percent tree 
-canopy cover, successional stage, vegetation height, and vegetation type.
+For the San Pedro, nationwide data are available for deep soil infiltration and global data for actual 
+evapotranspiration.  While these data sources can be used as training data for Bayesian network models, both 
+datasets are problematic.  The evapotranspiration dataset has low spatial resolution (0.5 x 0.5 degree) and 
+does not capture local variation in vegetation type, tree canopy cover, and temperature, all of which are key 
+influences on evapotranspiration.  The infiltration data, having been developed at the national level, are 
+unlikely to account for the limited area over which infiltration actually occurs in the semiarid Basin and 
+Range region of the southwestern United States.  We therefore use a Bayesian network that considers vegetation 
+type, percent tree canopy cover, and annual maximum temperature as influences on evapotranspiration.  We set 
+the locations of stream channels and limestone bedrock and the intersection of valley fill alluvium and the 
+mountain fronts to account for the two key locations of deep percolation and groundwater recharge: the mountain 
+fronts, stream banks, and ephemeral stream channels (Pool and Dickinson 2007). In the future, we could also 
+incorporate data on the location of groundwater recharge facilities in the Sierra Vista area, assuming the data 
+are available.  We set priors for these nodes based on a review of the corresponding spatial data.  We set the 
+highest values for the evapotranspiration conditional probability table under greater percent tree canopy cover 
+and higher temperatures, all else being equal.  We set the highest evapotranspiration rates for vegetation type 
+to riparian, followed by forests, then mesquite woodland, oak woodland, agriculture, urban, and grassland, with 
+the lowest values set for desert scrub.  We set the conditional probability for infiltration as highest at the 
+mountain fronts and as slightly lower in stream channels, and set it as extremely low elsewhere.
 
-For the soil infiltration contingent probability table, we set the highest values of infiltration at low 
-impervious surface cover and slope and hydrologic soils groups A and B.  We set the lowest values for infiltration 
-under opposite conditions and interpolated intermediate values.  We set the evapotranspiration contingent 
-probability table to its greatest values in cases of greater percent tree canopy cover, later successional stage, 
-tall vegetation (where applicable), and wetlands, and vice versa, and interpolated intermediate values.  We set 
-evapotranspiration as slightly lower than wetlands for forests, grassland, and shrubland, and substantially lower 
-for developed and cultivated land use types.  
+For La Antigua, we set the evapotranspiration as a function of vegetation type and percent tree canopy cover, and 
+set deep infiltration as a function of hydrologic soils group, slope, and percent impervious surface cover.  We set 
+the conditional probability for evapotranspiration to be highest with greater tree canopy cover and for riparian 
+vegetation and forests and lowest for agriculture, urban, and grassland.  We assume infiltration to be greatest on 
+shallow slopes, low levels of impervious surface cover, and hydrologic soils groups A and B.
 
-We set evapotranspiration and soil infiltration as equivalent influences on the green infrastructure storage 
-contingent probability table.  In the Western Washington model, we set mean days of precipitation per year as 
-a strong influence on the contingent probability tables for both gray and green infrastructure storage (i.e., 
-much greater storage when there were very low or low mean days of precipitation per year, and vice versa).  
-We summed values for dam and detention basin storage to quantify gray infrastructure storage, and added this 
-to the value of green infrastructure storage to estimate the total flood sink.
-
-[![Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/SurfaceWaterSinkLA.gif)](/downloads/SurfaceWaterSinkLA.xdsl)
+[![Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/WaterSinkLaAntigua.gif)](/downloads/SurfaceWaterSinkLA.xdsl)
 {: .bayesnet }
 
-**Water supply use models.** Beneficiaries of flood regulation can be mapped using spatial data and simple GIS 
-overlay operations, eliminating the need for more complex approaches.  In these case studies, we identified 
-different beneficiary classes, including farmers, residents, and municipalities with public infrastructure 
-located within the floodplain boundaries.  We mapped beneficiaries in both the 100-year and 500-year 
-floodplains in order to differentiate between levels of risk from catastrophic floods of different sizes.
+**Water supply use models.** Users access groundwater through wells and surface water through surface diversions, 
+direct pumping from water bodies, and outgoing inter-basin water transfers.  Users can be split by use type (e.g., 
+agriculture, domestic, industrial use) if deemed relevant to the case study of interest.
 
-[![Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/SurfaceWaterUseLAAgriculture.gif)](/downloads/SurfaceWaterUseLAAgriculture.xdsl)
-{: .bayesnet }
+For the San Pedro, we mapped the location and volume of the two surface water diversions on the river at St. David 
+and Pomerene.  We use well data and capacity to identify groundwater use.  Although the state wells database 
+identifies users, they are not explicitly grouped by use, so at this time we do not separate out agricultural, mining, 
+military, or domestic water uses.  Also, since we do not currently have an integrated groundwater flow model, we do 
+not explicitly connect sources, sinks, and users for groundwater.
 
-**Water supply flow models.** The source and sink models determine the quantity (in mm/yr) of precipitation falling 
-on the landscape and absorbed or detained by the landscape, while the use model defines the location of potential 
-flood regulation beneficiaries.  The flow model routes water from its source locations through the watershed 
-based on the topography of the location.  Once the flow of water moving across a landscape intersects a stream, 
-its movement is no longer determined by topography and instead follows the direction of the streambed.  Once 
-floodwater is in a stream, it can overtop the streambanks, depending on the amount of floodwater, floodplain 
-width, and the presence of levees.  If the downstream flow reaches a dam, floodwater is temporarily detained 
-unless excess water in an already-full reservoir must be released downstream.  If floodwater reaches a user, 
-it causes damage.  This damage can be attributed to upstream flood sources, and mitigated damage can be attributed 
-to upstream flood sinks, which provide the ecosystem service of flood regulation.
+For La Antigua, we used spatial and tabular data to map the location and volume of surface water diversions.  Well 
+data and well capacity could be used to identify groundwater use. In either case, legally binding water rights would 
+also be informative for further identifying beneficiaries and use. We mapped four distinct beneficiary classes, 
+including agriculture, aquaculture, industrial, and residential water use.
+
+**Water supply flow models.** The source models determine the annual quantity (in mm<sup>3</sup>/yr) of precipitation 
+and other surface water sources (in the surface water models) or infiltration to groundwater (in the groundwater 
+source models).  The sink models estimate the annual quantity of water transitioning between surface and groundwater, 
+and vice versa, and the use models estimate the quantity of water used by beneficiaries in each location.  Surface 
+and groundwater flows must be modeled separately, as they move at different rates, with flows governed by different 
+factors.
+
+Currently, we map surface water flow using a simple water routing model.  This model relies on the SRTM elevation data 
+to identify flow directions for water.  Water is moved across the landscape using this derived flow direction layer 
+until it encounters a stream (represented using a hydrography layer), at which point it moves downstream through 
+the stream network.  Users or sinks encountered in transit reduce the quantity of water carried across the landscape.
+
+Subsurface water flows are considerably more complex, and are governed by factors including geology (i.e., porosity 
+of rock layers) and groundwater elevations.  Subsurface flows are commonly modeled using the MODFLOW model (Harbaugh 
+et al. 2000).  Future releases of ARIES will investigate the feasibility of linking groundwater models to source, 
+sink, and use models to fully and more accurately represent water flows using accepted hydrologic models.
 
 Key outputs from the flow models include: 
 
-1. Potentially damaging flood flow: The flow route of floodwater across the landscape in the absence of sinks.
-2. Potentially damaging runoff: Runoff capable of harming people or damaging property when accounting for flow paths but not sinks.
-3. Potential flood damage received: People and property receiving damage when accounting for sources of floodwater and its flow path but not accounting for the action of sinks that reduce potential damage from floodwater.
-4. Actual flood flow: The flow route of floodwater across the landscape in the presence of sinks.
-5. Flood damaging runoff: Runoff that actually harms people or damages property when accounting for flow paths and sinks.
-6. Utilized runoff mitigation: Sinks that actively reduce floodwater, providing the benefit of reduced flood damage for people.
-7. Flood damage received: Actual damage received by people and property when accounting for sources of floodwater, flow paths, and sinks encountered.
-8. Absorbed flood flow: Flood flows that are absorbed by sinks prior to reaching vulnerable human beneficiaries.
-9. Flood mitigated runoff: The portion of the total runoff that is absorbed, detained, or slowed by the action of flood sinks.
-10. Flood mitigation benefits accrued: People or economically valuable assets who are spared from flood damage due to the flood regulation activity of sinks.
+1. Possible surface water flow: The movement of surface water via topography and stream networks, and groundwater via appropriate groundwater flow paths while disregarding sinks.
+2. Possible surface water supply: Atmospheric, ground, or surface water transitions providing an initial source quantity of surface or groundwater, that are capable of providing water to human beneficiaries when accounting for surface or groundwater flow paths but not sinks.
+3. Possible surface water use: Water actually reaching a user, but not accounting for the activity of sinks.
+4. Actual surface water flow: The movement of surface and groundwater, accounting for flow topology and sinks.
+5. Used surface water supply: Atmospheric, ground, or surface water transitions that result in an initial source quantity surface or groundwater, that are capable of providing water to human beneficiaries when accounting for surface or groundwater flow paths and sinks (i.e., locations actually providing water to human beneficiaries).
+6. Actual surface water sink: Locations where surface water transitions into groundwater (via infiltration) or atmospheric water (via evapotranspiration), or where groundwater transitions into surface water (via springs or baseflow).
+7. Satisfied surface water demand; Satisfied groundwater demand: The portion of demand for water satisfied by extraction of surface or groundwater.
+8. Sunk surface water flow: Water flow that fails to reach a user because it encountered a sink and transitioned from surface or groundwater into the atmosphere, surface, or groundwater.
+9. Sunk surface water supply: Source locations of surface or groundwater that fail to reach a user due to their encountering a sink and that transitions water to the atmospheric, surface, or groundwater.
+10. Blocked surface water demand: Demand for surface or groundwater that goes unsatisfied due to the action of sinks that transition water between surface, atmospheric, and groundwater.
 
 ### Spatial data
 
@@ -234,48 +247,43 @@ Key outputs from the flow models include:
 
 ### References
 
-Booth, D.B. and C.R. Jackson.  1997.  Urbanization of aquatic systems: Degradation thresholds, stormwater detection, 
-and the limits of mitigation.  Journal of the American Water Resources Association 33 (5): 1077-1090.
-
 Boyd, J and L. Wainger.  2003.  Measuring ecosystem service benefits: The use of landscape analysis to evaluate 
 environmental trades and compensation.  Discussion Paper 02-63, Resources for the Future: Washington, DC.
 
-Bureau of Reclamation (BOR) (2007). Los Angeles Basin Ground Water Augmentation Model: User's Manual and Technical 
-Documentation, Version 4.1.40. Bureau of Reclamation, Technical Services Center, Water Resources Department: 
-Denver, CO.
+Bruijnzeel, L.A.  2004.  Hydrological functions of tropical forests: Not seeing the soil for the trees?  
+Agriculture, Ecosystems, and Environment 104: 185-228.
 
-Bradshaw, C.J.A., et al.  2007.  Global evidence that deforestation amplifies flood risk and severity in the 
-developing world.  Global Change Biology 13: 2379-2395.
+Bureau of Reclamation.  2007.  Appraisal report: Augmentation alternatives for the Sierra Vista Sub-watershed, 
+Arizona: Lower Colorado Region.  U.S. Department of Interior Bureau of Reclamation: Denver, CO.
 
 Chan, K.M.A., et al.  2006.  Conservation planning for ecosystem services.  PLOS Biology 4 (11): 2138-2152.
 
-Eade, J.D.O. and D. Moran.  1996.  Spatial economic valuation: Benefits transfer using geographical information 
-systems.  Journal of Environmental Management 48: 97-110.
+Egoh, B, et al.  2008.  Mapping ecosystem services for planning and management.  Agriculture, Ecosystems and 
+Environment 127: 135-140.
 
-Jones, J.A. and D.A. Post.  2004.  Seasonal and successional streamflow response to forest cutting and regrowth 
-in the northwest and eastern United States. Water Resources Research 40: W052031-W0520319.
+Gately, M.  2008.  Dynamic modeling to inform environmental management: Applications in energy resources and 
+ecosystem services.  MS Thesis, University of Vermont, Burlington, VT.
 
-Laton, W., et al.  2006.  Estimating runoff quantities for flow and volume- based BMP design. Journal of the 
-American Institute of Hydrology 22 (104): 131-144.
+Harbaugh, A.W., et al.  2000.  MODFLOW-2000, The U.S. Geological Survey modular ground-water model - User guide 
+to modularization concepts and the ground-water flow process: USGS Open-File Report 00-92.  USGS: Reston, VA.
 
-Moore, R.D. and S.M. Wondzell.  2005. Physical hydrology and the effects of forest harvesting in the Pacific 
-Northwest: A review.  Journal of the American Water Resources Association 41 (4): 763-784.
+Pool, D.R. and J.E. Dickinson.  2007.  Ground-water flow model of the Sierra Vista Subwatershed and Sonoran 
+portions of the Upper San Pedro Basin, southeast Arizona, United States, and northern Sonora, Mexico.  USGS 
+Scientific Investigations Report 2006-5228.  USGS: Reston, VA.
 
-Soil Conservation Service (SCS).  1972.  National Engineering Handbook, Section 4, Hydrology.  SCS: Washington, 
-DC.
+Soil Conservation Service (SCS).  1972.  National Engineering Handbook, Section 4, Hydrology.  SCS: Washington, DC.
 
-Tetra Tech, Inc.  2005.  Model Development for Simulation of Wet-Weather Metals Loading from the San Gabriel 
-River Watershed. Prepared for USEPA Region 9 and the Los Angeles Regional Water Quality Control Board by Tetra 
-Tech, Inc., San Diego: California.
+Tallis, H.T., et al.  2011. InVEST 2.0 beta User's Guide. The Natural Capital Project: Stanford.
 
-U.S. Army Corps of Engineers (USACE). 1998. HEC-1 Flood Hydrograph Package User's Manual. CPD 1-A (Version 4.1). 
-Hydrologic Engineering Center. Davis, CA.
+Wundscher, T., et al. 2008.  Spatial targeting of payments for environmental services: A tool for boosting conservation 
+benefits.  Ecological Economics 65: 822-833.
 
 </div>
 
 ### Acknowledgements and additional contributors
 
-Mark Casias developed the Orange County case study.  Dave Batker, Jim Pittman, and Paula Swedeen provided data and 
-model review for the Western Washington case study.
+Octavio Perez-Maqueo, Gabriela Mendoza, Rowan Post, and Karyn Tabor developed the Veracruz case study. An expert 
+review panel including individuals from the U.S. Geological Survey, University of Arizona, Bureau of Land Management, 
+and other organizations provided data and model review for the San Pedro case study.
 
 </div>
