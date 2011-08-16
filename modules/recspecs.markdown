@@ -83,8 +83,8 @@ of rare birds.  We map the presence of rare and charismatic birds by noting the 
 present, based on a list of ten rare or charismatic birds for the San Pedro River Watershed and surrounding 
 mountains (Southwest Wings Festival 2010).  Hunting potential can be identified based on habitat maps for the 
 above-listed game species - javelina plus two species each of deer and doves and three species of quail.  We map 
-wildlife viewing potential by averaging decile values for diversity of amphibian, bird, mammal, and reptile species.  
-We set the source value for birding, hunting, and wildlife viewing as a function of public access, potential presence 
+wildlife viewing potential by averaging decile values for diversity of amphibian, bird, mammal, and reptile species. We 
+set the source value for birding, hunting, and wildlife viewing as a function of public access, potential presence 
 of surface water (springs or streams) and riparian habitat quality (where known), along with the appropriate bird 
 richness and rarity, harvestable species habitat, or overall biodiversity value.  We set priors for each variable 
 based on reviews of the corresponding spatial data.
@@ -114,7 +114,7 @@ data for Vermont.
 
 We set overall view quality, or "Theoretical natural beauty" as a function of water views, open space views, and the 
 presence of mountains.  We set the highest values for large mountains, lakes, and forested open space, the lowest 
-values for developed land, and no mountains or water views, and intermediate values for other open space and agriculture.  
+values for developed land, and no mountains or water views, and intermediate values for other open space and agriculture. 
 These relative values could be adjusted for different parts of the world based on local view preferences indicating 
 relative values of different types.  The highest and lowest quality view combinations allowed us to "peg the corners" 
 of the contingent probability table and interpolate intermediate values for natural beauty (Marcot et al. 2006).
@@ -192,10 +192,9 @@ a map showing from where its user population is likely derived.  Zip code data a
 systems and for the National Park Service through the University of Idaho Park Studies Unit's Visitor Services Project.
 
 For instance, on the San Pedro, birders visit the site from around the nation and world.  Hunters and other recreational 
-users (e.g., hikers, mountain bikers, equestrians, viewers of historical sites) are less likely to travel great distances.  
-These visitors are more likely to come from "local" areas such as the San Pedro Valley itself or from Tucson, while 
-recreationists from Phoenix are more likely to choose closer sites for their activities, and more rarely travel to the 
-San Pedro.
+users (e.g., hikers, mountain bikers, equestrians, viewers of historical sites) are less likely to travel great distances. These 
+visitors are more likely to come from "local" areas such as the San Pedro Valley itself or from Tucson, while recreationists 
+from Phoenix are more likely to choose closer sites for their activities, and more rarely travel to the San Pedro.
 
 For the Vermont case study, we lack data about the distance that hikers typically travel.  We initially assume that they 
 will hike summits within a 1-hour driving distance from home 70% of the time, a 1-2 hour driving distance from home 20% 
@@ -248,7 +247,7 @@ trail.  Journal of Leisure Research 39 (2): 345-365.
 Beier, C.M., et al.  2008.  Ecosystem services and emergent vulnerability in 
 managed ecosystems: A geospatial decision-support tool.  Ecosystems 11: 923-938.
 
-Benson E.D., et al.  1998.  Pricing residential amenities: the value of a view.  
+Benson E.D., et al.  1998.  Pricing residential amenities: the value of a view. 
 Journal of Real Estate Finance and Economics 16: 55-73. 
 
 Bourassa, S.C., et al.  2004.  What's in a view?  Environment and Planning A 36: 
@@ -289,7 +288,7 @@ recreation.  Adirondack Journal of Environmental Studies 14 (2): 6.
 Gret-Regamey, A., et al.  2008.  Linking GIS-based models to value ecosystem services 
 in an Alpine region.  Journal of Environmental Management 89: 197-208.
 
-Hunt, L.M., et al.  2005.  Accounting for varying setting preference among moose hunters.  
+Hunt, L.M., et al.  2005.  Accounting for varying setting preference among moose hunters. 
 Leisure Sciences 27 (4): 297-314.
 
 Hunt, L.M.  2008.  Examining state dependence and place attachment within a recreational 
@@ -313,6 +312,10 @@ Forest Research 36: 3063-3074.
 Palmer, J.F.  2008.  Perceived effects of clearcutting in the White Mountains of 
 New Hampshire, USA.  Journal of Environmental Management 89 (3): 167-183.
 
+Semmens, D.J., et al.  In press.  Accounting for the ecosystem services of migratory 
+species: Quantifying migration support and spatial subsidies.  Forthcoming in: 
+Ecological Economics.
+
 Southwest Wings Festival.  2010.  19th Annual Southwest Wings Birding and Nature 
 Festival, Program Guide.  Southwest Wings Festival: Sierra Vista, AZ.
 
@@ -333,71 +336,6 @@ services: A tool for boosting conservation benefits.  Ecological Economics 65:
 
 Zube, E.H., et al (eds). 1975. Landscape Assessment. Community Development 
 Series 11: Halsted Press, United States.
-
-Anderson, S.T. and S.E. West. 2002. The value of open space proximity
-and size: City versus suburbs. Working paper: Macalester College,
-Saint Paul, MN.
-
-Benson E.D., et al. 1998. Pricing residential amenities: the value of
-a view. Journal of Real Estate Finance and Economics 16: 55-73.
-
-Bourassa, S.C., et al. 2004.  What's in a view? Environment and
-Planning A 36: 1427-1450.
-
-Brander, L.M. and Koetse, M.J.  2007.  The value of urban open space: 
-Meta-analysis of contingent valuation and hedonic pricing results.  
-IVM Working Paper I. 07/03.
-
-Fausold, C.J. and R.J. Lilieholm.  1999.  The economic value of open 
-space: A review and synthesis.  Environmental Management 23 (3): 307-320.
-
-Geoghegan, J. 2002. The value of open spaces in residential land
-use. Land Use Policy 19: 91-98.
-
-Geoghegan, J., et al. 2003.  Capitalization of open spaces into
-housing values and the residential property tax revenue impacts of
-agricultural easement programs. Agricultural and Resource Economics
-Review 32 (1): 33-45.
-
-<p>Gr&ecirc;t-Regamey, A., et al. 2008.  Linking GIS-based models to
-value ecosystem services in an Alpine region. Journal of Environmental
-Management 89: 197-208.</p>
-
-Irwin, E.G. 2002. The effects of open space on residential property
-values. Land Economics 78 (4): 465-480.
-
-Irwin, E.G. and N.E. Bockstael.  2001. The problem of identifying land
-use spillovers: Measuring the effects of open space on residential
-property values. American Journal of Agricultural Economics 83 (3):
-698-704.
-
-Loomis, J.  2004.  Do nearby forest fires cause a reduction in residential 
-property values?  Journal of Forest Economics 10 (3): 149-157.
-
-Marcot, B.G., et al. 2006.  Guidelines for developing and updating 
-Bayesian belief networks applied to ecological modeling and conservation.  
-Canadian Journal of Forest Research 36: 3063-3074.
-
-McConnell, V. and M. Walls. 2005.  The value of open space: Evidence
-from studies of nonmarket benefits. Resources for the Future:
-Washington, DC.
-
-Pearl, J.  1988.  Probabilistic reasoning in intelligent systems: 
-Networks of plausible inference.  Morgan-Kaufmann: San Francisco.
-
-Sengupta, S. and Osgood, D.E. 2003. The value of remoteness: a hedonic 
-estimation of ranchette prices. Ecological Economics 44, 91-103.
-
-Steinitz, C., et al. 2003.  Alternative futures for changing
-landscapes: The Upper San Pedro River Basin in Arizona and Sonora.
-Island Press: Washington, DC.
-
-Troy, A. and J.M. Grove. 2008.  Property values, parks, and crime: A
-hedonic analysis in Baltimore, MD. Landscape and Urban Planning 87:
-233-245.
-
-Walsh, R.G., et al. 1990. The Consumptive Value of Travel Time on
-Recreation Trips. Journal of Travel Research 29 (1): 17-24.
 
 </div>
 

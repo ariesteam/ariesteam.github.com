@@ -20,7 +20,7 @@ comparing results with either no vegetation or a different vegetation type, with
 model.  By using the ARIES internal rule base to select the appropriate models, we can apply deeterministic 
 models (e.g., RUSLE, Renard et al. 1996) on more parts of the landscape where they are known to be more 
 suitable, and compliment these models with regionally appropriate ad hoc erosion models for steeper slopes or 
-areas where RUSLE is known to be inadequate.  
+areas where RUSLE is known to be inadequate.
 
 Please see the [ARIES modeling guide](http://ariesonline.org/resources/toolkit.html) for full documentation 
 and references for these models.
@@ -79,7 +79,7 @@ combined local estimates of soil erosion potential with expert rankings of the a
 canopy cover to prevent erosion.  Drawing on Quinton et al.'s (1997) work in semiarid Spain, Egoh 
 et al. note that soil erosion is slightly reduced at about 30% tree canopy cover and significantly 
 reduced at about 70% tree canopy cover.  By combining areas of high erosion potential and <30, >30, 
-or >70% tree canopy cover, they estimate spatially explicit values of vegetation for erosion control.  
+or >70% tree canopy cover, they estimate spatially explicit values of vegetation for erosion control. 
 Wendland et al., noting the established link between forest cover and sedimentation for Madagascar 
 (Albietz 2007), map upstream forest cover from population centers, irrigated rice fields, and mangroves 
 - areas that benefit from sediment-free water.  We use these authors' work to inform our sedimentation 
@@ -92,13 +92,13 @@ and soil erodibility.  We set vegetative maturity as a function of vegetation ty
 canopy cover for all case studies, and added successional stage as a further influence on vegetative 
 maturity for the Dominican Republic and Western Washington.  We set runoff as a function of annual 
 precipitation and tropical storm probability for the Dominican Republic and Madagascar.  For Western 
-Washington, we used annual precipitation as a direct influence on annual sediment source value.   
-Finally, we set soil erodibility in all models as a function of hydrologic soils group, soil texture, 
-and slope.  In Western Washington, we added slope stability as a fourth influence on soil erodiblity, 
-since these data were available for the region.  We discretized percent tree canopy cover using Quinton 
-et al.'s (1997) breakpoints of 30% and 70% cover discussed above and used Jenks natural breaks to 
-discretize all other continuous variables.  We estimated priors based on their corresponding spatial 
-datasets for the Dominican Republic, Madagascar, and Western Washington.
+Washington, we used annual precipitation as a direct influence on annual sediment source value. Finally, 
+we set soil erodibility in all models as a function of hydrologic soils group, soil texture, and slope. 
+In Western Washington, we added slope stability as a fourth influence on soil erodiblity, since these 
+data were available for the region.  We discretized percent tree canopy cover using Quinton et al.'s 
+(1997) breakpoints of 30% and 70% cover discussed above and used Jenks natural breaks to discretize 
+all other continuous variables.  We estimated priors based on their corresponding spatial datasets 
+for the Dominican Republic, Madagascar, and Western Washington.
 
 For Madagascar, we completed the contingent probability table for vegetative maturity by "pegging the 
 corners" (Marcot et al. 2006) for highest vegetative maturity under conditions of very high tree canopy 
@@ -116,17 +116,17 @@ roads.  We set the contingent probability table for runoff in Madagascar and the
 pegging the corners for high precipitation and/or high tropical storm probability leading to the greatest 
 runoff and vice versa, with intermediate values interpolated.  We set values in the contingent probability 
 table for erodibility as greatest on steep, coarse soils with high infiltration potential (hydrologic soils 
-group A) and erodibility (for Western Washington), and vice versa, with intermediate values interpolated.  
-We set the top node, the annual sediment erosion source value, at zero for all soils with very low erodibility, 
+group A) and erodibility (for Western Washington), and vice versa, with intermediate values interpolated. We 
+set the top node, the annual sediment erosion source value, at zero for all soils with very low erodibility, 
 set it at its highest on very erodible soils with very high runoff and no vegetative maturity, and interpolated 
 intermediate values.
 
 [![Bayesian network model for sediment sources in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/SedimentSourceMg.gif)](/downloads/SedimentSourceMg.xdsl)
 {: .bayesnet }
 
-**Sediment sink models.** Erosion sinks are areas where sediment accumulates as it flows downhill or downstream.  
-We only consider the deposition of sediment in floodplains and reservoirs, as opposed to sediment carried and 
-then deposited by overland flow before reaching a stream.  We define sediment deposition ("Annual sediment sink", 
+**Sediment sink models.** Erosion sinks are areas where sediment accumulates as it flows downhill or downstream. We 
+only consider the deposition of sediment in floodplains and reservoirs, as opposed to sediment carried and then 
+deposited by overland flow before reaching a stream.  We define sediment deposition ("Annual sediment sink", 
 measured in tons of sediment per year) to be a function of three stream and floodplain variables - stream gradient, 
 floodplain tree canopy cover, and floodplain width - plus dams that cause sediment deposition in reservoirs.
 
@@ -169,8 +169,8 @@ the landscape and through waterways.  During flood events, sediment can be depos
 extents and the presence of levees are used in the water and sediment routing models.  Finally, dams are included 
 in the flow models, because essentially all sediment will be deposited into a reservoir as the speed of flowing 
 water slows dramatically when a stream empties into a reservoir.  Whenever sediment is deposited on the landscape, 
-its effect, whether beneficial or detrimental, is assigned to any users in the same spatial location as the sink.  
-If no human users (people or assets) are present at the sink site, then no service is accrued by sediment deposition 
+its effect, whether beneficial or detrimental, is assigned to any users in the same spatial location as the sink. If 
+no human users (people or assets) are present at the sink site, then no service is accrued by sediment deposition 
 in that location.
 
 Key outputs from the flow models include: 

@@ -158,7 +158,7 @@ influence on soil carbon storage (since slope/aspect influence AET and other wat
 and scrub ecosystems, Miller 1947, Parsons 1973, Ng and Miller 1980), and actual evapotranspiration and percent tree canopy cover 
 were added as influences on soil carbon storage.  We set vegetation carbon storage as a function of land cover, vegetation 
 type, percent tree canopy cover, and AET for the Orange County model.  The Vermont model used soil tillage and biomass 
-removal rate as influences on agricultural stored carbon release (Gollany et al. 2010, Gonzalez-Chavez et al. 2010).  
+removal rate as influences on agricultural stored carbon release (Gollany et al. 2010, Gonzalez-Chavez et al. 2010). 
 This model considered soil C:N ratio, biomass residue input (Hai et al. 2010), and vegetation type as influences on 
 soil carbon storage and vegetation type, mean annual precipitation, and the difference between mean summer high and 
 winter low temperature.
@@ -247,7 +247,7 @@ Key outputs from the flow models include:
 
 ### References
 
-Auch, W.A.  2010.  Modeling the interaction between climate, chemistry, and ecosystem fluxes at the global scale.  
+Auch, W.A.  2010.  Modeling the interaction between climate, chemistry, and ecosystem fluxes at the global scale. 
 PhD Dissertation, The University of Vermont, Burlington, VT.
 
 Bosworth, S., and B.J.J. Tricou.  1999.  Optimizing Manure and Nitrogen Fertilizer Applied to Grass Hay Crops, in 
@@ -261,7 +261,7 @@ nm water band index. Remote Sensing of Environment 103 (3): 304-311.
 Darby, H., et al.  2009.  Vermont Organic Corn Silage Performance Trial Results. University of Vermont Extension: 
 Burlington, VT.
 
-Eade, J.D.O. and D. Moran.  1996.  Spatial economic valuation: Benefits transfer using geographical information systems.  
+Eade, J.D.O. and D. Moran.  1996.  Spatial economic valuation: Benefits transfer using geographical information systems. 
 Journal of Environmental Management 48: 97-110.
 
 Egoh, B, et al.  2008.  Mapping ecosystem services for planning and management.  Agriculture, Ecosystems and Environment 
@@ -317,7 +317,7 @@ Parsons, D.J.  1973.  A comparative study of vegetation structure in the Mediter
 California and Chile.  PhD Dissertation. Stanford University: Palo Alto, CA.
 
 Portela, R., et al.  2008.  The idea of market-based mechanisms for forest conservation and climate change.  
-Pp. 11-29 in: Streck, C., et al., eds.  Climate change and forests: Emerging policy and market opportunities.  
+Pp. 11-29 in: Streck, C., et al., eds.  Climate change and forests: Emerging policy and market opportunities. 
 Brookings Institution Press: Washington, DC.
 
 Tallis, H.T., et al.  2011. InVEST 2.0 beta User's Guide. The Natural Capital Project: Stanford.
@@ -333,7 +333,7 @@ boosting conservation benefits.  Ecological Economics 65: 822-833.
 
 ### Acknowledgements and additional contributors
 
-Ted Auch and Serguei Krivov provided input on the initial ARIES carbon models.  
+Ted Auch and Serguei Krivov provided input on the initial ARIES carbon models. 
 Mark Casias developed the case study for Orange County.  Sam Gorton developed 
 the agricultural carbon case study for Vermont.  Dave Batker, Jim Pittman, and 
 Paula Swedeen provided data and model review for the Western Washington case 

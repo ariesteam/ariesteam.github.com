@@ -141,8 +141,8 @@ between storm size and surge width is well understood.
 
 We next move the surge toward land along the historical storm track.  The surge is amplified (over water) or 
 diminished (over land and water) based on the area's geomorphology.  The ecosystem service is calculated as 
-the mitigation of the storm surge by coastal and terrestrial ecosystems, as opposed to geomorphic features.  
-The influence of geomorphic features on the storm surge is modeled using the Bayesian network and data described 
+the mitigation of the storm surge by coastal and terrestrial ecosystems, as opposed to geomorphic features. The 
+influence of geomorphic features on the storm surge is modeled using the Bayesian network and data described 
 below.  We set geomorphic flood protection as a function of slope (above or below-water), sea floor depth or 
 terrestrial elevation, and the presence of dunes.  We discretized slope using category breakpoints from other 
 ARIES models (with breakpoints at 1.2, 4.6, and 16.7 degrees) and depth using breakpoints of 2000, 200, 60, and 

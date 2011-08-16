@@ -102,8 +102,8 @@ parks in urban areas in Baltimore, a result that could also potentially apply to
 suburbs.  We do not include crime in the San Pedro model since the region lacks large urban centers with higher 
 crime rates.  Finally, poor water quality could reduce the value of open space due to odors, public health 
 concerns, or reduced recreational opportunities.  We did not include water quality in the San Pedro model since, 
-given its rarity, we assume the presence of water of almost any quality to indicate higher quality open space.  
-We added the variable "fire threat" to the San Pedro model.  In fire-prone regions of the west, living near 
+given its rarity, we assume the presence of water of almost any quality to indicate higher quality open space. We 
+added the variable "fire threat" to the San Pedro model.  In fire-prone regions of the west, living near 
 fire-prone ecosystems is a risk that may be understood by landowners, leading to lower perceived open space 
 proximity value (Loomis 2004).   Finally, we set the top node, "Theoretical Proximity Source" as a function of 
 Open Space Resource and Resource Quality.
@@ -148,10 +148,10 @@ attributes that lead to proximity value, highways that prevent access or disturb
 as sinks.  We assume that highways deplete 50% of the potential open space proximity value to users if they are 
 located between a user and potentially valued open space.  We use a highways data layer, so no model is required.
 
-**Aesthetic proximity use models.** For aesthetic proximity use to occur, housing must be located near open space.  
-The use model identifies housing, its value, and urban proximity (e.g., urban, suburban, or rural setting) as a 
-proxy for relative scarcity of open space as determinants of proximity use.  Numerous authors have noted that open 
-space is valuable in urban settings where user populations and scarcity are greater and less valuable in rural settings 
+**Aesthetic proximity use models.** For aesthetic proximity use to occur, housing must be located near open space. The 
+use model identifies housing, its value, and urban proximity (e.g., urban, suburban, or rural setting) as a proxy for 
+relative scarcity of open space as determinants of proximity use.  Numerous authors have noted that open space is 
+valuable in urban settings where user populations and scarcity are greater and less valuable in rural settings 
 (Brander and Koetse 2007).
 
 We discretized housing value and population density, a proxy for urban proximity, using Jenks natural breaks.  Based 
@@ -204,8 +204,8 @@ the source value for viewsheds, as dependent on the presence of these locally si
 
 As priors for the San Pedro, we used appropriate LULC data to estimate priors: 1.3% of the landscape was alpine and cliff, 
 2.1% forest, 6.4% woodland, 1.4% riparian and water, and 88.8% visually neutral or negative landscape features.  We estimated 
-that 5% of the landscape was large mountains (>1,800 m), 40% small mountains (1,400-1,800 m), and 55% no mountains (<1,400 m).  
-In the contingent probability table for Theoretical Natural Beauty, we set instances of alpine and cliff and riparian as the 
+that 5% of the landscape was large mountains (>1,800 m), 40% small mountains (1,400-1,800 m), and 55% no mountains (<1,400 m). In 
+the contingent probability table for Theoretical Natural Beauty, we set instances of alpine and cliff and riparian as the 
 highest potential value (especially when combined with mountain views), woodland and forests intermediate, and other vegetation 
 types as the lowest.
 
@@ -257,7 +257,7 @@ projected toward their viewers, as are views of undesirable landscape features. 
 blight) before reaching a beneficiary (housing), view quality is depleted.
 
 Steinitz et al. (2003) note that for southeast Arizona, the view of another residential property depletes view quality only within a 
-0.5-mile radius of the viewer¡¯s perspective (i.e., the effect drops off relatively quickly).  Thus, we use a steep decay function to 
+0.5-mile radius of the viewer's perspective (i.e., the effect drops off relatively quickly).  Thus, we use a steep decay function to 
 model the effects of sinks (visual blight).
 
 Key outputs from the flow models include: 
@@ -334,8 +334,8 @@ Bourassa, S.C., et al. 2004.  What's in a view? Environment and
 Planning A 36: 1427-1450.
 
 Brander, L.M. and Koetse, M.J.  2007.  The value of urban open space: 
-Meta-analysis of contingent valuation and hedonic pricing results.  
-IVM Working Paper I. 07/03.
+Meta-analysis of contingent valuation and hedonic pricing results. IVM 
+Working Paper I. 07/03.
 
 Fausold, C.J. and R.J. Lilieholm.  1999.  The economic value of open 
 space: A review and synthesis.  Environmental Management 23 (3): 307-320.
@@ -364,7 +364,7 @@ Loomis, J.  2004.  Do nearby forest fires cause a reduction in residential
 property values?  Journal of Forest Economics 10 (3): 149-157.
 
 Marcot, B.G., et al. 2006.  Guidelines for developing and updating 
-Bayesian belief networks applied to ecological modeling and conservation.  
+Bayesian belief networks applied to ecological modeling and conservation. 
 Canadian Journal of Forest Research 36: 3063-3074.
 
 McConnell, V. and M. Walls. 2005.  The value of open space: Evidence
@@ -382,7 +382,7 @@ landscapes: The Upper San Pedro River Basin in Arizona and Sonora.
 Island Press: Washington, DC.
 
 Stromberg, J.C., et al.  2006.  Status of the riparian ecosystem in 
-the Upper San Pedro River: Application of an assessment model.  
+the Upper San Pedro River: Application of an assessment model. 
 Environmental Monitoring and Assessment 115: 145-173.
 
 Troy, A. and J.M. Grove. 2008.  Property values, parks, and crime: A
@@ -397,7 +397,7 @@ Walsh, R.G., et al. 1990. The Consumptive Value of Travel Time on
 Recreation Trips. Journal of Travel Research 29 (1): 17-24.
 
 Wundscher, T., et al. 2008.  Spatial targeting of payments for 
-environmental services: A tool for boosting conservation benefits.  
+environmental services: A tool for boosting conservation benefits. 
 Ecological Economics 65: 822-833. 
 
 </div>

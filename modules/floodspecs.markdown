@@ -15,7 +15,7 @@ is collectively termed green infrastructure, which acts along with gray infrastr
 and detention basins that detain flood waters.  Flood flow models spatially link sources of floodwater, 
 beneficial sinks, and beneficiaries in the landscape.  These models account for the location and width 
 of floodplains and the effects of levees, which protect assets at risk behind levees but at the same 
-time increase the energy of the water conveyed downstream, potentially increasing downstream damage.  
+time increase the energy of the water conveyed downstream, potentially increasing downstream damage. 
 Different beneficiary groups may be protected from flooding - crops, privately owned housing or other 
 buildings, publicly owned infrastructure, and human life.  GIS data showing riverine flood zones and 
 maps of population, agriculture, and structures allow beneficiaries to be mapped.

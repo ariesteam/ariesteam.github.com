@@ -110,12 +110,12 @@ recharge, along with artificial groundwater recharge.
 For the San Pedro, we use annual precipitation as the source value for surface water.  We show initial 
 results for a representative dry (2002) and wet year (2007), since the 30-year average data from PRISM 
 is less meaningful in arid environments where annual precipitation is highly variable.  If desired, a 
-user could also input precipitation data from other years to use as the surface water source value.  
-For groundwater, we can compare spatial data for soil infiltration, infiltration results from the surface 
+user could also input precipitation data from other years to use as the surface water source value. For 
+groundwater, we can compare spatial data for soil infiltration, infiltration results from the surface 
 water sink Bayesian network model, and the results of hydrologic models (once incorporated) as possible 
 source values.  In the future, we could also incorporate data on the location of groundwater recharge 
 facilities in the Sierra Vista area, assuming the data were available.  We do not include snowmelt in 
-the source model, as there is no persistent snowpack in the mountains within the San Pedro River Watershed.  
+the source model, as there is no persistent snowpack in the mountains within the San Pedro River Watershed. 
 Until detailed surface and groundwater models are incorporated, we lack data on baseflow.  Although incoming 
 interbasin water transfers are proposed (Bureau of Reclamation 2007), there are currently no incoming water 
 transfers from outside the basin.  Finally, while we have data on the location of springs in the San Pedro, 
@@ -131,7 +131,7 @@ and groundwater recharge, so do not include these as sources of surface or groun
 **Water supply sink models.** Surface water sinks include areas of evapotranspiration and infiltration.  
 Conversely, groundwater sinks include springs and baseflow to rivers.  Lacking an external groundwater model, 
 we currently do not include springs or baseflow as groundwater sinks for the San Pedro.  For both the San Pedro 
-and La Antigua, we set the total surface water sink as the sum of evapotranspiration and deep soil infiltration.  
+and La Antigua, we set the total surface water sink as the sum of evapotranspiration and deep soil infiltration. 
 Runoff data will play a role in training of the Bayesian network models to help account for the difference 
 between precipitation and sinks.
 
