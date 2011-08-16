@@ -534,7 +534,7 @@ a.launch-button:hover {
    border:0px solid green;
    float:right;
    width:625px;
-   padding:10px 0px;
+   padding:15px 0px 10px 0px;
 }
 
 #case-study-details h3 {
@@ -542,11 +542,11 @@ a.launch-button:hover {
 }
 
 #case-study-details hr {
-   margin-bottom:5px;
+   margin-bottom:10px;
 }
 
 #case-study-details p {
-   margin-bottom:15px;
+   margin-bottom:10px;
 }
 
 #case-study-details img {

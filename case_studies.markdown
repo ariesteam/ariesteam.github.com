@@ -10,7 +10,7 @@ title: Case studies
 ## At a glance
 ---------------
 
-### Studies
+### Study sites
 
 * [Western Washington](/case_studies/westernwa.html)
 * [San Pedro River, AZ](/case_studies/sanpedro.html)
@@ -22,7 +22,7 @@ title: Case studies
 
 </div>
 
-<div id="case-study-overview" markdown="1">
+<div id="case-study-details" markdown="1">
 
 ### Overview
 -------------
@@ -36,10 +36,6 @@ the ARIES case studies that are currently available. ARIES will eventually incor
 a series of generalized global models that rely on coarser scale global spatial datasets 
 and generalized relationships to model the provision, use, and spatial dynamics of 
 ecosystem services.
-
-<div id="case-study-overview" markdown="1">
-
-<div id="case-study-details" markdown="1">
 
 ![ARIES Case Studies](/images/casestudymap.jpg)
 
