@@ -224,7 +224,7 @@ Key outputs from the flow models include:
 |---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
 | Model               | Layer                                                             | Source                                 | Spatial Extent | Data type/Spatial resolution   |          Year |
 |---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
-| Source - Madagascar | L. borbonicus, L. mahsena, L. argentimaculatus relative abundance | Sea Around Us Project                  | Global         | Raster/0.5 degrees<sup>2</sup> |     1950-2003 |
+| Source - Madagascar | *L. borbonicus, L. mahsena, L. argentimaculatus* relative abundance | Sea Around Us Project                  | Global         | Raster/0.5 degrees<sup>2</sup> |     1950-2003 |
 |---------------------+-------------------------------------------------------------------+----------------------------------------+----------------+--------------------------------+---------------|
 | Use - Madagascar    | Distance to coast                                                 | Derived from global SRTM data          | Madagascar     | 90 x 90 m                      |           n/a |
 | <span />            | Population density                                                | FAO soils                              | Global         | 0.5 min<sup>2</sup>            |     1970-1978 |

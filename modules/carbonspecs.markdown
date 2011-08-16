@@ -247,8 +247,8 @@ Key outputs from the flow models include:
 
 ### References
 
-Auch, W.A.  2010.  Modeling the interaction between climate, chemistry, and ecosystem fluxes at the global scale. 
-PhD Dissertation, The University of Vermont, Burlington, VT.
+Auch, W.A.  2010.  Modeling the interaction between climate, chemistry, and ecosystem fluxes at the global scale. PhD 
+Dissertation, The University of Vermont, Burlington, VT.
 
 Bosworth, S., and B.J.J. Tricou.  1999.  Optimizing Manure and Nitrogen Fertilizer Applied to Grass Hay Crops, in 
 Mississquoi Water Quality.  University of Vermont Extension: Burlington, Vermont.
