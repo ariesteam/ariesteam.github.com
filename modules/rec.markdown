@@ -3,7 +3,7 @@ layout: module
 
 title: Recreation
 
-modules-specs-url: /modules/recspecs.html
+module-specs-url: /modules/recspecs.html
 ---
 <div id="module-intro" markdown="1">
 

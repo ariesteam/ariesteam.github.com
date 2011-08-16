@@ -101,7 +101,7 @@ viewing quality to higher-quality riparian areas.
 [![Bayesian network model for birding source areas in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSourceSanPedroBird.gif)](/downloads/RecreationSourceSanPedroBirding.xdsl)
 {: .bayesnet }
 
-[![Bayesian network model for birding source areas in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSourceSanQuail.gif)](/downloads/RecreationSourceSanPedroQuailHunting.xdsl)
+[![Bayesian network model for birding source areas in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSourceSanPedroQuail.gif)](/downloads/RecreationSourceSanPedroQuailHunting.xdsl)
 {: .bayesnet }
 
 **Recreation source models: Viewsheds.** Mountains, open water, forested and open lands are commonly valued objects 
@@ -334,7 +334,6 @@ services: A tool for boosting conservation benefits.  Ecological Economics 65:
 Zube, E.H., et al (eds). 1975. Landscape Assessment. Community Development 
 Series 11: Halsted Press, United States.
 
-
 Anderson, S.T. and S.E. West. 2002. The value of open space proximity
 and size: City versus suburbs. Working paper: Macalester College,
 Saint Paul, MN.
@@ -393,24 +392,12 @@ Steinitz, C., et al. 2003.  Alternative futures for changing
 landscapes: The Upper San Pedro River Basin in Arizona and Sonora.
 Island Press: Washington, DC.
 
-Stromberg, J.C., et al.  2006.  Status of the riparian ecosystem in 
-the Upper San Pedro River: Application of an assessment model.  
-Environmental Monitoring and Assessment 115: 145-173.
-
 Troy, A. and J.M. Grove. 2008.  Property values, parks, and crime: A
 hedonic analysis in Baltimore, MD. Landscape and Urban Planning 87:
 233-245.
 
-U.S. Forest Service (USFS). 1995.  Landscape aesthetics: A handbook
-for scenery management. USDA-Forest Service Agriculture Handbook
-Number 701.
-
 Walsh, R.G., et al. 1990. The Consumptive Value of Travel Time on
 Recreation Trips. Journal of Travel Research 29 (1): 17-24.
-
-Wundscher, T., et al. 2008.  Spatial targeting of payments for 
-environmental services: A tool for boosting conservation benefits.  
-Ecological Economics 65: 822-833. 
 
 </div>
 
