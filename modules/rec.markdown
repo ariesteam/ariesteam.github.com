@@ -63,14 +63,13 @@ to views within Raven Ridge Preserve.
 
 #### San Pedro River, Arizona
 
-![](/images/san-pedro-leaves47a.jpg)
+![](/images/san_pedrokb1.jpg)
 {: .left }
 
 The San Pedro River, which flows north from Sonora into Arizona, is
 internationally recognized for its high biodiversity and ecological
 significance.  The Upper San Pedro draws birders from around the world
-to view a broad array of resident and migratory species. *Photo
-credit: R.Weller/Cochise College.*
+to view a broad array of resident and migratory species.
 
 [ ](/case_studies/sanpedro.html)
 {: .learn-more }

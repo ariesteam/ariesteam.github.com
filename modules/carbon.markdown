@@ -95,14 +95,14 @@ important as climate change policies continue to evolve.
 
 #### San Pedro River, Arizona and Sonora, Mexico
 
-![](/images/6cgsan-pedro-leaves26a.jpg)
+![](/images/san_pedrokb2.JPG)
 {: .left }
 
 Carbon sequestration and storage estimates are increasingly demanded
 by public and private land managers in the southwest and beyond.
 ARIES' application to Southeast Arizona provided estimates of carbon
 sequestration and storage on public and private lands in this semiarid
-region. Photo credit: R.Weller/Cochise College.
+region.
 
 #### West Coyote Hills, California
 

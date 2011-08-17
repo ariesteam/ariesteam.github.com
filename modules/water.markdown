@@ -83,14 +83,14 @@ in the state of Veracruz.  These models account for water demand from
 domestic, industrial, and agricultural users.  Model outputs quantify
 the spatial connections between these users and the threatened cloud
 forests in the upper watershed that supply much of the region's
-water. *Photo credit: J. Harrison-Cox.*
+water.
 
 [ ](/case_studies/veracruz.html)
 {: .learn-more }
 
 #### San Pedro River, Arizona and Sonora, Mexico
 
-![](/images/6cgsan-pedro-leaves26a.jpg)
+![](/images/san_pedrokb2.JPG)
 {: .left }
 
 The San Pedro River, which flows north from Sonora into Arizona, is
@@ -98,8 +98,7 @@ internationally recognized for its high biodiversity and ecological
 significance.  On the San Pedro, tradeoffs between human water use and
 the groundwater and surface flow that support the San Pedro River's
 riparian ecosystems are at the forefront of debates about population,
-water use, and sustainability. *Photo credit: R.Weller/Cochise
-College.*
+water use, and sustainability.
 
 [ ](/case_studies/sanpedro.html)
 {: .learn-more }

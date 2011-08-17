@@ -68,7 +68,7 @@ can improve both property values and quality of life for residents.
 
 #### Viewsheds: San Pedro River, Arizona
 
-![](/images/6cgsan-pedro-leaves26a.jpg)
+![](/images/san_pedrokb2.JPG)
 {: .left }
 
 Viewsheds in the arid west are particularly valuable when they contain
@@ -76,17 +76,17 @@ views of green vegetation - forests, wetlands, riparian areas.  Views
 are negatively impacted by large infrastructure development such as
 transmission lines and mining projects.  Careful siting of such
 infrastructure is thus important in order to maintain view quality in
-the rural west. *Photo credit: R.Weller/Cochise College*.
+the rural west.
 
 #### Open space proximity: San Pedro River, Arizona
 
-![](/images/san-pedro-leaves47a.jpg)
+![](/images/san_pedrokb1.jpg)
 {: .left }
 
 Proximity to riparian areas, water, and green vegetation is highly
 valued in arid and semiarid environments.  With increasing stress on
 the west's water resources, quantifying values like viewsheds,
 proximity, and recreational potential is important in supporting sound
-water management. *Photo credit: R.Weller/Cochise College*.
+water management.
 
 </div>

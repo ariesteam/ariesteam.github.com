@@ -105,8 +105,8 @@ sequestration rate as a function of soil C:N ratio and the difference between me
 high and winter low (in Madagascar and Western Washington), and as a function of land cover, 
 vegetation type, and actual evapotranspiration (in Orange County).  We set vegetation density 
 as a function of hardwood:softwood ratio, percent tree canopy cover, and successional stage 
-(in Western Washington), and percent tree canopy cover and forest degradation status (in Madagascar).  
-For the San Pedro, Orange County, and Vermont agricultural carbon models, we used a collapsed number 
+(in Western Washington), and percent tree canopy cover and forest degradation status (in Madagascar). For 
+the San Pedro, Orange County, and Vermont agricultural carbon models, we used a collapsed number 
 of variables, removing the intermediate nodes for vegetation density and sequestration rate.  For 
 the San Pedro model, we estimate sequestration as a function of vegetation type, percent tree canopy 
 cover, and mean annual precipitation.  For the Orange County model, we used the above noted variables 
