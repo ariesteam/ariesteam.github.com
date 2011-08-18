@@ -68,7 +68,7 @@ can improve both property values and quality of life for residents.
 
 #### Viewsheds: San Pedro River, Arizona
 
-![](/images/san_pedrokb2.JPG)
+![](/images/san_pedrokb2.jpg)
 {: .left }
 
 Viewsheds in the arid west are particularly valuable when they contain

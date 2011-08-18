@@ -90,7 +90,7 @@ water.
 
 #### San Pedro River, Arizona and Sonora, Mexico
 
-![](/images/san_pedrokb2.JPG)
+![](/images/san_pedrokb2.jpg)
 {: .left }
 
 The San Pedro River, which flows north from Sonora into Arizona, is

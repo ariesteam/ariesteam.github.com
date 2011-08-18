@@ -95,7 +95,7 @@ important as climate change policies continue to evolve.
 
 #### San Pedro River, Arizona and Sonora, Mexico
 
-![](/images/san_pedrokb2.JPG)
+![](/images/san_pedrokb2.jpg)
 {: .left }
 
 Carbon sequestration and storage estimates are increasingly demanded
