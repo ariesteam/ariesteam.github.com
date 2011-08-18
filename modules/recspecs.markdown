@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Recreation module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -98,11 +96,17 @@ probability tables, since the presence of surface water is highly important for 
 environments.  Where riparian condition is known, we assigned higher values for birding, hunting, and wildlife 
 viewing quality to higher-quality riparian areas.
 
-[![Bayesian network model for birding source areas in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSourceSanPedroBird.gif)](/downloads/RecreationSourceSanPedroBirding.xdsl)
-{: .bayesnet }
+[![](/images/bn/RecSourceSanPedroBird.gif)](/downloads/RecreationSourceSanPedroBirding.xdsl)
+{: .bayesnet title="Bayesian network model for birding source areas in
+the San Pedro River Watershed. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
 
-[![Bayesian network model for birding source areas in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSourceSanPedroQuail.gif)](/downloads/RecreationSourceSanPedroQuailHunting.xdsl)
-{: .bayesnet }
+[![](/images/bn/RecSourceSanPedroQuail.gif)](/downloads/RecreationSourceSanPedroQuailHunting.xdsl)
+{: .bayesnet title="Bayesian network model for birding source areas in
+the San Pedro River Watershed. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
 
 **Recreation source models: Viewsheds.** Mountains, open water, forested and open lands are commonly valued objects 
 in viewsheds (USFS 1974, Zube et. al. 1975, USFS 1995, Chhetri and Arrowsmith 2003, Manning et. al. 2006, Goonan et 
@@ -127,8 +131,11 @@ heterogeneous with patches ranging from slightly to mostly reforested (Hunziker 
 landscape types present in views will be incorporated into future recreational viewshed flow models, building on the 
 viewshed flow model described in the aesthetic viewshed module.
 
-[![Bayesian network model for viewshed source areas in Vermont. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSourceVTView.gif)](/downloads/RecreationSourceVtView.xdsl)
-{: .bayesnet }
+[![](/images/bn/RecSourceVTView.gif)](/downloads/RecreationSourceVtView.xdsl)
+{: .bayesnet title="Bayesian network model for viewshed source areas
+in Vermont. Please visit http://genie.sis.pitt.edu/downloads.html to
+download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 **Recreation sink models.** Sinks will be present for some, but not all types of recreation.  For most types of 
 recreation where the source value can be assessed in situ, no sink model is necessary.  This is true for the birding, 
@@ -147,8 +154,11 @@ Vermont landscape was heavily cut or clear cut, which we assume as a prior proba
 the contingent probability table for visual blight as high when individual or combined blight features were observed 
 in the landscape and as zero when these features were absent.
 
-[![Bayesian network model for viewshed sink areas in Vermont. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/RecSinkVTView.gif)](/downloads/RecreationSinkVtView.xdsl)
-{: .bayesnet }
+[![](/images/bn/RecSinkVTView.gif)](/downloads/RecreationSinkVtView.xdsl)
+{: .bayesnet title="Bayesian network model for viewshed sink areas in
+Vermont. Please visit http://genie.sis.pitt.edu/downloads.html to
+download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 **Recreation use models: Birding, hunting, and wildlife viewing.** Initial mapping of recreational use relies on 
 population or housing density data.  For some activities, it may be possible to estimate the percentage of the 

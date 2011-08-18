@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Subsistence fisheries module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -175,8 +173,10 @@ Similarly to mapping the supply or source of subsistence fisheries, we
 assume that each of the three valuable species supplies 20% of the
 fish use for subsistence users (Equation 2).
 
-[![Bayesian network model for subsistence fisheries use. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/fishuse.gif)](/downloads/FisheriesSubsistenceUseMg.xdsl)
-{: .bayesnet }
+[![](/images/bn/fishuse.gif)](/downloads/FisheriesSubsistenceUseMg.xdsl)
+{: .bayesnet title="Bayesian network model for subsistence fisheries
+use. Please visit http://genie.sis.pitt.edu/downloads.html to download
+the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Subsistence fisheries flow models.** Subsistence fisheries flow
 models are designed to show the expected spatial dependence of

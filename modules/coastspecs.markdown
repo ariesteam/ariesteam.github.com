@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Coastal flood regulation module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -78,8 +76,11 @@ greatest at lowest pressure, highest winds, and over the shallowest water depths
 as the strongest influence on values in the contingent probability table, followed by wind speed, then 
 atmospheric pressure.
 
-[![Bayesian network model for coastal flood source. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/stormsource.gif)](/downloads/CoastalFloodSourceMg.xdsl)
-{: .bayesnet }
+[![](/images/bn/stormsource.gif)](/downloads/CoastalFloodSourceMg.xdsl)
+{: .bayesnet title="Bayesian network model for coastal flood
+source. Please visit http://genie.sis.pitt.edu/downloads.html to
+download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 **Coastal flood wave sink models.** We consulted the literature on coastal protection to determine which 
 variables to incorporate into a Bayesian network to model coastal protection, until existing process models 
@@ -116,8 +117,11 @@ Naeraa and Jury (1998), however, report an average tide height of around 1.0 m f
 this is a relatively small influence relative to other coastal regions of the world.  Tidal influence could 
 thus be increased in the contingent probability table when the model is applied to regions with a greater tidal range.
 
-[![Bayesian network model for coastal flood sink. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ecologicalfloodsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
-{: .bayesnet }
+[![](/images/bn/ecologicalfloodsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
+{: .bayesnet title="Bayesian network model for coastal flood
+sink. Please visit http://genie.sis.pitt.edu/downloads.html to
+download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 **Coastal flood use models.** To map coastal flood use, we identify areas with human life and economic value 
 (e.g., housing and other infrastructure) at risk.  Since spatial data exist for population and economic assets 
@@ -152,8 +156,11 @@ deepwater and slope regions, protection as higher in shallowly sloped pelagic an
 cause more wave build-up), and set the greatest level of protection in regions above sea level with high slope 
 (particularly in the presence of dunes).
 
-[![Bayesian network model for coastal flood geomorphic sink. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/geomorphicsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
-{: .bayesnet }
+[![](/images/bn/geomorphicsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
+{: .bayesnet title="Bayesian network model for coastal flood
+geomorphic sink. Please visit http://genie.sis.pitt.edu/downloads.html
+to download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 Key outputs from the flow models include:
 

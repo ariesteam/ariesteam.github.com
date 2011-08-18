@@ -158,7 +158,6 @@ p.learn-more a {
    float:none;
    width:100%;
    font-size:large;
-   text-align:justify;
 }
 
 #homepage-content hr {
@@ -247,7 +246,6 @@ a.launch-button:hover {
 }
 
 #module-intro p {
-   text-align:justify;
    font-size:medium;
 }
 
@@ -309,8 +307,9 @@ a.launch-button:hover {
 #module-sidebar {
    border:0px solid red;
    float:left;
-   width:290px;
-   padding:10px 10px 10px 0px;
+   width:280px;
+   padding:10px 20px 10px 0px;
+   text-align:justify;
 }
 
 #module-sidebar h3 {
@@ -383,16 +382,6 @@ a.launch-button:hover {
    margin-bottom:10px;
 }
 
-#module-spec-status {
-   border:0px solid green;
-   float:right;
-   padding-top:5px;
-}
-
-#module-spec-status span {
-   color:green;
-}
-
 #module-spec-intro {
    border:0px solid blue;
    clear:both;
@@ -410,6 +399,7 @@ a.launch-button:hover {
    float:left;
    width:280px;
    padding:10px 20px 10px 0px;
+   text-align:justify;
 }
 
 #module-spec-definitions h3 {
@@ -422,7 +412,6 @@ a.launch-button:hover {
 }
 
 #module-spec-definitions p {
-   text-align:justify;
    margin:0px 0px 10px 10px;
 }
 
@@ -451,6 +440,7 @@ a.launch-button:hover {
 }
 
 #module-spec-specifications .equation {
+   font-size:12px;
    margin-bottom:10px;
 }
 
@@ -495,8 +485,9 @@ a.launch-button:hover {
 #case-study-sidebar {
    border:0px solid red;
    float:left;
-   width:290px;
-   padding:10px 10px 10px 0px;
+   width:280px;
+   padding:10px 20px 10px 0px;
+   text-align:justify;
 }
 
 #case-study-sidebar img {
@@ -559,8 +550,9 @@ a.launch-button:hover {
 #about-sidebar {
    border:0px solid red;
    float:left;
-   width:290px;
-   padding:10px 10px 10px 0px;
+   width:280px;
+   padding:10px 20px 10px 0px;
+   text-align:justify;
 }
 
 #about-sidebar h3 {
@@ -743,4 +735,14 @@ a.launch-button-large:hover {
    margin-bottom:10px;
    text-indent:-2em;
    margin-left:2em;
+}
+
+p#sitemap {
+   border:0px solid green;
+   width:900px;
+   margin:10px;
+}
+
+p#sitemap img {
+   width:900px;
 }
