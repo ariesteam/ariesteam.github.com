@@ -134,8 +134,7 @@ viewshed flow model described in the aesthetic viewshed module.
 [![](/images/bn/RecSourceVTView.gif)](/downloads/RecreationSourceVtView.xdsl)
 {: .bayesnet title="Bayesian network model for viewshed source areas
 in Vermont. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Recreation sink models.** Sinks will be present for some, but not all types of recreation.  For most types of 
 recreation where the source value can be assessed in situ, no sink model is necessary.  This is true for the birding, 
@@ -157,8 +156,7 @@ in the landscape and as zero when these features were absent.
 [![](/images/bn/RecSinkVTView.gif)](/downloads/RecreationSinkVtView.xdsl)
 {: .bayesnet title="Bayesian network model for viewshed sink areas in
 Vermont. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Recreation use models: Birding, hunting, and wildlife viewing.** Initial mapping of recreational use relies on 
 population or housing density data.  For some activities, it may be possible to estimate the percentage of the 

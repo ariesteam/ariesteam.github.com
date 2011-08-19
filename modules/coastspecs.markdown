@@ -79,8 +79,7 @@ atmospheric pressure.
 [![](/images/bn/stormsource.gif)](/downloads/CoastalFloodSourceMg.xdsl)
 {: .bayesnet title="Bayesian network model for coastal flood
 source. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Coastal flood wave sink models.** We consulted the literature on coastal protection to determine which 
 variables to incorporate into a Bayesian network to model coastal protection, until existing process models 
@@ -120,8 +119,7 @@ thus be increased in the contingent probability table when the model is applied 
 [![](/images/bn/ecologicalfloodsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
 {: .bayesnet title="Bayesian network model for coastal flood
 sink. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Coastal flood use models.** To map coastal flood use, we identify areas with human life and economic value 
 (e.g., housing and other infrastructure) at risk.  Since spatial data exist for population and economic assets 
@@ -159,8 +157,7 @@ cause more wave build-up), and set the greatest level of protection in regions a
 [![](/images/bn/geomorphicsink.gif)](/downloads/CoastalFloodSinkMg.xdsl)
 {: .bayesnet title="Bayesian network model for coastal flood
 geomorphic sink. Please visit http://genie.sis.pitt.edu/downloads.html
-to download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 Key outputs from the flow models include:
 

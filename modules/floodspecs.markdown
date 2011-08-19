@@ -137,8 +137,7 @@ to the value of green infrastructure storage to estimate the total flood sink.
 [![](/images/bn/FloodSinkPuget.gif)](/downloads/FloodSinkPugetAnnual.xdsl)
 {: .bayesnet title="Bayesian network model for flood sinks in Western
 Washington. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Flood use models.** Beneficiaries of flood regulation can be mapped using spatial data and simple GIS 
 overlay operations, eliminating the need for more complex approaches.  In these case studies, we identified 

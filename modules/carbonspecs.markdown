@@ -138,8 +138,7 @@ rate.
 [![](/images/bn/CSourceMg.gif)](/downloads/CarbonSourceMg.xdsl)
 {: .bayesnet title="Bayesian network model for carbon sequestration in
 Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl
-files." }
+download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Potential stored carbon release sink models.**
 We set stored carbon release as a function of vegetation and soil carbon storage (the sum of vegetation carbon 
