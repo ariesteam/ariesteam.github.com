@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Aesthetics module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -140,8 +138,12 @@ Proximity Source, we note that high-value land use-land cover types and high qua
 area, crime, water quality, and fire threat) will produce the highest theoretical proximity source value and vice versa, 
 peg the corners, and interpolate intermediate values.
 
-[![Bayesian network model for open space proximity sources in Western Washington. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ProxSourcePuget.gif)](/downloads/ProximitySourcePuget.xdsl)
-{: .bayesnet }
+[![](/images/bn/ProxSourcePuget.gif)](/downloads/ProximitySourcePuget.xdsl)
+{: .bayesnet title="Bayesian network model for open space proximity
+sources in Western Washington. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
+
 
 **Aesthetic proximity sink models.** If ease of access, privacy, and quiet associated with open space are the 
 attributes that lead to proximity value, highways that prevent access or disturb aesthetic quality would act 
@@ -166,8 +168,12 @@ income to be a positive but nonsignificant independent variable in a meta-analys
 housing value in our models, but make its prior influence on proximity use value weaker than the presence of housing or 
 urban proximity.  Training the models to real data can be used to reveal the actual weight of the variable in each use case.
 
-[![Bayesian network model for open space proximity use in Western Washington. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ProxUsePuget.gif)](/downloads/ProximityUsePuget.xdsl)
-{: .bayesnet }
+[![](/images/bn/ProxUsePuget.gif)](/downloads/ProximityUsePuget.xdsl)
+{: .bayesnet title="Bayesian network model for open space proximity
+use in Western Washington. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
+
 
 **Aesthetic proximity flow models.** Most studies have found proximity value to decline with distance, as housing 
 directly adjacent to open space would be more highly valued than housing a short walk from open space, which would 
@@ -216,8 +222,12 @@ were ascribed to mountain views, and intermediate values were ascribed to lake v
 Bourassa et al. 2004).  Although skyline views may be valuable, we do not include them in our analysis since skylines are
  man-made features and thus do not provide an ecosystem service.
 
-[![Bayesian network model for viewshed sources in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ViewSourceSanPedro.gif)](/downloads/ViewSourceSanPedro.xdsl)
-{: .bayesnet }
+[![](/images/bn/ViewSourceSanPedro.gif)](/downloads/ViewSourceSanPedro.xdsl)
+{: .bayesnet title="Bayesian network model for viewshed sources in the
+San Pedro River Watershed. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
+
 
 **Aesthetic view sink models.** Undesirable visual features, or visual blight, can reduce the quality of views (Benson et al. 
 1998, Bourassa et al. 2004, Gret-Regamey et al. 2008), acting as a sink in the ARIES modeling framework.  In the San Pedro 
@@ -236,8 +246,12 @@ Although not currently included in the models, dust, air pollution, or persisten
 and could act as sinks at variable temporal scales.  These conditions can be simulated in the flow models by changing the decay 
 rates for views.
 
-[![Bayesian network model for viewshed sinks in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ViewSinkSanPedro.gif)](/downloads/ViewSinkSanPedro.xdsl)
-{: .bayesnet }
+[![](/images/bn/ViewSinkSanPedro.gif)](/downloads/ViewSinkSanPedro.xdsl)
+{: .bayesnet title="Bayesian network model for viewshed sinks in the
+San Pedro River Watershed. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
+
 
 **Aesthetic view use models.** The use model for aesthetic views is quite similar to that for proximity, with the exception that 
 we do not use the "Urban Proximity" node.  This is because views are potentially equally valuable in urban, suburban, or rural 
@@ -245,8 +259,12 @@ settings.  The use model thus simply identifies housing and its value as determi
 the aesthetic proximity use model.  The contingent probability table for "View Use" simply states that in order to have value, 
 housing must be present, and that the added value from aesthetic viewsheds is greater for higher-value housing.
 
-[![Bayesian network model for viewshed use in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/ViewUseSanPedro.gif)](/downloads/ViewUseSanPedro.xdsl)
-{: .bayesnet }
+[![](/images/bn/ViewUseSanPedro.gif)](/downloads/ViewUseSanPedro.xdsl)
+{: .bayesnet title="Bayesian network model for viewshed use in the San
+Pedro River Watershed. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
+
 
 **Aesthetic view flow models.** View flows are simply accounted for through a line-of sight or ray casting model, which is dependent 
 on a digital elevation model.  The DEM accounts for cases where topography blocks views.  Using top surface LIDAR data instead of 

@@ -8,7 +8,7 @@ module-specs-url: /modules/fishspecs.html
 <div id="module-intro" markdown="1">
 
 ![](/images/800px-Boat_in_Nosy_Komba_Madagascar.jpg)
-{: .center }
+{: .center title="By simone (IMG_0992) [CC-BY-SA-2.0 (www.creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons" }
 
 Many rural communities around the world depend on fisheries as a key
 protein source. Sustainable fisheries management requires an
@@ -47,7 +47,7 @@ human well-being.
 #### Madagascar
 
 ![](/images/800px-Fishing_in_Downtown_Antananarivo.jpg)
-{: .left }
+{: .left title="By Chad Teer [CC-BY-2.0 (www.creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" }
 
 Subsistence fisheries models for Madagascar rely on global spatial
 datasets for fisheries, population density, and poverty, combined with

@@ -103,7 +103,7 @@ revenue streams.
 
 ### Managing tradeoffs for public lands
 
-![](/images/san-pedro-leaves47a.jpg)
+![](/images/san_pedrokb1.jpg)
 {: .left }
 
 ARIES is being tested, along with other ecosystem service tools, for
@@ -116,7 +116,7 @@ flows to various beneficiary groups.
 ### Linking terrestrial and marine services for coastal management
 
 ![](/images/Queensland_Coast_cropped.png)
-{: .left }
+{: .left title="By NASA Goddard Space Flight Center (Flickr: Heavy Sediment along the Queensland Coast) [CC-BY-2.0 (www.creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" }
 
 By accounting for biophysical flows of ecosystem services across the
 landscape, ARIES can link marine and terrestrial habitats as never
@@ -130,7 +130,7 @@ Conservation Monitoring Center.
 ### Climate change and ecosystem services
 
 ![](/images/774px-Smokestacks_3958.jpg)
-{: .left }
+{: .left title="By Dori (Own work) [GFDL (www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0-us (www.creativecommons.org/licenses/by-sa/3.0/us/deed.en)], via Wikimedia Commons" }
 
 ARIES can be used to generate scenarios to explore changes in
 ecosystem service provision and use based on changes in ecosystem

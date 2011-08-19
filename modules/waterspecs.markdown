@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Water supply module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -160,8 +158,11 @@ the conditional probability for evapotranspiration to be highest with greater tr
 vegetation and forests and lowest for agriculture, urban, and grassland.  We assume infiltration to be greatest on 
 shallow slopes, low levels of impervious surface cover, and hydrologic soils groups A and B.
 
-[![Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/WaterSinkLaAntigua.gif)](/downloads/SurfaceWaterSinkLA.xdsl)
-{: .bayesnet }
+[![](/images/bn/WaterSinkLaAntigua.gif)](/downloads/SurfaceWaterSinkLA.xdsl)
+{: .bayesnet title="Bayesian network model for surface water sinks in
+La Antigua Watershed, Veracruz, Mexico. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
 
 **Water supply use models.** Users access groundwater through wells and surface water through surface diversions, 
 direct pumping from water bodies, and outgoing inter-basin water transfers.  Users can be split by use type (e.g., 

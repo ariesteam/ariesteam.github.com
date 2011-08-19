@@ -7,6 +7,9 @@ module-specs-url: /modules/aesthspecs.html
 ---
 <div id="module-intro" markdown="1">
 
+![](/images/AestheticsOlympicNationalPark.jpg)
+{: .center }
+
 <object type="application/x-shockwave-flash" data="/flash/aesthetics.swf" markdown="1">
   <param name="quality" value="high" />
   <param name="wmode" value="opaque" />

@@ -8,7 +8,7 @@ module-specs-url: /modules/floodspecs.html
 <div id="module-intro" markdown="1">
 
 ![](/images/800px-Breached_Farm_Levee_in_East_Carroll_Parish.jpg)
-{: .center }
+{: .center title="By Louisiana GOHSEP (Flickr: Breached Farm Levee in East Carroll Parish) [CC-BY-SA-2.0 (www.creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons" }
 
 Floods are complex events, difficult to predict and even more
 difficult to protect against. Typically, a watershed's hydrology is

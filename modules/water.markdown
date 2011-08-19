@@ -8,7 +8,7 @@ module-specs-url: /modules/waterspecs.html
 <div id="module-intro" markdown="1">
 
 ![](/images/Elwha_River_-_Humes_Ranch_Area2.jpg)
-{: .center }
+{: .center title="Elwhajeff at en.wikipedia [CC-BY-SA-3.0 (www.creativecommons.org/licenses/by-sa/3.0), CC-BY-SA-3.0 (www.creativecommons.org/licenses/by-sa/3.0) or GFDL (www.gnu.org/copyleft/fdl.html)], from Wikimedia Commons" }
 
 Water supply is a critical ecosystem service, and the quantity,
 quality, and timing of freshwater in surface water bodies and

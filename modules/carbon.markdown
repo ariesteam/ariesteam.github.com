@@ -8,7 +8,7 @@ module-specs-url: /modules/carbonspecs.html
 <div id="module-intro" markdown="1">
 
 ![](/images/774px-Smokestacks_3958.jpg)
-{: .center }
+{: .center title="By Dori (Own work) [GFDL (www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0-us (www.creativecommons.org/licenses/by-sa/3.0/us/deed.en)], via Wikimedia Commons" }
 
 Forests, grasslands, and other ecosystems store and remove carbon
 dioxide (CO<sub>2</sub>) from the atmosphere and serve as natural

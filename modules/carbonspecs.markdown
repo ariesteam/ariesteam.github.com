@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Carbon sequestration and storage module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -137,8 +135,11 @@ mean summer high and winter low temperatures, and land cover and vegetation type
 applicable).  We set sequestration to its greatest values at high levels of vegetation density and sequestration 
 rate.
 
-[![Bayesian network model for carbon sequestration in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/CSourceMg.gif)](/downloads/CarbonSourceMg.xdsl)
-{: .bayesnet }
+[![](/images/bn/CSourceMg.gif)](/downloads/CarbonSourceMg.xdsl)
+{: .bayesnet title="Bayesian network model for carbon sequestration in
+Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to
+download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 **Potential stored carbon release sink models.**
 We set stored carbon release as a function of vegetation and soil carbon storage (the sum of vegetation carbon 
@@ -179,8 +180,11 @@ The output of the carbon sink model is the potential stored carbon release.  To 
 a given year, the user would need to overlay areas of fire or land use change.  Actual carbon loss could then be estimated 
 for that year.  This feature will be included in carbon flow models within a future ARIES release.
 
-[![Bayesian network model for potential stored carbon release in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/CSinkMg.gif)](/downloads/CarbonSinkMg.xdsl)
-{: .bayesnet }
+[![](/images/bn/CSinkMg.gif)](/downloads/CarbonSinkMg.xdsl)
+{: .bayesnet title="Bayesian network model for potential stored carbon
+release in Madagascar. Please visit
+http://genie.sis.pitt.edu/downloads.html to download the GeNIe
+Bayesian network editor, which will read .xdsl files." }
 
 **Greenhouse gas emissions use models.**
 The beneficiaries of carbon sequestration and storage are greenhouse gas emitters 

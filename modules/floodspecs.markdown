@@ -2,8 +2,6 @@
 layout: modulespec
 
 title: Flood regulation module specs
-
-module-status: functional
 ---
 <div id="module-spec-intro" markdown="1">
 
@@ -136,8 +134,11 @@ much greater storage when there were very low or low mean days of precipitation 
 We summed values for dam and detention basin storage to quantify gray infrastructure storage, and added this 
 to the value of green infrastructure storage to estimate the total flood sink.
 
-[![Bayesian network model for flood sinks in Western Washington. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files.](/images/bn/FloodSinkPuget.gif)](/downloads/FloodSinkPugetAnnual.xdsl)
-{: .bayesnet }
+[![](/images/bn/FloodSinkPuget.gif)](/downloads/FloodSinkPugetAnnual.xdsl)
+{: .bayesnet title="Bayesian network model for flood sinks in Western
+Washington. Please visit http://genie.sis.pitt.edu/downloads.html to
+download the GeNIe Bayesian network editor, which will read .xdsl
+files." }
 
 **Flood use models.** Beneficiaries of flood regulation can be mapped using spatial data and simple GIS 
 overlay operations, eliminating the need for more complex approaches.  In these case studies, we identified 

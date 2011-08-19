@@ -8,7 +8,10 @@ module-specs-url: /modules/recspecs.html
 <div id="module-intro" markdown="1">
 
 ![](/images/hikers_cropped.png)
-{: .center }
+{: .center title="By Joel Feenstra. Cropped and color-corrected prior
+to upload by Daniel Case (Adirondacks 7-3-2010 2-35-12 PM)
+[CC-BY-SA-2.0 (www.creativecommons.org/licenses/by-sa/2.0)], via
+Wikimedia Commons" }
 
 Ecosystems provide settings for a hugely diverse array of recreational
 activities. Recreational values are among the most well-recognized of
