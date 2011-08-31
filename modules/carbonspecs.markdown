@@ -136,9 +136,7 @@ applicable).  We set sequestration to its greatest values at high levels of vege
 rate.
 
 [![](/images/bn/CSourceMg.gif)](/downloads/CarbonSourceMg.xdsl)
-{: .bayesnet title="Bayesian network model for carbon sequestration in
-Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for carbon sequestration in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Potential stored carbon release sink models.**
 We set stored carbon release as a function of vegetation and soil carbon storage (the sum of vegetation carbon 
@@ -180,10 +178,7 @@ a given year, the user would need to overlay areas of fire or land use change.  
 for that year.  This feature will be included in carbon flow models within a future ARIES release.
 
 [![](/images/bn/CSinkMg.gif)](/downloads/CarbonSinkMg.xdsl)
-{: .bayesnet title="Bayesian network model for potential stored carbon
-release in Madagascar. Please visit
-http://genie.sis.pitt.edu/downloads.html to download the GeNIe
-Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for potential stored carbon release in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Greenhouse gas emissions use models.**
 The beneficiaries of carbon sequestration and storage are greenhouse gas emitters 

@@ -120,9 +120,7 @@ set it at its highest on very erodible soils with very high runoff and no vegeta
 intermediate values.
 
 [![](/images/bn/SedimentSourceMg.gif)](/downloads/SedimentSourceMg.xdsl)
-{: .bayesnet title="Bayesian network model for sediment sources in
-Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for sediment sources in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Sediment sink models.** Erosion sinks are areas where sediment accumulates as it flows downhill or downstream. We 
 only consider the deposition of sediment in floodplains and reservoirs, as opposed to sediment carried and then 
@@ -141,9 +139,7 @@ conditions, with intermediate values interpolated.  The presence of reservoirs, 
 conditions, leads to high deposition levels in all circumstances.
 
 [![](/images/bn/SedimentSinkMg.gif)](/downloads/SedimentSinkMg.xdsl)
-{: .bayesnet title="Bayesian network model for sediment sinks in
-Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to
-download the GeNIe Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for sediment sinks in Madagascar. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Sediment use models.** While not explicitly presenting ecosystem service flow model results, both Tallis et al. 
 (2011) and Wendland et al. (2010) incorporate beneficiaries in their sedimentation models.  Tallis et al. map 

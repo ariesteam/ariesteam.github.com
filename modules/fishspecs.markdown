@@ -150,7 +150,7 @@ coast, and moderate to low population densities (i.e., versus large
 cities there is too much crowding, water pollution, and lack of access
 to fisheries to enable widespread subsistence fishing).
 
-This model is only addresses coastal and marine subsistence fishing.
+This model only addresses coastal and marine subsistence fishing.
 We currently do not account for subsistence fisheries from rivers and
 other inland water bodies.  We note that fish could also be traded to
 groups located farther from the coast, with the benefits thus
@@ -174,9 +174,7 @@ assume that each of the three valuable species supplies 20% of the
 fish use for subsistence users (Equation 2).
 
 [![](/images/bn/fishuse.gif)](/downloads/FisheriesSubsistenceUseMg.xdsl)
-{: .bayesnet title="Bayesian network model for subsistence fisheries
-use. Please visit http://genie.sis.pitt.edu/downloads.html to download
-the GeNIe Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for subsistence fisheries use. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 **Subsistence fisheries flow models.** Subsistence fisheries flow
 models are designed to show the expected spatial dependence of

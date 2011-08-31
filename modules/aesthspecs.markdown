@@ -139,10 +139,7 @@ area, crime, water quality, and fire threat) will produce the highest theoretica
 peg the corners, and interpolate intermediate values.
 
 [![](/images/bn/ProxSourcePuget.gif)](/downloads/ProximitySourcePuget.xdsl)
-{: .bayesnet title="Bayesian network model for open space proximity
-sources in Western Washington. Please visit
-http://genie.sis.pitt.edu/downloads.html to download the GeNIe
-Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for open space proximity sources in Western Washington. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 
 **Aesthetic proximity sink models.** If ease of access, privacy, and quiet associated with open space are the 
@@ -169,10 +166,7 @@ housing value in our models, but make its prior influence on proximity use value
 urban proximity.  Training the models to real data can be used to reveal the actual weight of the variable in each use case.
 
 [![](/images/bn/ProxUsePuget.gif)](/downloads/ProximityUsePuget.xdsl)
-{: .bayesnet title="Bayesian network model for open space proximity
-use in Western Washington. Please visit
-http://genie.sis.pitt.edu/downloads.html to download the GeNIe
-Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for open space proximity use in Western Washington. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 
 **Aesthetic proximity flow models.** Most studies have found proximity value to decline with distance, as housing 
@@ -223,10 +217,7 @@ Bourassa et al. 2004).  Although skyline views may be valuable, we do not includ
  man-made features and thus do not provide an ecosystem service.
 
 [![](/images/bn/ViewSourceSanPedro.gif)](/downloads/ViewSourceSanPedro.xdsl)
-{: .bayesnet title="Bayesian network model for viewshed sources in the
-San Pedro River Watershed. Please visit
-http://genie.sis.pitt.edu/downloads.html to download the GeNIe
-Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for viewshed sources in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 
 **Aesthetic view sink models.** Undesirable visual features, or visual blight, can reduce the quality of views (Benson et al. 
@@ -247,10 +238,7 @@ and could act as sinks at variable temporal scales.  These conditions can be sim
 rates for views.
 
 [![](/images/bn/ViewSinkSanPedro.gif)](/downloads/ViewSinkSanPedro.xdsl)
-{: .bayesnet title="Bayesian network model for viewshed sinks in the
-San Pedro River Watershed. Please visit
-http://genie.sis.pitt.edu/downloads.html to download the GeNIe
-Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for viewshed sinks in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 
 **Aesthetic view use models.** The use model for aesthetic views is quite similar to that for proximity, with the exception that 
@@ -260,10 +248,7 @@ the aesthetic proximity use model.  The contingent probability table for "View U
 housing must be present, and that the added value from aesthetic viewsheds is greater for higher-value housing.
 
 [![](/images/bn/ViewUseSanPedro.gif)](/downloads/ViewUseSanPedro.xdsl)
-{: .bayesnet title="Bayesian network model for viewshed use in the San
-Pedro River Watershed. Please visit
-http://genie.sis.pitt.edu/downloads.html to download the GeNIe
-Bayesian network editor, which will read .xdsl files." }
+{: .bayesnet title="Bayesian network model for viewshed use in the San Pedro River Watershed. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
 
 
 **Aesthetic view flow models.** View flows are simply accounted for through a line-of sight or ray casting model, which is dependent 
