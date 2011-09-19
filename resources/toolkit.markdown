@@ -38,6 +38,13 @@ structure, assumptions, and references behind each of the ecosystem
 services models found in the online ecosystem services explorer.
 Click here to download the latest version of the ARIES modeling guide.
 
+## ARIES Web Application Quick Start Guide
+------------------------
+
+The ARIES web application quick start guide walks users through the steps
+needed to run the ARIES online ecosystem services explorer. Click here to
+download the latest version of the ARIES web application quick start guide.
+
 ## ARIES Programming Guide
 ---------------------------
 
