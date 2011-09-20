@@ -33,10 +33,10 @@ models.
 ## ARIES Modeling Guide
 ------------------------
 
-The ARIES modeling guide describes the underlying data, model
+The [ARIES modeling guide](/docs/AriesModelingGuide1.0.pdf) describes the underlying data, model
 structure, assumptions, and references behind each of the ecosystem
 services models found in the online ecosystem services explorer.
-Click here to download the latest version of the ARIES modeling guide.
+Click [here](/docs/AriesModelingGuide1.0.pdf) to download the latest version of the ARIES modeling guide.
 
 ## ARIES Web Application Quick Start Guide
 ------------------------
