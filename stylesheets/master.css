@@ -139,6 +139,12 @@ p.learn-more a {
    border-width:0px;
 }
 
+#homepage-sidebar p#flattr img {
+   margin:10px 0px 0px 0px;
+   width:auto;
+   border-width:0px;
+}
+
 #homepage-content {
    border:0px solid red;
    float:right;
