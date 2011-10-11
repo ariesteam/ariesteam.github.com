@@ -16,6 +16,9 @@ title: ARtificial Intelligence for Ecosystem Services
 
 **Email:** [info@ariesonline.org](mailto:info@ariesonline.org?subject=ARIESOnline+Inquiry)
 
+<p><a href="http://flattr.com/thing/413932/ARIES" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></p>
+
 ---------------------------
 
 ### Latest News
