@@ -31,17 +31,15 @@ title: References and Links
 ### ARIES papers
 -----------------
 
-<p>Villa, F., K.J. Bagstad, G. Johnson, and B. Voigt.  In press.
-Scientific instruments for climate change adaptation: estimating and
-optimizing the efficiency of ecosystem services provision. Forthcoming
-in: Econom&iacute;a Agraria y Recursos Naturales. Special issue on
-Economics of Adaptation to Climate Change in the Areas of Agriculture
-and Biodiversity.</p>
-
 Johnson, G.W., K.J. Bagstad, R. Snapp, and F. Villa.  In press.
 Service Path Attribute Networks (SPANs): A network flow approach to
 ecosystem service assessment.  Forthcoming in: International Journal
 of Agricultural and Environmental Information Systems.
+
+<p>Villa, F., K.J. Bagstad, G. Johnson, and B. Voigt.  2011.
+Scientific instruments for climate change adaptation: estimating and
+optimizing the efficiency of ecosystem services provision. Econom&iacute;a 
+Agraria y Recursos Naturales 11 (1): 83-98.</p>
 
 Johnson, G., K.J. Bagstad, R.R. Snapp, and F. Villa.  2010.  Service
 Path Attribute Networks (SPANs): Spatially quantifying the flow of
