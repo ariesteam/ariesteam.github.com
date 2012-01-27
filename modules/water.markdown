@@ -103,4 +103,16 @@ water use, and sustainability.
 [ ](/case_studies/sanpedro.html)
 {: .learn-more }
 
+#### Colorado
+
+![](/images/SouthPlatte.jpg)
+{: .left }
+
+Snowpack and runoff from the Rocky Mountains supplies drinking water
+to millions of Coloradans and residents of ten downstream states in
+the Southwest and Great Plains. These models can be used to explore
+tradeoffs between water use among different sectors and how changes in
+land use, public land management, and climate change impact regional
+water supplies.
+
 </div>

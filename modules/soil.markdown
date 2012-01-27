@@ -98,4 +98,16 @@ beneficial species. Sediment delivery can also have negative impacts
 on drinking water intakes and recreational use and hydroelectric power
 generation from reservoirs.
 
+#### Colorado
+
+![](/images/DillonReservoir.jpg)
+{: .left }
+
+Major fires in 1996 and 2002 led to sedimentation of several major
+water supply reservoirs in Colorado, costing tens of millions of
+dollars for dredging. The USDA Forest Service is working with local
+water utilities to proactively manage forests surrounding major
+drinking water reservoirs. Biophysical modeling of sedimentation and
+its impacts could be used to help guide such management.
+
 </div>

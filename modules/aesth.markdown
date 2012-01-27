@@ -82,4 +82,14 @@ the west's water resources, quantifying values like viewsheds,
 proximity, and recreational potential is important in supporting sound
 water management.
 
+#### Viewsheds: Colorado
+
+![](/images/RMNPAspens.jpg)
+{: .left }
+
+The Rocky Mountains are highly valued scenic amenities for permanent
+and seasonal residents and visitors alike. The ARIES viewshed model
+can illustrate the impacts of mountain pine beetle kills on the
+quality of views in Colorado's forested mountains.
+
 </div>
