@@ -27,7 +27,7 @@ Colorado's Rocky Mountains provide well-recognized benefits through
 water supply to the Platte, Arkansas, Rio Grande, and Colorado Rivers
 and recreational visits to millions of acres of National Forest and
 National Park lands. Key management challenges include fire management
-after almost a decade of fire suppression, outbreaks of mountain pine
+after almost a century of fire suppression, outbreaks of mountain pine
 beetle, which have killed large numbers of lodgepole and ponderosa
 pines, resulting in changes to forest structure, and the impacts of
 climate change on snowpack. By mapping ecosystem service provision and
