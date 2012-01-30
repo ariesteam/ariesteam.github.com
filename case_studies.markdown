@@ -19,6 +19,7 @@ title: Case studies
 * [West Coyote Hills, CA](/case_studies/coyotehills.html)
 * [Dominican Republic](/case_studies/dominicanrep.html)
 * [Vermont](/case_studies/vermont.html)
+* [Colorado](/case_studies/colorado.html)
 
 </div>
 
