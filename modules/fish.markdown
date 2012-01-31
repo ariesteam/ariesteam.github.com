@@ -41,10 +41,10 @@ human well-being.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Madagascar
+#### [Madagascar](/case_studies/madagascar.html)
 
 ![](/images/800px-Fishing_in_Downtown_Antananarivo.jpg)
 {: .left title="By Chad Teer [CC-BY-2.0 (www.creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" }

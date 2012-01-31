@@ -67,11 +67,11 @@ services and social values.
 ### References
 --------------
 
-Alessa, L., A. Kliskey, and G. Brown. (2008) Social-ecological
+Alessa, L., A. Kliskey, and G. Brown. 2008. Social-ecological
 hotspots mapping: A spatial approach for identifying coupled
 social-ecological space. Landscape and Urban Planning 85: 27-39.
 
-[Sherrouse B.C., J.M. Clement, and D.J. Semmens. (2011) A GIS
+[Sherrouse B.C., J.M. Clement, and D.J. Semmens. 2011. A GIS
 application for assessing, mapping, and quantifying the social values
 of ecosystem services. Applied Geography 31:
 748-760.](http://solves.cr.usgs.gov/)

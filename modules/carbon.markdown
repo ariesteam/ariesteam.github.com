@@ -66,10 +66,10 @@ implement strategies to address climate change.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Madagascar
+#### [Madagascar](/case_studies/madagascar.html)
 
 ![](/images/lemur_160.gif)
 {: .left }
@@ -82,7 +82,7 @@ markets. In developing world contexts like Madagascar, carbon markets
 can potentially help finance conservation activities, if carefully
 planned.
 
-#### Puget Sound, Washington
+#### [Puget Sound, Washington](/case_studies/westernwa.html)
 
 ![](/images/SnoquamieForest.jpg)
 {: .left }
@@ -93,7 +93,7 @@ timber harvests, flood control, and water supply in the Pacific
 Northwest forests. Careful consideration of these tradeoffs will be
 important as climate change policies continue to evolve.
 
-#### San Pedro River, Arizona and Sonora, Mexico
+#### [San Pedro River, Arizona and Sonora, Mexico](/case_studies/sanpedro.html)
 
 ![](/images/san_pedrokb2.jpg)
 {: .left }
@@ -104,7 +104,7 @@ ARIES' application to Southeast Arizona provided estimates of carbon
 sequestration and storage on public and private lands in this semiarid
 region.
 
-#### West Coyote Hills, California
+#### [West Coyote Hills, California](/case_studies/coyotehills.html)
 
 ![](/images/CoyoteHillsCarbonUptake.jpg)
 {: .left }
@@ -114,7 +114,7 @@ undeveloped land in southern California.  Given the state's leadership
 in carbon accounting, such assessments will become increasingly
 important in managing conservation and development tradeoffs.
 
-#### Vermont
+#### [Vermont](/case_studies/vermont.html)
 
 ![](/images/vt_forest.jpg)
 {: .left }
@@ -126,7 +126,7 @@ sustainable forestry and agricultural practices that increase carbon
 sequestration and storage and other ecosystem services.  Tools like
 ARIES can help map and quantify such ecosystem services tradeoffs.
 
-#### Colorado
+#### [Colorado](/case_studies/colorado.html)
 
 ![](/images/PeaksFromFlatironsSmall.jpg)
 {: .left }

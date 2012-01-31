@@ -60,10 +60,10 @@ steeply-sloped environments where RUSLE is known to perform poorly.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Madagascar
+#### [Madagascar](/case_studies/madagascar.html)
 
 ![](/images/mg_stream.jpg)
 {: .left }
@@ -74,7 +74,7 @@ led to high levels of erosion. Excess sedimentation can be
 particularly damaging to rice fields and to coastal and marine
 ecosystems and the services they provide.
 
-#### Dominican Republic
+#### [Dominican Republic](/case_studies/dominicanrep.html)
 
 ![](/images/Dominican_Rep-NASA.jpg)
 {: .left }
@@ -86,7 +86,7 @@ well-being. Mapping the costs and benefits of erosion can show the
 added economic and environmental benefits of shade-grown coffee over
 intensive agriculture.
 
-#### Chehalis River Basin, Washington
+#### [Chehalis River Basin, Washington](/case_studies/westernwa.html)
 
 ![](/images/SnoquamieForest.jpg)
 {: .left }
@@ -98,7 +98,7 @@ beneficial species. Sediment delivery can also have negative impacts
 on drinking water intakes and recreational use and hydroelectric power
 generation from reservoirs.
 
-#### Colorado
+#### [Colorado](/case_studies/colorado.html)
 
 ![](/images/DillonReservoir.jpg)
 {: .left }

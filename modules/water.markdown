@@ -70,10 +70,10 @@ relevant ecosystem types.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### La Antigua River, Veracruz, Mexico
+#### [La Antigua River, Veracruz, Mexico](/case_studies/veracruz.html)
 
 ![La Antigua Photo by Jen Harrison-Cox](/images/veracruz-la_Antigua_075.jpg)
 {: .left }
@@ -85,10 +85,7 @@ the spatial connections between these users and the threatened cloud
 forests in the upper watershed that supply much of the region's
 water.
 
-[ ](/case_studies/veracruz.html)
-{: .learn-more }
-
-#### San Pedro River, Arizona and Sonora, Mexico
+#### [San Pedro River, Arizona and Sonora, Mexico](/case_studies/sanpedro.html)
 
 ![](/images/san_pedrokb2.jpg)
 {: .left }
@@ -100,10 +97,7 @@ the groundwater and surface flow that support the San Pedro River's
 riparian ecosystems are at the forefront of debates about population,
 water use, and sustainability.
 
-[ ](/case_studies/sanpedro.html)
-{: .learn-more }
-
-#### Colorado
+#### [Colorado](/case_studies/colorado.html)
 
 ![](/images/SouthPlatte.jpg)
 {: .left }

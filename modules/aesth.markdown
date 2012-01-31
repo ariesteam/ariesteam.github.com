@@ -34,10 +34,10 @@ privacy and access to open space.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Viewsheds: Puget Sound, Washington
+#### [Viewsheds: Puget Sound, Washington](/case_studies/westernwa.html)
 
 ![](/images/seattle.jpg)
 {: .left }
@@ -49,7 +49,7 @@ determine property value. Views of mountains and water bodies provide
 value to homeowners and municipal tax bases. City and regional land
 use policies can either improve or degrade these values over time.
 
-#### Open space proximity: Puget Sound, Washington
+#### [Open space proximity: Puget Sound, Washington](/case_studies/westernwa.html)
 
 ![](/images/EastWA.jpg)
 {: .left }
@@ -59,7 +59,7 @@ the consequences of development on property value through impacts on
 aesthetic views and open space proximity.  Careful open space planning
 can improve both property values and quality of life for residents.
 
-#### Viewsheds: San Pedro River, Arizona
+#### [Viewsheds: San Pedro River, Arizona](/case_studies/sanpedro.html)
 
 ![](/images/san_pedrokb2.jpg)
 {: .left }
@@ -71,7 +71,7 @@ transmission lines and mining projects.  Careful siting of such
 infrastructure is thus important in order to maintain view quality in
 the rural west.
 
-#### Open space proximity: San Pedro River, Arizona
+#### [Open space proximity: San Pedro River, Arizona](/case_studies/sanpedro.html)
 
 ![](/images/san_pedrokb1.jpg)
 {: .left }
@@ -82,7 +82,7 @@ the west's water resources, quantifying values like viewsheds,
 proximity, and recreational potential is important in supporting sound
 water management.
 
-#### Viewsheds: Colorado
+#### [Viewsheds: Colorado](/case_studies/colorado.html)
 
 ![](/images/RMNPAspens.jpg)
 {: .left }

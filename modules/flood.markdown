@@ -60,10 +60,10 @@ ecosystem services in alternative scenarios for flood management.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Chehalis River Basin, Washington
+#### [Chehalis River Basin, Washington](/case_studies/westernwa.html)
 
 ![](/images/chehalis.jpg)
 {: .left }
@@ -79,7 +79,7 @@ Provisioning models; 3) Sink models and 4) Flow models.
 [ ](/case_studies/westernwa.html)
 {: .learn-more }
 
-#### West Coyote Hills, California
+#### [West Coyote Hills, California](/case_studies/coyotehills.html)
 
 ![](/images/CoyoteHillsCarbonUptake.jpg)
 {: .left }

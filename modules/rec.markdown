@@ -52,10 +52,10 @@ biodiversity-based recreational activities.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Raven Ridge Preserve, Vermont
+#### [Raven Ridge Preserve, Vermont](/case_studies/vermont.html)
 
 ![](/images/vt_forest.jpg)
 {: .left }
@@ -64,7 +64,7 @@ Quantifying relative viewshed quality at different viewpoints is being
 used to help The Nature Conservancy manage for recreation use related
 to views within Raven Ridge Preserve.
 
-#### San Pedro River, Arizona
+#### [San Pedro River, Arizona](/case_studies/sanpedro.html)
 
 ![](/images/san_pedrokb1.jpg)
 {: .left }
@@ -73,8 +73,5 @@ The San Pedro River, which flows north from Sonora into Arizona, is
 internationally recognized for its high biodiversity and ecological
 significance.  The Upper San Pedro draws birders from around the world
 to view a broad array of resident and migratory species.
-
-[ ](/case_studies/sanpedro.html)
-{: .learn-more }
 
 </div>

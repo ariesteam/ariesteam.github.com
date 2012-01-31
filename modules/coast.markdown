@@ -64,10 +64,10 @@ of natural or artificial mitigation structures.
 
 <div id="module-in-the-field" markdown="1">
 
-### In the field
+### In the field (click for more information)
 -----------------
 
-#### Madagascar
+#### [Madagascar](/case_studies/madagascar.html)
 
 ![](/images/457px-Indlala_15_mar_2007_0640Z.jpg)
 {: .left }
