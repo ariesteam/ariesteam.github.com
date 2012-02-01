@@ -76,9 +76,6 @@ systems affect people. With this in mind, ARIES produces four types of
 models, based on GIS and other data: 1) Beneficiary models; 2)
 Provisioning models; 3) Sink models and 4) Flow models.
 
-[ ](/case_studies/westernwa.html)
-{: .learn-more }
-
 #### [West Coyote Hills, California](/case_studies/coyotehills.html)
 
 ![](/images/CoyoteHillsCarbonUptake.jpg)
