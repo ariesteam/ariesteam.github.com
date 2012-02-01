@@ -38,6 +38,6 @@ a series of generalized global models that rely on coarser scale global spatial 
 and generalized relationships to model the provision, use, and spatial dynamics of 
 ecosystem services.
 
-![ARIES Case Studies](/images/casestudymap.jpg)
+![ARIES Case Studies](/images/casestudymap_new.gif)
 
 </div>
