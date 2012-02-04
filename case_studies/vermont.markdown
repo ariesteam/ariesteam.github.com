@@ -11,7 +11,7 @@ primary-researchers: Sam Gorton, Rose Graves, Jennifer Wright
 
 completed: May 2010
 
-models: Carbon sequestration and storage, recreational viewsheds
+models: [Carbon sequestration and storage](/modules/carbon.html), [recreational viewsheds](/modules/rec.html)
 
 partner-logo: <a href="http://www.uvm.edu/"><img alt="University of Vermont" src="/images/uvmlogo-words.gif" /></a>
 ---

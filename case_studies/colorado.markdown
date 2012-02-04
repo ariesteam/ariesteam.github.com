@@ -9,7 +9,7 @@ primary-partner: U.S. Geological Survey
 
 completed: Fall 2012
 
-models: Carbon sequestration and storage, water supply, aesthetic viewsheds, sediment regulation
+models: [Carbon sequestration and storage](/modules/carbon.html),[water supply](/modules/water.html), [aesthetic viewsheds](/modules/aesth.html), [sediment regulation](/modules/soil.html)
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 

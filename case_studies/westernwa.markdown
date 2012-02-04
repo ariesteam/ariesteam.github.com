@@ -9,7 +9,7 @@ primary-partner: <a href="http://www.eartheconomics.org/">Earth Economics</a>
 
 completed: Summer 2011
 
-models: Flood regulation, carbon sequestration and storage, sediment regulation, aesthetic viewsheds, open space proximity
+models: [Flood regulation](/modules/flood.html), [carbon sequestration and storage](/modules/carbon.html), [sediment regulation](/modules/soil.html), [aesthetic viewsheds](/modules/aesth.html), [open space proximity](/modules/aesth.html)
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 

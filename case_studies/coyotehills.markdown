@@ -9,7 +9,7 @@ primary-partner: Chevron Corporation
 
 completed: August 2010
 
-models: Carbon sequestration and storage, flood regulation
+models: [Carbon sequestration and storage](/modules/carbon.html), [flood regulation](/modules/flood.html)
 
 maps: Source, sink, use, and flow maps for above ecosystem services, modeled at the project site and watershed scales.
 
