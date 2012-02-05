@@ -14,7 +14,7 @@ often to see what tools are available.*
 -------------------------------
 
 The ARIES ecosystem service explorer's alpha release took place in
-January 2010; the beta release is scheduled for summer 2011. The
+January 2010; the beta release is scheduled for spring 2012. The
 online tool, accessed here, provides a user with the ability to map
 and quantify ecosystem service flows for eight different ecosystem
 services in seven geographic case study regions under baseline
