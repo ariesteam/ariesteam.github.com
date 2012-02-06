@@ -10,7 +10,7 @@ primary-partner: <a href="http://www.conservation.org/">Conservation Internation
 
 completed: In progress
 
-models: [Carbon sequestration and storage](/modules/carbon.html), [sediment regulation](/modules/soil.html), [subsistence fisheries](/modules/fish.html), [coastal flood regulation](/modules/coast.html)
+models: <a href="/modules/carbon.html">Carbon sequestration and storage</a>, <a href="/modules/soil.html">sediment regulation</a>, <a href="/modules/fish.html">subsistence fisheries</a>, <a href="/modules/coast.html">coastal flood regulation</a>
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 

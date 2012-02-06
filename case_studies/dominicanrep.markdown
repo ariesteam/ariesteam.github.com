@@ -11,7 +11,7 @@ primary-researchers: Lee Gross, Nathaly Agosto Filion
 
 completed: 2010
 
-models: [Sediment regulation](/modules/soil.html)
+models: <a href="/modules/soil.html">Sediment regulation</a>
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 

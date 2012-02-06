@@ -10,7 +10,7 @@ primary-partner: <a href="http://www.conservation.org/">Conservation Internation
 
 completed: March 2011
 
-models: [Water supply](/modules/water.html)
+models: <a href="/modules/water.html">Water supply</a>
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 

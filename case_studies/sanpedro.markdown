@@ -9,7 +9,7 @@ primary-partner: U.S. Geological Survey, Bureau of Land Management
 
 completed: Summer 2011
 
-models: [Carbon sequestration and storage](/modules/carbon.html), [water supply](/modules/water.html), [aesthetic viewsheds](/modules/aesth.html), [open space proximity](/modules/aesth.html), [recreation](/modules/rec.html)
+models: <a href="/modules/carbon.html">Carbon sequestration and storage</a>, <a href="/modules/water.html">water supply</a>, <a href="/modules/aesth.html">aesthetic viewsheds</a>, <a href="/modules/aesth.html">open space proximity</a>, <a href="/modules/rec.html">recreation</a>
 
 maps: Source, sink, use, and flow maps for above ecosystem services
 
