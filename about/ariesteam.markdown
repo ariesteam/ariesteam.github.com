@@ -84,7 +84,7 @@ future development. Brian has a B.A. in Mathematics and Sociology from
 Miami University and a Master's degree in City and Regional Planning
 from Clemson University.  Prior to enrolling at UVM, Brian also worked
 for 6 years at the Washington State Department of Ecology as the
-Coastal Planner for the Southwest Washington Coastal Erosion Study
+Coastal Planner for the Southwest Washington Coastal Erosion Study.
 Brian can be reached at <bvoigt@uvm.edu>
 
 ### David Batker
