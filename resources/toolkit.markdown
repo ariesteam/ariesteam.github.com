@@ -33,10 +33,12 @@ models.
 ## ARIES Modeling Guide
 ------------------------
 
-The [ARIES modeling guide](/docs/ARIESModelingGuide1.0.pdf) describes the underlying data, model
+The ARIES modeling guide describes the underlying data, model
 structure, assumptions, and references behind each of the ecosystem
 services models found in the online ecosystem services explorer.
 Click [here](/docs/ARIESModelingGuide1.0.pdf) to download the latest version of the ARIES modeling guide.
+
+The ARIES flow model descriptions explain the step-by-step procedures undertaken by the Service Path Attribution Network (SPAN) algorithms to calculate ecosystem service flows.  SPAN is a novel approach to quantifying ecosystem service flows - the spatial linkages between ecosystems and their human beneficiaries.  Click [here](/docs/FlowModelDescriptions1.0.pdf) to download the latest version of the ARIES flow modeling descriptions.
 
 ## ARIES Web Application Quick Start Guide
 ------------------------
