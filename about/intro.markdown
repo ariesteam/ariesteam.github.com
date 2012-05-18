@@ -29,7 +29,7 @@ from Madagascar to Puget Sound are providing case studies, data and
 knowledge to inform the ARIES algorithms.  Demonstration,
 proof-of-concept, and test releases were made available starting in
 summer 2008. A fully functional portal will be available to the public
-by the spring of 2012.
+by mid-2012.
 
 ### How it works
 

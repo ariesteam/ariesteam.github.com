@@ -40,7 +40,7 @@ title: Applications of ARIES
 ### Overview
 -------------
 
-The ARIES beta release, scheduled for spring 2012, brings the ARIES
+The ARIES beta release, scheduled for mid-2012, brings the ARIES
 ecosystem service explorer online for public use.  The beta release
 includes models of eight ecosystem services across seven geographic
 case study regions.  Members of the [ARIES

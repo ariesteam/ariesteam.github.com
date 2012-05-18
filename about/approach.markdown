@@ -167,7 +167,7 @@ of provision desired by the user. Such maps can be considered
 information can be used to build a transfer function to translate
 previously assessed economic values for specific benefits into
 estimated valuation portfolios when required by the user.  The
-transfer function operates on the agggregated values retrieved from
+transfer function operates on the aggregated values retrieved from
 the Ecosystem Services Database with the help of a neural network
 classification algorithm that identifies most likely candidates based
 on ecological and economic similarities between source and destination
