@@ -31,10 +31,10 @@ title: References and Links
 ### ARIES papers
 -----------------
 
-Johnson, G.W., K.J. Bagstad, R. Snapp, and F. Villa.  In press.
+Johnson, G.W., K.J. Bagstad, R. Snapp, and F. Villa.  2012.
 Service Path Attribute Networks (SPANs): A network flow approach to
-ecosystem service assessment.  Forthcoming in: International Journal
-of Agricultural and Environmental Information Systems.
+ecosystem service assessment.  International Journal
+of Agricultural and Environmental Information Systems 3 (2): 54-71.
 
 <p>Villa, F., K.J. Bagstad, G. Johnson, and B. Voigt.  2011.
 Scientific instruments for climate change adaptation: estimating and
