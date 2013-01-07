@@ -31,35 +31,37 @@ title: References and Links
 ### ARIES papers
 -----------------
 
-Johnson, G.W., K.J. Bagstad, R. Snapp, and F. Villa.  2012.
+[Johnson, G.W., R.R. Snapp, F. Villa, and K.J. Bagstad.  2012.  Modelling ecosystem service flows under uncertainty with stochastic SPAN.  Pp. 1021-1028 in: R. Seppelt, A.A. Voinov, S. Lange, and D. Bankamp, eds., Proceedings of the 2012 International Congress on Environmental Modelling and Software.]
+(http://www.iemss.org/sites/iemss2012//proceedings/D1_2_0900_Johnson_et_al.pdf)
+
+[Johnson, G.W., K.J. Bagstad, R. Snapp, and F. Villa.  2012.
 Service Path Attribute Networks (SPANs): A network flow approach to
 ecosystem service assessment.  International Journal
-of Agricultural and Environmental Information Systems 3 (2): 54-71.
+of Agricultural and Environmental Information Systems 3 (2): 54-71.](http://www.igi-global.com/article/service-path-attribution-networks-spans/68009)
 
-<p>Villa, F., K.J. Bagstad, G. Johnson, and B. Voigt.  2011.
+[Villa, F., K.J. Bagstad, G. Johnson, and B. Voigt.  2011.
 Scientific instruments for climate change adaptation: estimating and
 optimizing the efficiency of ecosystem services provision. Econom&iacute;a 
-Agraria y Recursos Naturales 11 (1): 83-98.</p>
+Agraria y Recursos Naturales 11 (1): 83-98.](http://aeea.webs.upv.es/aeea/ficheros/Revistas/EARN_11_1/11_1_04_Villa.pdf)
 
-Johnson, G., K.J. Bagstad, R.R. Snapp, and F. Villa.  2010.  Service
+[Johnson, G., K.J. Bagstad, R.R. Snapp, and F. Villa.  2010.  Service
 Path Attribute Networks (SPANs): Spatially quantifying the flow of
 ecosystem services from landscapes to people.  Lecture Notes in
-Computer Science 6016: 238-253.
+Computer Science 6016: 238-253.](http://link.springer.com/chapter/10.1007%2F978-3-642-12156-2_18?LI=true)
 
-Mulligan, M. A. Guerry, K. Arkema, K. Bagstad and F. Villa.  2010.
+[Mulligan, M. A. Guerry, K. Arkema, K. Bagstad and F. Villa.  2010.
 Capturing and quantifying the flow of ecosystem services.  In:
 Silvestri S., Kershaw F., (eds.). Framing the flow: Innovative
 Approaches to Understand, Protect and Value Ecosystem Services Across
 Linked Habitats.  UNEP World Conservation Monitoring Centre,
-Cambrdige, UK. ISBN 978-92-807-3065-4.
+Cambrdige, UK. ISBN 978-92-807-3065-4.](http://www.unep.org/pdf/Framing_the_Flow_lowres_20final.pdf)
 
-Villa, F., M. Ceroni, K. Bagstad, G. Johnson, and S. Krivov.  2009.
+[Villa, F., M. Ceroni, K. Bagstad, G. Johnson, and S. Krivov.  2009.
 ARIES (Artificial Intelligence for Ecosystem Services): A new tool for
 ecosystem services assessment, planning, and valuation.  Proceedings
 of the 11th Annual BIOECON Conference on Economic Instruments to
 Enhance the Conservation and Sustainable Use of Biodiversity, Venice,
-Italy, September, 2009.  Available at:
-[http://www.ucl.ac.uk/bioecon/11th\_2009/Villa.pdf](http://www.ucl.ac.uk/bioecon/11th_2009/Villa.pdf)
+Italy, September, 2009.](http://www.ucl.ac.uk/bioecon/11th_2009/Villa.pdf)
 
 ### Background papers on ARIES modeling approaches
 ----------------------
