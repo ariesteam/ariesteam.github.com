@@ -31,8 +31,7 @@ title: References and Links
 ### ARIES papers
 -----------------
 
-[Johnson, G.W., R.R. Snapp, F. Villa, and K.J. Bagstad.  2012.  Modelling ecosystem service flows under uncertainty with stochastic SPAN.  Pp. 1021-1028 in: R. Seppelt, A.A. Voinov, S. Lange, and D. Bankamp, eds., Proceedings of the 2012 International Congress on Environmental Modelling and Software.]
-(http://www.iemss.org/sites/iemss2012//proceedings/D1_2_0900_Johnson_et_al.pdf)
+[Johnson, G.W., R.R. Snapp, F. Villa, and K.J. Bagstad.  2012.  Modelling ecosystem service flows under uncertainty with stochastic SPAN.  Pp. 1021-1028 in: R. Seppelt, A.A. Voinov, S. Lange, and D. Bankamp, eds., Proceedings of the 2012 International Congress on Environmental Modelling and Software.](http://www.iemss.org/sites/iemss2012//proceedings/D1_2_0900_Johnson_et_al.pdf)
 
 [Johnson, G.W., K.J. Bagstad, R. Snapp, and F. Villa.  2012.
 Service Path Attribute Networks (SPANs): A network flow approach to
