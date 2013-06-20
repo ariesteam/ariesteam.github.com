@@ -31,7 +31,7 @@ title: References and Links
 ### ARIES papers
 -----------------
 
-[Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. In press. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Forthcoming in: Ecosystem Services.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
+[Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. 2013. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Ecosystem Services 4: 117-125.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
 
 [Johnson, G.W., R.R. Snapp, F. Villa, and K.J. Bagstad.  2012.  Modelling ecosystem service flows under uncertainty with stochastic SPAN.  Pp. 1021-1028 in: R. Seppelt, A.A. Voinov, S. Lange, and D. Bankamp, eds., Proceedings of the 2012 International Congress on Environmental Modelling and Software.](http://www.iemss.org/sites/iemss2012//proceedings/D1_2_0900_Johnson_et_al.pdf)
 
