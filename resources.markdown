@@ -31,6 +31,8 @@ title: References and Links
 ### ARIES papers
 -----------------
 
+[Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
+
 [Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. 2013. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Ecosystem Services 4: 117-125.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
 
 [Johnson, G.W., R.R. Snapp, F. Villa, and K.J. Bagstad.  2012.  Modelling ecosystem service flows under uncertainty with stochastic SPAN.  Pp. 1021-1028 in: R. Seppelt, A.A. Voinov, S. Lange, and D. Bankamp, eds., Proceedings of the 2012 International Congress on Environmental Modelling and Software.](http://www.iemss.org/sites/iemss2012//proceedings/D1_2_0900_Johnson_et_al.pdf)
@@ -86,6 +88,11 @@ Networks of plausible inference.  Morgan-Kaufmann: San Francisco.
 Villa, F., M. Ceroni, and S. Krivov, 2007. Intelligent Databases 
 assist transparent and sound economic valuation of ecosystem services. 
 Environmental Management 39: 878-899.
+
+Villa, F. 2010. Bridging scales and paradigms in Natural Systems Modelling. Metadata and Semantic Research. Communications in Computer and Information Science 108:1-7.
+
+Villa, F., I. N. Athanasiadis, and A. E. Rizzoli. 2009. Modelling with knowledge: a review of emerging semantic approaches to environmental modelling. Environmental Modelling and Software 24:577-587.
+
 
 ### Background papers on ecosystem services
 ----------------------
