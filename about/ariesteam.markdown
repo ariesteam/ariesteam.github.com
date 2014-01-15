@@ -136,17 +136,10 @@ rural eastern King County, Washington. Jen can be reached at
 ### Kenneth Bagstad
 --------------------
 
-Ken Bagstad is a Mendenhall Postdoctoral Fellow and research economist
-working with the U.S. Geological Survey's Rocky Mountain Geographic
+Ken Bagstad is a Research Economist and former Mendenhall Postdoctoral Fellow
+working with the U.S. Geological Survey's Geosciences and Environmental Change 
 Science Center in Denver.  For this work, he uses GIS and modeling to
-map and value ecosystem service flows at several sites in the Western
-United States.  He has previously worked with the Bureau of Land
-Management on testing alternative ecosystem services tools, including
-the ARIES and InVEST models, for their value in decision-making for
-public land management.  Ken has also led the development of source,
-sink, and use models and spatial data management for the ARIES project
-to support web-based mapping, quantification, and valuation ecosystem
-services for environmental decision-making. Ken received his
+map and value ecosystem service flows at sites across the U.S., including Puget Sound, Arizona, the Rocky Mountains, coastal North Carolina, and Hawaii.  He has worked with agencies such as the Bureau of Land Management, USDA Forest Service, and National Park Service, and with the National Ecosystem Services Partnership on the use of ecoystem service tools such as ARIES to inform resource management.  Since the inception of the ARIES project, Ken has helped lead data and model development for diverse applications of ARIES. Ken received his
 Ph.D. from the University of Vermont, M.S. from Arizona State
 University, and B.A. from Ohio Wesleyan University. He can be reached
 at <kjbagstad@usgs.gov>
