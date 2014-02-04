@@ -79,6 +79,7 @@ groundwater elevations.
 
 1. San Pedro River Watershed, Arizona and Sonora
 2. La Antigua Watershed, Veracruz, Mexico
+3. Rocky Mountains
 
 ### Model structure and assumptions
 
@@ -120,6 +121,8 @@ transfers from outside the basin.  Finally, while we have data on the location o
 we do not use these data in the source model as we do not know their discharge volume, and most spring 
 discharge quickly infiltrates back into the soil via ephemeral stream channels.
 
+Glacial extents in the Rocky Mountains total approximately [73 km<sup>2</sup> in Wyoming and 4.8 km<sup>2</sup> in Colorado](http://glaciers.research.pdx.edu/States-Glaciers). Additionally, numerous interbasin water transfers have been constructed, particularly to supply water for Colorado's Front Range communities from the western slope of the Continental Divide. ARIES' surface water source models for the Rocky Mountains currently account for annual precipitation and interbasin water transfers but not glacial melt.
+
 For La Antigua, we also use annual precipitation as the source value for surface water.  Infiltration 
 results from the surface water sink Bayesian network model can serve as the source value for groundwater.  
 Like the San Pedro, there is no persistent snowpack in the mountains within the La Antigua watershed.  
@@ -128,35 +131,20 @@ and groundwater recharge, so do not include these as sources of surface or groun
 
 **Water supply sink models.** Surface water sinks include areas of evapotranspiration and infiltration.  
 Conversely, groundwater sinks include springs and baseflow to rivers.  Lacking an external groundwater model, 
-we currently do not include springs or baseflow as groundwater sinks for the San Pedro.  For both the San Pedro 
-and La Antigua, we set the total surface water sink as the sum of evapotranspiration and deep soil infiltration. 
+we currently do not include springs or baseflow as groundwater sinks for the San Pedro.  For all case studies, we set the total surface water sink as the sum of evapotranspiration and deep soil infiltration. 
 Runoff data will play a role in training of the Bayesian network models to help account for the difference 
 between precipitation and sinks.
 
-For the San Pedro, nationwide data are available for deep soil infiltration and global data for actual 
+For the U.S.-based case studies, nationwide data are available for deep soil infiltration and global data for actual 
 evapotranspiration.  While these data sources can be used as training data for Bayesian network models, both 
 datasets are problematic.  The evapotranspiration dataset has low spatial resolution (0.5 x 0.5 degree) and 
 does not capture local variation in vegetation type, tree canopy cover, and temperature, all of which are key 
 influences on evapotranspiration.  The infiltration data, having been developed at the national level, are 
 unlikely to account for the limited area over which infiltration actually occurs in the semiarid Basin and 
-Range region of the southwestern United States.  We therefore use a Bayesian network that considers vegetation 
-type, percent tree canopy cover, and annual maximum temperature as influences on evapotranspiration.  We set 
-the locations of stream channels and limestone bedrock and the intersection of valley fill alluvium and the 
-mountain fronts to account for the two key locations of deep percolation and groundwater recharge: the mountain 
-fronts, stream banks, and ephemeral stream channels (Pool and Dickinson 2007). In the future, we could also 
-incorporate data on the location of groundwater recharge facilities in the Sierra Vista area, assuming the data 
-are available.  We set priors for these nodes based on a review of the corresponding spatial data.  We set the 
-highest values for the evapotranspiration conditional probability table under greater percent tree canopy cover 
-and higher temperatures, all else being equal.  We set the highest evapotranspiration rates for vegetation type 
-to riparian, followed by forests, then mesquite woodland, oak woodland, agriculture, urban, and grassland, with 
-the lowest values set for desert scrub.  We set the conditional probability for infiltration as highest at the 
-mountain fronts and as slightly lower in stream channels, and set it as extremely low elsewhere.
+Range region of the southwestern United States. For the San Pedro and Rocky Mountain case studies, we therefore use a Bayesian network that considers vegetation 
+type, percent tree canopy cover, and annual maximum temperature as influences on evapotranspiration. For La Antigua, we set the evapotranspiration as a function of vegetation type and percent tree canopy cover.
 
-For La Antigua, we set the evapotranspiration as a function of vegetation type and percent tree canopy cover, and 
-set deep infiltration as a function of hydrologic soils group, slope, and percent impervious surface cover.  We set 
-the conditional probability for evapotranspiration to be highest with greater tree canopy cover and for riparian 
-vegetation and forests and lowest for agriculture, urban, and grassland.  We assume infiltration to be greatest on 
-shallow slopes, low levels of impervious surface cover, and hydrologic soils groups A and B.
+For the San Pedro, we set the locations of stream channels and limestone bedrock and the intersection of valley fill alluvium and the mountain fronts to account for the two key locations of deep percolation and groundwater recharge: the mountain fronts, stream banks, and ephemeral stream channels (Pool and Dickinson 2007). In the future, we could also incorporate data on the location of groundwater recharge facilities in the Sierra Vista area, assuming the data are available. For the Rocky Mountain and La Antigua case studies, we set deep infiltration as a function of hydrologic soils group, slope, and percent impervious surface cover. We set priors for all nodes based on a review of the corresponding spatial data. We set the highest values for the evapotranspiration in the San Pedro and Rocky Mountain conditional probability table under greater percent tree canopy cover and higher temperatures, all else being equal. We set the highest evapotranspiration rates for vegetation type to riparian, followed by forests, then mesquite woodland, oak woodland, agriculture, urban, and grassland, with the lowest values set for desert scrub.  In the San Pedro case study, we set the conditional probability for infiltration as highest at the mountain fronts and as slightly lower in stream channels, and set it as extremely low elsewhere. For the La Antigua case study, we set the conditional probability for evapotranspiration to be highest with greater tree canopy cover and for riparian vegetation and forests and lowest for agriculture, urban, and grassland. We assume infiltration to be greatest for the La Antigua and Rocky Mountain case studies on shallow slopes, low levels of impervious surface cover, and hydrologic soils groups A and B.
 
 [![](/images/bn/WaterSinkLaAntigua.gif)](/downloads/SurfaceWaterSinkLA.xdsl)
 {: .bayesnet title="Bayesian network model for surface water sinks in La Antigua Watershed, Veracruz, Mexico. Please visit http://genie.sis.pitt.edu/downloads.html to download the GeNIe Bayesian network editor, which will read .xdsl files." }
@@ -170,6 +158,8 @@ and Pomerene.  We use well data and capacity to identify groundwater use.  Altho
 identifies users, they are not explicitly grouped by use, so at this time we do not separate out agricultural, mining, 
 military, or domestic water uses.  Also, since we do not currently have an integrated groundwater flow model, we do 
 not explicitly connect sources, sinks, and users for groundwater.
+
+Water use data for the Rocky Mountains included agricultural use, domestic use, and interstate compacts. Per capita residential water use data was combined with Census population data to estimate residential water demand. Agricultural parcel data was combined with crop water use data to generate an agricultural water demand layer. Finally, for Colorado, whose rivers supply water to many downstream states, we estimated the quantity of water obligated to other states as part of legally binding interstate compacts.
 
 For La Antigua, we used spatial and tabular data to map the location and volume of surface water diversions.  Well 
 data and well capacity could be used to identify groundwater use. In either case, legally binding water rights would 
@@ -212,31 +202,38 @@ Key outputs from the flow models include:
 | Model                     | Layer                                    | Source                                                 | Spatial Extent                     | Data type/Spatial resolution     |                               Year |
 |---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
 | Source - All models       | Annual precipitation                     | WorldClim                                              | Global                             | Raster/30 x 30 arc seconds       |                          1950-2000 |
-| Source - San Pedro        | <span />                                 | PRISM/Oregon State Univ.                               | United States                      | Raster/800 x 800 m               |                          1971-2000 |
-| Source & sink - San Pedro | Soil infiltration                        | USGS                                                   | Continental United States          | Raster/1 km<sup>2</sup>          | Derived from 1951-1980 runoff data |
+| Source - San Pedro, Rocky Mountains | <span />                       | PRISM/Oregon State Univ.                               | United States                      | Raster/800 x 800 m               |                          1971-2000 |
+| Source - Rocky Mountains | Interbasin water transfers                | Colorado Division of Water Resources                   | Colorado                      | Raster/1 km<sup>2</sup>             |                          n/a |
+| Source & sink - San Pedro, Rocky Mountains | Soil infiltration       | USGS                                                   | Continental United States          | Raster/1 km<sup>2</sup>          | Derived from 1951-1980 runoff data |
 | <span />                  | Springs                                  | Arizona Geographic Information Council                 | Arizona                            | Rasterized point data            |                                n/a |
 | Source - All models       | Snowmelt                                 | Univ. Delaware Global Water Balance Archive            | Global                             | Raster/0.5 x 0.5 degree          |                          1950-1999 |
 |---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
 | Sink - All models         | Average annual actual evapotranspiration | SAGE/Univ. Wisconsin                                   | Global                             | Raster/0.5 x 0.5 degree          |                          1950-1999 |
 | <span />                  | Average annual runoff                    | SAGE/Univ. Wisconsin                                   | Global                             | Raster/0.5 x 0.5 degree          |                          1955-1990 |
 | <span />                  | Tree canopy cover                        | GLCF/Univ. Maryland                                    | Global                             | Raster/1 km<sup>2</sup>          |                               2000 |
-| Sink - San Pedro          | <span />                                 | NLCD 2001                                              | United States                      | Raster/30 x 30 m                 |                               2001 |
+| Sink - San Pedro, Rocky Mountains | <span />                         | NLCD 2001                                              | United States                      | Raster/30 x 30 m                 |                               2001 |
 | <span />                  | Annual maximum temperature               | WorldClim                                              | Global                             | Raster/30 x 30 arc seconds       |                          1950-2000 |
 | <span />                  | <span />                                 | PRISM/Oregon State Univ.                               | United States                      | Raster/800 x 800 m               |                          1971-2000 |
-| <span />                  | Mountainfront recharge zones             | Derived from Arizona Geographic Information Council    | Arizona                            | Vector shapefile                 |                                n/a |
-| Sink - San Pedro          | Vegetation type                          | Southwest Regional Gap Analysis (SWReGAP) LULC         | AZ, CO, NM, NV, UT                 | Raster/30 x 30 m                 |                               2000 |
-| Sink & flow - San Pedro   | Hydrography                              | National Hydrography Dataset                           | Arizona                            | Vector line data                 |                                n/a |
+| <span />                  | Mountainfront recharge zones             | Derived from Arizona Geographic Information Council    | Arizona                            | Vector polygon data    |                                n/a |
+| Sink - San Pedro, Rocky Mountains | Vegetation type                  | Southwest Regional Gap Analysis (SWReGAP) LULC         | AZ, CO, NM, NV, UT                 | Raster/30 x 30 m                 |                               2000 |
+| Sink - Rocky Mountains    | <span />                                 | Northwest GAP Analysis (NWGAP)                         | CA, ID, MT, OR, WA, WY                    | Raster/30 x 30 m                            | 1999-2001 |
+| Sink & flow - San Pedro, Rocky Mountains | Hydrography               | National Hydrography Dataset                           | Arizona                            | Vector line data                 |                                n/a |
 | <span />                  | <span />                                 | EPA San Pedro Data Browser                             | Upper San Pedro in Sonora, Mexico  | Vector line data                 |                                n/a |
 | Sink & flow - La Antigua  | <span />                                 | INECOL                                                 | La Antigua                         | Vector line data                 |                                n/a |
-| Sink - La Antigua         | Vegetation tyoe                          | INECOL                                                 | La Antigua                         | Vector shapefile                  |                      Not available |
-| <span />                  | Slope                                    | Derived from global SRTM data                          | Global                             | Raster/90 x 90 m                 |                                n/a |
-| <span />                  | Impervious surface cover                 | NOAA-NGDC                                              | Global                             | Raster/1 km<sup>2</sup>          |                          2000-2001 |
-| <span />                  | Hydrologic soils group                   | Gately (2008) using FAO soils data                     | Global                             | Raster/0.083 degrees<sup>2</sup> |                                n/a |
+| Sink - La Antigua         | Vegetation type                          | INECOL                                                 | La Antigua                         | Vector polygon data    |                      Not available |
+| Sink - La Antigua, Rocky Mountains | Slope                           | Derived from global SRTM data                          | Global                             | Raster/90 x 90 m                 |                                n/a |
+| Sink - La Antigua                  | Impervious surface cover        | NOAA-NGDC                                              | Global                             | Raster/1 km<sup>2</sup>          |                          2000-2001 |
+| Sink - Rocky Mountains | <span />                                    | NLCD 2006                                              | United States                      | Raster/30 x 30 m                 |                               2006 |
+| Sink - La Antigua                  | Hydrologic soils group          | Gately (2008) using FAO soils data                     | Global                             | Raster/0.083 degrees<sup>2</sup> |  
+| Sink - Rocky Mountains             | <span />                        | SSURGO soils data                                      | United States                      | Raster/30 x 30 m               | n/a |                              n/a |
 |---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
+| Use - Rocky Mountains | Agricultural water use                       | Irrigated parcels data combined with crop water use data   | Colorado                      | Raster/800 x 800 m             |                          n/a |
+| Use - Rocky Mountains | Interstate water compacts                    | Colorado Division of Water Resources                   | Colorado                      | Raster/1 km<sup>2</sup>             |                          n/a |
+| Use - Rocky Mountains | Residential water use                        | USGS per capita water consumption data plus Census population density estimates | Colorado                      | Raster/800 x 800 m             |                          2005 |
 | Use - San Pedro           | Surface diversions                       | Digitized locations of St. David & Pomerene Diversions | San Pedro                          | Rasterized point data            |                               2010 |
 | <span />                  | Well user type, capacity, depth          | Arizona Dept. of Water Resources Wells 55 Database     | Arizona                            | Rasterized point data            |                               2010 |
 | Use - All models          | Well locations                           | INECOL                                                 | States of Puebla, Sonora, Veracruz | Rasterized point data            |                      Not available |
-| Use - La Antigua          | Water extracton amounts and user types   | INECOL                                                 | La Antigua                         | Rasterized point data            |                      Not available |
+| Use - La Antigua          | Water extraction amounts and user types   | INECOL                                                | La Antigua                         | Rasterized point data            |                      Not available |
 |---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
 | Flow - All models         | Elevation                                | SRTM                                                   | Global                             | Raster/90 x 90 m                 |                                n/a |
 |---------------------------+------------------------------------------+--------------------------------------------------------+------------------------------------+----------------------------------+------------------------------------|
@@ -282,6 +279,10 @@ benefits.  Ecological Economics 65: 822-833.
 
 Octavio Perez-Maqueo, Gabriela Mendoza, Rowan Post, and Karyn Tabor developed the Veracruz case study. An expert 
 review panel including individuals from the U.S. Geological Survey, University of Arizona, Bureau of Land Management, 
-and other organizations provided data and model review for the San Pedro case study.
+and other organizations provided data and model review for the San Pedro case study. Initial ARIES data 
+and models for the Rocky Mountains were developed by students participating 
+in a graduate level ecosystem services modeling course taught in the University of 
+Denver's Department of Geography in the fall of 2011; James Reed, Darius Semmens, 
+and Todd Hawbaker assisted with further data and model refinement.
 
 </div>

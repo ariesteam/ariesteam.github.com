@@ -66,3 +66,13 @@ this project is set for Summer 2011, and will include the release of a
 publicly available USGS Scientific Investigations Report detailing the
 strengths and limitations of alternative ecosystem services valuation
 and modeling tools.
+
+### References
+--------------
+
+[Bagstad, K.J., D. Semmens, R. Winthrop, D. Jaworski, and J. Larson. 2012. Ecosystem services valuation to support decisionmaking on public lands-A case study of the San Pedro River Watershed, Arizona. USGS Scientific Investigations Report 2012-5251.](http://pubs.usgs.gov/sir/2012/5251/)
+
+[Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. 2013. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Ecosystem Services 4: 117-125.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
+
+[Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
+

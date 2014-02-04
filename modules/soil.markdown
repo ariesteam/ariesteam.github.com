@@ -26,9 +26,9 @@ wetlands and the critical services they provide.
 ### At a glance
 ----------------
 
-**Sediment delivery as a beneficial or detrimental service:** Sediment
-regulation can be classified as either a beneficial or detrimental
-service, depending on whether the user benefits from or is harmed by
+**Sediment delivery as a provisioning or preventive benefit:** Sediment
+regulation can be classified as either a [provisioning or preventive
+benefit](http://www.sciencedirect.com/science/article/pii/S2212041612000174), depending on whether the user benefits from or is harmed by
 sediment delivery.  Running the sediment flow model allows the user to
 map spatial connections between sources of sediment, areas that
 promote sediment deposition, and users that benefit from or are harmed
@@ -98,7 +98,7 @@ beneficial species. Sediment delivery can also have negative impacts
 on drinking water intakes and recreational use and hydroelectric power
 generation from reservoirs.
 
-#### [Colorado](/case_studies/colorado.html)
+#### [Rocky Mountains](/case_studies/colorado.html)
 
 ![](/images/DillonReservoir.jpg)
 {: .left }

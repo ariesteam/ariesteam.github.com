@@ -126,13 +126,13 @@ sustainable forestry and agricultural practices that increase carbon
 sequestration and storage and other ecosystem services.  Tools like
 ARIES can help map and quantify such ecosystem services tradeoffs.
 
-#### [Colorado](/case_studies/colorado.html)
+#### [Rocky Mountains](/case_studies/colorado.html)
 
 ![](/images/PeaksFromFlatironsSmall.jpg)
 {: .left }
 
-The forests of Colorado's Rocky Mountains are important areas of
-carbon storage in the state, but a century of fire suppression
+The forests of Colorado and Wyoming's Rocky Mountains are important areas of
+carbon storage, but a century of fire suppression
 combined with mountain pine beetle impacts can lead to catastrophic
 wildfires that release carbon to the atmosphere. ARIES carbon models
 can be used to predict carbon sequestration and storage impacts of

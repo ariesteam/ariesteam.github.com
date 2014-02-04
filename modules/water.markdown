@@ -97,13 +97,13 @@ the groundwater and surface flow that support the San Pedro River's
 riparian ecosystems are at the forefront of debates about population,
 water use, and sustainability.
 
-#### [Colorado](/case_studies/colorado.html)
+#### [Rocky Mountains](/case_studies/colorado.html)
 
 ![](/images/SouthPlatte.jpg)
 {: .left }
 
 Snowpack and runoff from the Rocky Mountains supplies drinking water
-to millions of Coloradans and residents of ten downstream states in
+to millions of Colorado and Wyoming residents plus people living in eleven downstream states in
 the Southwest and Great Plains regions. These models can be used to
 explore tradeoffs between water use among different sectors and how
 changes in land use, public land management, and climate change impact
