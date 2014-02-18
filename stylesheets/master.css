@@ -752,3 +752,14 @@ p#sitemap {
 p#sitemap img {
    width:900px;
 }
+
+/* Web Explorer Notice Styles */
+
+#web-explorer-notice p {
+  padding:10px;
+}
+
+#web-explorer-notice ol p {
+  padding:5px;
+  width:500px;
+}
