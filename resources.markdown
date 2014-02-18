@@ -31,6 +31,8 @@ title: References and Links
 ### ARIES papers
 -----------------
 
+[Villa, F., B. Voigt, and J.D. Erickson. 2014. New perspectives in ecosystem services science as instruments to understand environmental securities. Philosophical Transactions of the Royal Society B 369(1639):20120286](http://rstb.royalsocietypublishing.org/content/369/1639/20120286.abstract)
+
 [Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
 
 [Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. 2013. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Ecosystem Services 4: 117-125.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
