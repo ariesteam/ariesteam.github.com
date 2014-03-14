@@ -31,11 +31,15 @@ title: References and Links
 ### ARIES papers
 -----------------
 
+[Villa, F., K.J. Bagstad, B. Voigt, G.W. Johnson, R. Portela, M. Honzak, and D. Batker. 2014. A methodology for adaptable and robust ecosystem services assessment. PLoS ONE 9(3):e91001.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0091001)
+
 [Villa, F., B. Voigt, and J.D. Erickson. 2014. New perspectives in ecosystem services science as instruments to understand environmental securities. Philosophical Transactions of the Royal Society B 369(1639):20120286](http://rstb.royalsocietypublishing.org/content/369/1639/20120286.abstract)
 
-[Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
+[Athanasiadis, I. and F. Villa. 2013. A roadmap to domain specific programming languages for environmental modeling: key requirements and concepts. Proceedings of the 2013 ACM workshop on Domain-specific modeling. ASM: New York, ISBN: 978-1-4503-2600-1.](http://dl.acm.org/citation.cfm?id=2541934)
 
 [Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. 2013. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Ecosystem Services 4: 117-125.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
+
+[Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
 
 [Johnson, G.W., R.R. Snapp, F. Villa, and K.J. Bagstad.  2012.  Modelling ecosystem service flows under uncertainty with stochastic SPAN.  Pp. 1021-1028 in: R. Seppelt, A.A. Voinov, S. Lange, and D. Bankamp, eds., Proceedings of the 2012 International Congress on Environmental Modelling and Software.](http://www.iemss.org/sites/iemss2012//proceedings/D1_2_0900_Johnson_et_al.pdf)
 
