@@ -122,16 +122,7 @@ classification. Gary can be reached at <gwjohnso@uvm.edu>
 ### Jennifer Harrison-Cox
 --------------------------
 
-Jen Harrison-Cox brings over 15 years of project and people management
-expertise to Earth Economics projects. Her professional background is
-software engineering where she has held the roles of Principal Program
-Manager, Lead Project Manager and Operations Manager. In 2010,
-Jennifer lead the team to complete the Chehalis case study for
-ARIES. Jennifer also serves as the Executive Director of Partnership
-for Rural King County (<http://www.prkc.org>), a grassroots
-organization focused on the long term sustainability and viability of
-rural eastern King County, Washington. Jen can be reached at
-<jcox@eartheconomics.org>
+Jennifer Harrison-Cox brings years of technical project management, business development and people management expertise to the ARIES team. Her professional background is in software engineering where she has held the roles of Principal Program Manager (MS Online), Lead Program Manager (Security Response), Operations Manager (Games) and Enterprise Deployment Program Manager (WinXP) at Microsoft Corporation. Jennifer served as Managing Director of Earth Economics from 2009-2013, and pioneered the cloud-based [Ecosystem Valuation Toolkit](http://esvaluation.org/) by securing funding, staff, clients and an expert technical advisory board for the web-based benefit-transfer based natural capital appraisal tools. In 2010, Jennifer and the team at Earth Economics completed the [Chehalis case study](http://ariesonline.org/case_studies/westernwa.html) for ARIES. She continues to serve as a member of the EVT Technical Advisory Board and provide support to the ARIES Consortium to further develop and deploy ARIES tools for decision-making. Jen can be reached at <jcox@eartheconomics.org>
 
 ### Kenneth Bagstad
 --------------------
