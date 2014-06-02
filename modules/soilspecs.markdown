@@ -15,7 +15,7 @@ by sediment delivery.  Additionally, the sediment models can quantify the erosio
 vegetation provides in situ for farmers or other beneficiaries who want to avoid soil loss from their 
 lands.  This benefit can be estimated by simply running the erosion source model in the present state and 
 comparing results with either no vegetation or a different vegetation type, without needing to run a flow 
-model.  By using the ARIES internal rule base to select the appropriate models, we can apply deeterministic 
+model.  By using the ARIES internal rule base to select the appropriate models, we can apply deterministic 
 models (e.g., RUSLE, Renard et al. 1996) on more parts of the landscape where they are known to be more 
 suitable, and compliment these models with regionally appropriate Bayesian erosion models for steeper slopes or 
 areas where RUSLE is known to be inadequate.
