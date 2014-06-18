@@ -31,6 +31,10 @@ title: References and Links
 ### ARIES papers
 -----------------
 
+[Bagstad, K.J., D. Semmens, F. Villa, and G.W. Johnson.  2014. Quantifying and valuing ecosystem services: An application of ARIES to the San Pedro River Basin, USA. Pp. 169-192 in: Handbook on the Economics of Biodiversity and Ecosystem Services. P.A.L.D. Nunes, P. Kumar, and T. Dedeurwaerdere, eds. Edward Elgar: Cheltenham, UK.](http://www.elgaronline.com/view/9781781951507.00017.xml)
+
+[Bagstad, K.J., F. Villa, D. Batker, J. Harrison-Cox, B. Voigt, and G. Johnson. 2014. From theoretical to actual ecosystem services: Accounting for beneficiaries and spatial flows to map and quantify ecosystem services. Ecology and Society 19(2):64.](http://www.ecologyandsociety.org/vol19/iss2/art64/)
+
 [Villa, F., K.J. Bagstad, B. Voigt, G.W. Johnson, R. Portela, M. Honzak, and D. Batker. 2014. A methodology for adaptable and robust ecosystem services assessment. PLoS ONE 9(3):e91001.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0091001)
 
 [Villa, F., B. Voigt, and J.D. Erickson. 2014. New perspectives in ecosystem services science as instruments to understand environmental securities. Philosophical Transactions of the Royal Society B 369(1639):20120286](http://rstb.royalsocietypublishing.org/content/369/1639/20120286.abstract)
