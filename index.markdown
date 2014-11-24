@@ -58,7 +58,8 @@ ARIES redefines ecosystem services assessment and valuation in
 decision-making. The ARIES approach to mapping benefits,
 beneficiaries, and service flows is a powerful new way to visualize,
 value, and manage the ecosystems on which the human economy and
-well-being depend.
+well-being depend. For a citation of the overall ARIES ecosystem 
+services modeling methodology, please use: [Villa, F., et al. 2014. A methodology for adaptable and robust ecosystem services assessment. PLoS ONE 9(3):e91001.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0091001)
 {: .large }
 
 ---------------------------
