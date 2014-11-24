@@ -31,6 +31,8 @@ title: References and Links
 ### ARIES papers
 -----------------
 
+For a citation of the overall ARIES ecosystem services modeling methodology, please use: Villa, F., et al. 2014. A methodology for adaptable and robust ecosystem services assessment. PLOS ONE: 9(3):e91001 (full citation and link below).
+
 [Bagstad, K.J., D. Semmens, F. Villa, and G.W. Johnson.  2014. Quantifying and valuing ecosystem services: An application of ARIES to the San Pedro River Basin, USA. Pp. 169-192 in: Handbook on the Economics of Biodiversity and Ecosystem Services. P.A.L.D. Nunes, P. Kumar, and T. Dedeurwaerdere, eds. Edward Elgar: Cheltenham, UK.](http://www.elgaronline.com/view/9781781951507.00017.xml)
 
 [Bagstad, K.J., F. Villa, D. Batker, J. Harrison-Cox, B. Voigt, and G. Johnson. 2014. From theoretical to actual ecosystem services: Accounting for beneficiaries and spatial flows to map and quantify ecosystem services. Ecology and Society 19(2):64.](http://www.ecologyandsociety.org/vol19/iss2/art64/)
