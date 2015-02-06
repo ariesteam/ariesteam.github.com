@@ -68,6 +68,8 @@ tested in other coastal and marine environments.
 ### Reference
 --------------
 
+[Villa, F., K.J. Bagstad, B. Voigt, G.W. Johnson, R. Portela, M. Honzak, and D. Batker. 2014. A methodology for adaptable and robust ecosystem services assessment. PLoS ONE 9(3):e91001.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0091001)
+
 [Wendland, K.J., M. Honzak, R. Portela, B. Vitale, S. Rubinoff, and
 J. Randrianarisoa. 2010. Targeting and implementing payments for
 ecosystem services: Opportunities for bundling biodiversity
