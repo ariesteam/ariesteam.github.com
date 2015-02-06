@@ -76,3 +76,5 @@ and modeling tools.
 
 [Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
 
+[Bagstad, K.J., D. Semmens, F. Villa, and G.W. Johnson. 2014. Quantifying and valuing ecosystem services: An application of ARIES to the San Pedro River Basin, USA. Pp. 169-192 in: Handbook on the Economics of Biodiversity and Ecosystem Services. P.A.L.D. Nunes, P. Kumar, and T. Dedeurwaerdere, eds. Edward Elgar: Cheltenham, UK.](http://www.elgaronline.com/view/9781781951507.00017.xml)
+
