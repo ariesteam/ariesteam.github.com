@@ -160,11 +160,11 @@ temperature, snow, groundwater saturation states.
 ### References
 --------------
 
-[Bagstad, K.J., D. Semmens, R. Winthrop, D. Jaworski, and J. Larson. 2012. Ecosystem services valuation to support decisionmaking on public lands-A case study of the San Pedro River Watershed, Arizona. USGS Scientific Investigations Report 2012-5251.](http://pubs.usgs.gov/sir/2012/5251/)
+[Bagstad, K.J., F. Villa, D. Batker, J. Harrison-Cox, B. Voigt, and G. Johnson. 2014. From theoretical to actual ecosystem services: Accounting for beneficiaries and spatial flows to map and quantify ecosystem services. Ecology and Society 19(2):64.](http://www.ecologyandsociety.org/vol19/iss2/art64/) 
 
-[Bagstad, K.J., G.W. Johnson, B. Voigt, and F. Villa. 2013. Spatial dynamics of ecosystem service flows: A comprehensive approach to quantifying actual services. Ecosystem Services 4: 117-125.](http://www.sciencedirect.com/science/article/pii/S2212041612000174)
+[Grȇt-Regamey, A., B. Weibel, K.J. Bagstad, M. Ferrari, D. Geneletti, H. Klug, U. Schirpke, and U. Tappeiner. 2014. On the effects of scale for ecosystem services mapping. PLoS ONE 9(12):e112601.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0112601) 
 
-[Bagstad, K.J., D.J. Semmens, and R. Winthrop. 2013. Comparing approaches to spatially explicit ecosystem service modeling: A case study from the San Pedro River, Arizona. Ecosystem Services 5: 40-50.](http://www.sciencedirect.com/science/journal/22120416)
+[Villa, F., K.J. Bagstad, B. Voigt, G.W. Johnson, R. Portela, M. Honzak, and D. Batker. 2014. A methodology for adaptable and robust ecosystem services assessment. PLoS ONE 9(3):e91001.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0091001)
 
 -------------------------------------------
 
