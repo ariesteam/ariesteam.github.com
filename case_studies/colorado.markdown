@@ -70,8 +70,10 @@ Alessa, L., A. Kliskey, and G. Brown. 2008. Social-ecological
 hotspots mapping: A spatial approach for identifying coupled
 social-ecological space. Landscape and Urban Planning 85:27-39.
 
+[Bagstad, K.J., J. Reed, D. Semmens, B. Sherrouse, and A.R. Troy. 2015. Linking social values and ecosystem services: Social-ecological hotspots for public lands management. Forthcoming in: Regional Environmental Change.](http://link.springer.com/article/10.1007/s10113-015-0756-7)
+
 [Sherrouse B.C., J.M. Clement, and D.J. Semmens. 2011. A GIS
 application for assessing, mapping, and quantifying the social values
 of ecosystem services. Applied Geography 31:748-760.](http://solves.cr.usgs.gov/)
 
-Sherrouse, B.C., D.J. Semmens, anD J.M. Clement. 2014. An application of Social Values for Ecosystem Services (SolVES) to three national forests in Colorado and Wyoming. Ecological Indicators 36:68-79.
+Sherrouse, B.C., D.J. Semmens, and J.M. Clement. 2014. An application of Social Values for Ecosystem Services (SolVES) to three national forests in Colorado and Wyoming. Ecological Indicators 36:68-79.
