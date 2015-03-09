@@ -37,6 +37,8 @@ For a citation of the overall ARIES ecosystem services modeling methodology, ple
 
 [Balbi, S., A. del Prado, P. Gallejones, C.P. Geevan, G. Pardo, E. Perez-Minana, R. Manrique, C. Hernandez-Santiago, and F. Villa. 2015. Modeling trade-offs among ecosystem services in agricultural production systems. Forthcoming in: Environmental Modelling and Software.](http://www.sciencedirect.com/science/article/pii/S1364815214003740)
 
+[Villa, F., R. Portela, L. Onofri, P.A.L.D. Nunes, and G. Lange. 2015. Assessing biophysical and economic dimensions of societal value: An example for water ecosystem services in Madagascar. Pp. 110-118 in: Water ecosystem services: A global perspective. J. Martin-Ortega, R.C. Ferrier, I.J. Gordon, and S. Khan, eds. Cambridge: Cambridge, UK.](http://www.cambridge.org/us/academic/subjects/earth-and-environmental-science/hydrology-hydrogeology-and-water-resources/water-ecosystem-services-global-perspective)
+
 [Bagstad, K.J., D. Semmens, F. Villa, and G.W. Johnson.  2014. Quantifying and valuing ecosystem services: An application of ARIES to the San Pedro River Basin, USA. Pp. 169-192 in: Handbook on the Economics of Biodiversity and Ecosystem Services. P.A.L.D. Nunes, P. Kumar, and T. Dedeurwaerdere, eds. Edward Elgar: Cheltenham, UK.](http://www.elgaronline.com/view/9781781951507.00017.xml)
 
 [Bagstad, K.J., F. Villa, D. Batker, J. Harrison-Cox, B. Voigt, and G. Johnson. 2014. From theoretical to actual ecosystem services: Accounting for beneficiaries and spatial flows to map and quantify ecosystem services. Ecology and Society 19(2):64.](http://www.ecologyandsociety.org/vol19/iss2/art64/)
