@@ -33,7 +33,7 @@ title: References and Links
 
 For a citation of the overall ARIES ecosystem services modeling methodology, please use: Villa, F., et al. 2014. A methodology for adaptable and robust ecosystem services assessment. PLOS ONE: 9(3):e91001 (full citation and link below).
 
-[Bagstad, K.J., J. Reed, D. Semmens, B. Sherrouse, and A.R. Troy. 2015. Linking social values and ecosystem services: Social-ecological hotspots for public lands management. Forthcoming in: Regional Environmental Change.](http://link.springer.com/article/10.1007/s10113-015-0756-7)
+[Bagstad, K.J., J. Reed, D. Semmens, B. Sherrouse, and A.R. Troy. 2015. Linking biophysical models and public preferences for ecosystem service assessments: A case study for the Southern Rocky Mountains. Forthcoming in: Regional Environmental Change.](http://link.springer.com/article/10.1007/s10113-015-0756-7)
 
 [Balbi, S., A. del Prado, P. Gallejones, C.P. Geevan, G. Pardo, E. Perez-Minana, R. Manrique, C. Hernandez-Santiago, and F. Villa. 2015. Modeling trade-offs among ecosystem services in agricultural production systems. Forthcoming in: Environmental Modelling and Software.](http://www.sciencedirect.com/science/article/pii/S1364815214003740)
 
